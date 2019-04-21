@@ -6,6 +6,8 @@
 
 3.设计一个方法或者模型区分一篇文章是en或者fe写的？从统计思路到深度思路
 
+4.log loss和logistic loss的区别？
+
 ## chapter-2: learning basics and linear models
 
 ## chapter-1: introduction
