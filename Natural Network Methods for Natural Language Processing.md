@@ -1,3 +1,7 @@
+## 有趣的问题：
+
+1.如何理解distributed&distributional？
+
 ## chapter-2: learning basics and linear models
 
 ## chapter-1: introduction
