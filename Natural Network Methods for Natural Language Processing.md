@@ -10,6 +10,10 @@
 
 ## chapter-2: learning basics and linear models
 
+1.why do we need regularization?
+
+![img1](http://wx3.sinaimg.cn/mw690/aba7d18bly1g2alqsw9kzj21300hywl9.jpg)
+
 ## chapter-1: introduction
 
 11.[distributed&distributional](https://zhuanlan.zhihu.com/p/22386230)
