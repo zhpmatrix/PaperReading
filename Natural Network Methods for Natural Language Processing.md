@@ -12,9 +12,9 @@
 
 ## chapter-7
 
-1.[img3](http://wx1.sinaimg.cn/mw690/aba7d18bly1g2btns5anuj220c0juqbc.jpg)
+1.![img3](http://wx1.sinaimg.cn/mw690/aba7d18bly1g2btns5anuj220c0juqbc.jpg)
 
-2.[imgs](http://wx1.sinaimg.cn/mw690/aba7d18bly1g2btnmap3gj22120skn7j.jpg)
+2.![imgs](http://wx1.sinaimg.cn/mw690/aba7d18bly1g2btnmap3gj22120skn7j.jpg)
 
 ## chapter-5: neural network training
 
