@@ -8,6 +8,12 @@
 
 4.log loss和logistic loss的区别？
 
+## chapter-5: neural network training
+
+1.derivatives of "non-mathemtical" functions
+
+![img2](http://wx1.sinaimg.cn/mw690/aba7d18bgy1g2b9ghb4uyj223u0kaqf1.jpg)
+
 ## chapter-2: learning basics and linear models
 
 1.why do we need regularization?
