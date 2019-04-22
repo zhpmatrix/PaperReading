@@ -8,6 +8,8 @@
 
 4.log loss和logistic loss的区别？
 
+5.我们需要语言学知识吗？
+
 ## chapter-5: neural network training
 
 1.derivatives of "non-mathemtical" functions
