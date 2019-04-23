@@ -1,6 +1,6 @@
 ## 有趣的问题：
 
-1.如何理解distributed&distributional？
+1.如何理解distributed&distributional？二者有什么联系？（chapter10.4.3）
 
 2.如何理解linear模型和attention机制的可解释性？
 
@@ -11,6 +11,14 @@
 5.我们需要语言学知识吗？
 
 6.relation between one-hot representation and dense vector?(in dl, the diffs exist at the first sight.)
+
+7.传统语言模型的缺点是啥？
+
+8.如何高效地解决lm的大词表问题？
+
+9.不同场景下的context是如何定义的？（chpater10.5）
+
+10.distributional representation 有啥缺点？（chapter10.7）
 
 ## chapter-8(8.4 odds and ends讨论了基础nlp技术的相关细节，精华。)
 
