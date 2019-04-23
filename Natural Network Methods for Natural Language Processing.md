@@ -12,9 +12,9 @@
 
 ## chapter-8
 
-1.[img5](http://wx3.sinaimg.cn/mw690/aba7d18bgy1g2cp22vr40j21oc0u04b7.jpg)
+1.![img5](http://wx3.sinaimg.cn/mw690/aba7d18bgy1g2cp22vr40j21oc0u04b7.jpg)
 
-2.[img6](http://wx4.sinaimg.cn/mw690/aba7d18bgy1g2cp272whfj21z207cjui.jpg)
+2.![img6](http://wx4.sinaimg.cn/mw690/aba7d18bgy1g2cp272whfj21z207cjui.jpg)
 
 ## chapter-7
 
