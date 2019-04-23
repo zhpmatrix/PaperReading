@@ -20,6 +20,10 @@
 
 10.distributional representation 有啥缺点？（chapter10.7）
 
+## chapter10
+
+1.![img8](http://wx2.sinaimg.cn/mw690/aba7d18bly1g2d0t7feelj21cm0u0gwc.jpg)
+
 ## chapter-8(8.4 odds and ends讨论了基础nlp技术的相关细节，精华。)
 
 1.![img5](http://wx3.sinaimg.cn/mw690/aba7d18bgy1g2cp22vr40j21oc0u04b7.jpg)
