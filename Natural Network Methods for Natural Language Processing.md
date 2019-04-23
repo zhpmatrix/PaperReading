@@ -10,11 +10,15 @@
 
 5.我们需要语言学知识吗？
 
-## chapter-8
+6.relation between one-hot representation and dense vector?(in dl, the diffs exist at the first sight.)
+
+## chapter-8(8.4 odds and ends讨论了基础nlp技术的相关细节，精华。)
 
 1.![img5](http://wx3.sinaimg.cn/mw690/aba7d18bgy1g2cp22vr40j21oc0u04b7.jpg)
 
 2.![img6](http://wx4.sinaimg.cn/mw690/aba7d18bgy1g2cp272whfj21z207cjui.jpg)
+
+3.![img7](http://wx3.sinaimg.cn/mw690/aba7d18bly1g2cz0h1234j21ze0kw11c.jpg)
 
 ## chapter-7
 
