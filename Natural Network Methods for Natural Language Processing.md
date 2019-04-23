@@ -10,11 +10,17 @@
 
 5.我们需要语言学知识吗？
 
+## chapter-8
+
+1.[img5](http://wx3.sinaimg.cn/mw690/aba7d18bgy1g2cp22vr40j21oc0u04b7.jpg)
+
+2.[img6](http://wx4.sinaimg.cn/mw690/aba7d18bgy1g2cp272whfj21z207cjui.jpg)
+
 ## chapter-7
 
 1.![img3](http://wx1.sinaimg.cn/mw690/aba7d18bly1g2btns5anuj220c0juqbc.jpg)
 
-2.![imgs](http://wx1.sinaimg.cn/mw690/aba7d18bly1g2btnmap3gj22120skn7j.jpg)
+2.![img4](http://wx1.sinaimg.cn/mw690/aba7d18bly1g2btnmap3gj22120skn7j.jpg)
 
 ## chapter-5: neural network training
 
