@@ -22,6 +22,14 @@
 
 11.如何用rnn来表示stack？(chapter14.6)
 
+## chapter-15
+
+(1)cbow as rnn(chapter15.1)
+
+(2)当前dropout in rnn的最佳实践
+
+![img13](http://wx1.sinaimg.cn/mw690/aba7d18bly1g2e3y0fxmgj218q0u0k5n.jpg)
+
 ## chapter-13
 
 (1)![img10](http://wx4.sinaimg.cn/mw690/aba7d18bgy1g2e0cos3msj21h60u04qp.jpg)
