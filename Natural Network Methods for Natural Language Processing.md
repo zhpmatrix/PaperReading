@@ -20,7 +20,13 @@
 
 10.distributional representation 有啥缺点？（chapter10.7）
 
-## chapter10
+## chapter-12
+
+(1)When learning about a new architecture, don’t think “which existing component does it replace?” or “how do I use it to solve a task?” but rather “how can I integrate it into my arsenal of building blocks, and combine it with the other components in order to achieve a desired result?”.
+
+(2)![img9](http://wx3.sinaimg.cn/mw690/aba7d18bgy1g2dyqh1ed6j220k0e6wq8.jpg)
+
+## chapter-10
 
 1.![img8](http://wx2.sinaimg.cn/mw690/aba7d18bly1g2d0t7feelj21cm0u0gwc.jpg)
 
