@@ -20,6 +20,8 @@
 
 10.distributional representation 有啥缺点？（chapter10.7）
 
+11.如何用rnn来表示stack？(chapter14.6)
+
 ## chapter-13
 
 (1)![img10](http://wx4.sinaimg.cn/mw690/aba7d18bgy1g2e0cos3msj21h60u04qp.jpg)
