@@ -8,7 +8,7 @@
 
 4.log loss和logistic loss的区别？
 
-5.我们需要语言学知识吗？
+5.我们需要语言学知识吗？有一篇精彩的文章，《On Chomsky and the Two Cultures of Statistical Learning》，chomsky是一位语言学专家，曾经激烈的批评了统计语言模型的问题，同时在文章中有一些相关的反驳的观点。最近有一些观点认为图灵测试是有问题的，基于行为的测试没有解决问题本身。dl的很多技术是从brain科学中得到启发，但是并不是brain的运行机理确实是这样的。将语言生成机制本身当成一个black box，用统计的思路去debug这个机制，即使结果是对的，但是仍旧不能认为，真实机理确实是这样的。这样的解决问题的思路本身是没有问题的，至于哪种方式更好，持观望态度。
 
 6.relation between one-hot representation and dense vector?(in dl, the diffs exist at the first sight.)
 
