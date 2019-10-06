@@ -1,4 +1,483 @@
+### 个人觉得值得精读/反复读的一些文章
+
+1.《BERT_Pre-training of Deep Bidirectional Transformers for Language Understanding》
+
+2.《Attention Is All You Need》
+
+3.《Summarization with Pointer-Generator Networks》
+
+4.《Universal Model Fine-tuning for Text Classiﬁcation》
+
+### Dialogue System
+
+1.《End-to-end LSTM-based dialog control optimized with supervised and reinforcement learning》
+
+这个是小蜜参考的另外一篇文章。整体上两篇文章时间都算是相对较早的。
+
+0.《A Network-based End-to-End Trainable Task-oriented Dialogue System》
+
+陈海青在2019年的云栖大会上分享中谈到的，小蜜用的一个工作，涉及一些RL的内容。
+
+### GAN/VAE/RL
+
+一些关于RL（**主要是policy gradient**）用于text generation任务的文章：
+
+5.《A Deep Reinforced Model For Abstractive Summarization》
+
+在RL的应用上感觉没有特别亮的点，类比之前的几篇工作。
+
+4.《A Study of Reinforcement Learning for Neural Machine Translation》
+
+将RL用于nmt任务（单语），和之前几篇整体上类似。文章给了一个经验性的结论：
+
+**several previous tricks such as reward shaping and baseline reward does not make signiﬁcant difference。**
+
+3.《Sequence Level Training With Recurrent Neural Networks》,第一篇将RL用于文本生成的文章
+
+2.《Self-critical Sequence Training for Image Captioning》[参考笔记](https://zhuanlan.zhihu.com/p/58832418)
+
+这篇文章差不多是基于3做了一点儿小的改进。
+
+1.《Improved Image Captioning via Policy Gradient optimization of SPIDEr》
+
+0.《Connecting Generative Adversarial Networks and Actor-Critic Methods》, Oriol Vinyals等
+
+从MDP的角度解释了两个方法，gan中的生成器约等于ac中的actor，gan中的判别器约等于ac中的critic。同时梳理了一些**稳定**两种方法的训练trick。**从目前的一些观察来看，要想将rl用于自己的任务，先要保证收敛，其次再谈效果。具体的任务，比如文本生成相关。**
+
+### 技术杂谈
+
+1.[基于深度学习的自然语言处理，边界在哪里？](https://mp.weixin.qq.com/s?__biz=MzI4MDYzNzg4Mw==&mid=2247489825&idx=5&sn=026e9257fa25bb1af2a13cab0888138f&chksm=ebb421f5dcc3a8e33463b506de142bcd4b36628977f1d095191ff68c25ef6dcab30654fdbd94&mpshare=1&scene=23&srcid&sharer_sharetime=1567267555857&sharer_shareid=0e8353dcb5f53b85da8e0afe73a0021b%23rd)
+
+亮点：文章中在解释问题时，对应的例子真的很棒。
+
+总结：现在这种关于在特定任务领域的DL缺陷的讨论，各家基本说辞一致，倒也没什么新鲜感。但是说归说，自己能否真正理解可能就是另外一回事了。读这类文章，印证自己的观点可能是目的之一吧。对自己相对认同的一些观点整理一下：
+
+（1）数据量较多场景下，DL具有优势；其他情况下，传统方法胜算更大。（补充一个：简单任务下，传统方法和DL差不多。）
+
+（2）大家心心念念的中文分词技术已经不是机器翻译领域的关键问题了，而是成为了一种建模粒度的选择。（所以，面试官问有几种分词技术的时候就基本等同问茴香豆的茴有几种写法？额，已经不吃豆子了。也劳烦面试官同学们跟进技术发展，不要难为候选人了。当然，喜欢吃豆的候选人能有选择的吃了。）
+
+（3）句法结构多数情况下也不是问题了。（最近比较痴迷把语言学的东西融合进bert，可能任务依赖吧，没有发现显著提升。包括一些bert的理论工作证明，模型是可以在一定程度上learn到句法结构的。）
+
+（4）“机器翻译的成功是一个比较特殊的例子，这是因为它的**源语言和目标原因的语义都是精确对应**的，所以它只要有足够的数据而并不需要其他的支撑，就能取得较好的效果。现在的自然语言处理系统大部分，还只是流于对词语符号之间的关系建模，没有对所描述的问题语义进行建模，即对客观世界建模。而人理解语言的时候，脑子里一定会形成一个客观世界的影像，并在理解影像后再用自己的语言去描述自己想说的事情。 ”（本质的讨论：现有模型学到的是啥？syntactic和semantic如何界定？我们实际需要的是semantic哦）
+
+### Pre-trained Language Model
+
+4.《Enriching BERT with Knowledge Graph Embeddings for Document Classiﬁcation》
+
+motivation：present a way of enriching BERT with knowledge graph embeddings（PyTorch BigGraph） and additional metadata.
+任务：book classification
+架构：类似于deep&wide
+
+3.《CTRL: A CONDITIONAL TRANSFORMER LANGUAGE MODEL FOR CONTROLLABLE GENERATION》
+
+主要贡献：
+
+（1）带有条件的语言模型。其实，仔细看gpt的相关文章的话，已经在gpt中出现了，作者又发扬光大了。
+
+16亿参数的语言模型，比起nvidia的80亿参数的模型较小，不过仍旧是较大的语言模型了。训练语言模型的文本如下：
+
+Horror Text: I was a little girl when my parents got divorced. My dad had been in the military for years and he left me with my mom. She worked as an RN at a hospital so she could take care of me.\n\n When we moved to our new house it took some time before things settled down. We were still living together but there wasn’t much going on. It didn’t help that my mom would get mad if someone came over or even just walked by her house.\n\n One day while walking through the yard I noticed something out of place...
+
+这里，Horror Text:就是条件了。
+
+（2）penality sampling。类似于coverage机制，decoder不搞一些新的sampling策略，就感觉缺点啥；类似于不在loss上搞点事情，就觉得工作不够高大上。
+
+（3）一个有很多参数的语言模型。16亿。
+
+总结：散了，散了，你们玩儿吧。
+
+
+2.《Pre-Training with Whole Word Masking for Chinese BERT》
+
+BERT-wwm的工作，中文版。
+
+motivation：wordpiece分词会导致将一个完整的词分成几个子词， 原始的bert在mask的时候会mask掉子词，但是从语义角度，更好的mask方式应该是mask一个完整的词（对比，个人持保留意见）。
+
+solution：解决方法相对简单，就是如果发现一个词中某个子词被mask了，就全部mask掉该词对应的所有子词。
+
+工作扩展：在给bert添加语言学信号的时候，例如pos/依存分析/srl的信号，最好考虑wordpiece分词后的对齐问题。
+
+1.《A Robustly Optimized BERT Pretraining Approach》
+
+facebook的工作，bert是undertrained的，并对bert重新训练的细节做了思考。
+
+### EMNLP2019论文选读（浏览了一些自己感兴趣方向的文章）
+
+总结：EMNLP的文章读起来八股气息要弱一些，文章类型更加丰富，个人觉得是好现象。不过收一些个人感觉明显质量有问题的工作也是有点奇怪。下述文章只是看题目觉得可看，就大致浏览了一下。
+
+1.《Text Summarization with Pretrained Encoders》
+
+思路：用bert去fine-tune句子级的embedding，然后对sentence做binary classification(要不要？)。实际上，直接对token做binary classification未尝不可，不过相比前者，semantic的粒度确实小了很多。一如很多工作，这次bert后不加bilstm，不加crf，加self-attention层了。额，可以一直加，但是不要搞得像CV的一些工作就行。比较有启发的是，如何构造输入进行sent embedding的学习。bert不是只可以一个[CLS]和两个[SEP]吧。
+
+2.《Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks》
+
+思路：当输入两个句子直接进bert得到sent embedding的问题在于，当句子比较长的时候就有点尴尬了。一个比较直接的思路是，每个bert喂一个sent，用两个bert做embedding，然后加融合层，比如cosine之类的操作等，整体上是siamese的结构。除此之外，文章也提出了triplet loss的应用。嗯，整体上的工作和人脸领域的一类工作很类似了。
+
+3.《Neural Text Summarization: A Critical Evaluation》
+
+个人较喜欢的一个工作，相对务虚，不过指出的问题需要思考。文章认为：**整体上神经关系抽取近期的工作基本处于停滞状态。**比如，有些数据集上，SOTA只比直接从文章中抽取前三句话好一点点。原因有三个方面：（1）数据集的问题。某些数据集只给定一篇文章+一个参考摘要，除此之外，没啥额外的信息了。真实场景下可不是这样的哦。也就是说，现在的数据集构造还是离真实场景有点远。（2）评估指标的问题。已经是生成式模型的老问题了，除了大家知道的一些弊端，还有对**事实性错误的评估**。（3）模型到底学到的是个啥？
+
+4.《Attending to Future Tokens for Bidirectional Sequence Generation》
+
+思路：用bert做序列生成。输入源句子+目标句子用于训练，其中目标句子随机选一些token用placeholder替换。扩展一下，关于bert用于生成，最近印象中有一些工作。第一：类似于本文的思路。第二：seq2seq中将bert作为encoder，decoder单独训练(模型可以灵活选择)。第三：decoder端用bert。第四：更加广义地应用，比如做extractive摘要的工作。
+
+5.《Dynamic Past and Future for Neural Machine Translation》
+
+思路：用于Capsule Network做机器翻译。
+
+6.《Learning to Recognize Discontiguous Entities》
+
+解决的问题：命名实体识别中，识别不连续的实体。
+
+7.《ner and pos when nothing is capitalized》
+
+解决的问题：在NER和POS任务中，**大小写很重要。**
+
+8.《On NMT Search Errors and Model Errors: Cat Got Your Tongue?》
+
+解决的问题：组合beam search和depth-first search做精确推断用于NMT任务。作者在文末明确指出：该方法不实用，但是可以帮助理解现有一些NMT的Trick可能并不能完全解决一些特定的问题。
+
+### BERT
+
+7.《ALBERT：A Lite BERT For Self-Supervised Learning Of Language Representations》，iclr2020投稿
+
+结论：参数更少，效果更好的bert变种。
+
+主要工作：
+
+（1）降低embedding的dim，O(vxh)->O(vxe+exh) where h>>e（隐含条件v>>e），是一个较简单且松弛的不等式问题；
+
+（2）跨层参数共享。类RNN，将layer视为building block。作者也尝试了共享ffn和共享attention
+
+（3）sop任务。原来的nsp是鸡肋，因为有信号泄漏，实际上模型可能没有学到多少coherent信息，而是泄漏的topic信息；这里重新设计了一个任务：
+给定一篇doc中的两个句子a和b，其中a和b按照doc中的顺序出现，则a+b=1；b+a=0。这样可以push模型学到coherent信息而不是topic信息。
+
+评价：总体上看没有骚操作，不过工作做的很是干净，效果也很不错。
+
+6.5和4的相关paper，《Enriching BERT with Knowledge Graph Embeddings for Document Classiﬁcation》，德国
+
+5.《ERNIE: Enhanced Representation through Knowledge Integration》，百度
+
+4.《ERNIE: Enhanced Language Representation with Informative Entities》，清华
+
+3.《Revealing the Dark Secrets of BERT》
+
+model pruning and finding an optimal sub-architecture reducing data repetition;
+
+主要方法：对attention weight 进行可视化
+
+主要的想法：disabling self-attention heads（应该是一个比较普遍的结论）
+
+2.《Universal Language Model Fine-tuning for Text Classification》
+
+**非常好的工作，相信可以对更好地利用bert做fine-tuning有很好的启发。**
+
+主要思路(对ULMFiT的使用包含三个阶段， 基于3层lstm)：
+
+(1) LM pre-training
+
+(2) LM fine-tuning（不同层用不同的学习率，2.6倍差异）
+
+(3) Classifier fine-tuning（gradual unfreezing，每个epoch都只unfreeze掉一部分layer）
+
+现在多数情况下，大家对于bert用于fine-tune的过程通常是没有第二个阶段的。
+
+
+1.《Visualizing and Understanding the Effectiveness of BERT》，**2019.08.15**
+
+主要思路：可视化loss landscape和optimization trajectories
+
+主要结论：
+
+（1）pre-training可以到达一个好的优化初始化点，使得下游任务的训练到达wider optima和easier optimization；另一方面虽然bert是over-parameterized的，但是robust to overfitting。
+
+（2）fine-tuning可以获得更好的泛化性能（flat and wide optima），同时可以观察到traning loss surface和generalization errro的一致性；
+
+（3）bert的低层在fine-tuning的过程中more invariant，这意味着学习到了more transferable representation of language。
+
+关于第三点的具体展开：《BERT Rediscovers the classical NLP pipeline》
+
+lower layers: most local syntactic phenomena
+
+higher layers: more complex semantics
+
+
+主要建议：
+
+**开发一些好的fine-tuning的算法，使得能够使下游任务的最优点收敛到一个wider and more flat optima。**
+
+### Classification
+
+5.《Hierarchical Relation Extraction with Coarse-to-Fine Grained Attention》
+
+motivation：关系是有层次的。hierarchical modeling几乎是一个很直接的idea。
+
+4.《How to Fine-Tune BERT for Text Classiﬁcation?》
+
+黄老师组的文章，名字有点俗，但是内容脱俗。讨论了如何去fine-tuning bert用于文本分类任务。文章中提到一些有意思的想法，值得尝试一下。ULMFit的工作也值得对比着看。个人觉得关于bert的工作，我们的认识还是很浅的，需要持续的研究和探讨。什么任务就bert一把梭的想法有点扯。
+
+3.《Learning Named Entity Tagger using Domain-Specific Dictionary》
+
+用于ner任务，两个方法。这篇文章和**AutoPhrase**（**语料库+wikipedia+pos，整体上偏规则方法**）的作者基本相同。
+
+第一：fuzzy crf。利用crf挖掘multi-label的信息；
+
+第二：AutoNer。新的标注范式，用两个token是否连接来标注。大概思路如下：
+
+输入一句话：艾耕科技由高榕投资。
+
+构造数据如下：
+
+[S] 艾 1
+ 
+ 艾 耕 1
+ 
+ 耕 科 1
+ 
+ 科 技 1
+ 
+ 技 由 0
+ 
+ 由 高 0
+ 
+ 高 榕 1
+ 
+ 榕 投 0
+ 
+ 投 资 0
+ 
+ 资 [E] 0
+ 
+ [E] 。 0
+ 
+ 剩下的事情就是labeling了。
+
+
+
+2.《BERT for Joint Intent Classification and Slot Filling》
+
+个人非常喜欢的思路。
+
+intent classification：给一句话打标签，多分类，必要时multi-label；比如一句话“艾耕科技由高榕投资。”，类别标签是：**是否是融资新闻？**
+
+slot filling：slot对应字段，比如**融资机构，投资机构**等，filling是找到对应字段类型的值，比如**艾耕科技，高榕**等。
+
+思路：[CLS]做intent classification；slot filling用sequence labeling做；
+
+思路扩展：
+
+（1）两个模型。一个做分类，一个做labeling；
+
+（2）一个模型做，但是两个任务是异步的；
+
+（3）multi-task
+
+（4）就是上面的思路了，同步做；
+
+目标函数是最大化条件概率：p(y(i), y(s)|x) ，其中y(i)是intent的label的softmax分布，y(s)是slot的label的softmax分布（有多个slot）。本质上等价于cross\_entropy的最小化，同为分类问题。
+
+
+1.《A Simple and Effective Approach for Fine-Tuning Pre-trained Word Embeddings for Imporved Text Classification》
+
+一个分类的Trick：在对word embedding进行fine-tuning的时候，每个example添加类别的信息。fine-tuning的model是doc2vec。
+
+0.《Bag of Tricks for Efﬁcient Text Classiﬁcation》
+
+fastText的工作。
+
+（a）
+
+Q:linear classiﬁers do not share parameters among features and classes. This possibly limits their generalization in the con- text of large output space where some classes have very few examples.
+
+A:low rank matrices, multi layer neural networks
+
+（b）**bow对word order不敏感，需要显式的考虑order，因此有了bag of n-grams，不过仍旧是只考虑了local order。**
+
+（c）两个实现上的技巧：hierarchical softmax， n-grams的hash trick
+
+### Learning to Rank
+
+#### 1.RankNet，《Learning to rank using gradient descent》,ICML2005
+
+主要目的：学习一个Ranking Function
+
+训练：给定一个doc list，构建example = (doc1，doc2)。如果doc1和query更相关，则label=1；否则label = 0。
+
+测试：给定一个doc list，通过构建pair list，得到label list，最后可以得到一个ranking结果。
+
+#### 2.LambdaRank, 《Learning to Rank with Nonsmooth Cost Functions》,NIPS2006
+
+主要目的：损失函数中添加对排序指标的优化项。
+
+#### 3.LambdaMART
+
+Lambda+MART(GBDT,梯度提升树)
+
+#### 4.ListNet,《Learning to Rank: From Pairwise Approach to Listwise Approach》
+
+上述三篇都是input为pair的方法，这篇工作是input为list的方法。一般认为效果上，后者要优于前者。
+
+相关资源：
+
+1.[PTL2R](https://github.com/ptl2r/ptl2r.github.io)
+
+基于PyTorch，实现了多种排序学习的算法。
+
+2.[RankNet的实现](https://github.com/ShaoQiBNU/RankNet)
+
+### Knowledge Graph
+
+3.ACL2018,《Improving Entity Linking by Modeling Latent Relations between Mentions》
+
+**goal:** link each mention to an entity in a KB.
+
+**candidate selection:** local and global modeing
+
+
+2.《OAG: Toward Linking Large-scale Heterogeneous Entity Graphs》,KDD2019
+
+
+1.《Entity Alignment between Knowledge Graphs Using Attribute Embeddings》,AAAI2019
+
+
+### others
+
+6.《data decisions and theoretical implications when adversarially learning fair representations》
+
+主要贡献: we use an adversarial training procedure to remove information about the sensitive attribute from the latent representation learned by a neural network.
+
+![img](http://wx1.sinaimg.cn/mw690/aba7d18bgy1g2o8funikij20j40dwgmo.jpg)
+
+5.《the sample complexity of pattern classification with neural networks: the size of the weights is more important than the size of the network》,1999年trans on information theory的一篇文章
+
+**Results in this paper show that if a large neural network is used for a pattern classiﬁcation problem and the learning algorithm ﬁnds a network with small weights that has small squared error on the training patterns, then the generalization performance depends on the size of the weights rather than the number of weights.**
+
+相关论文，《Real numbers, data science and chaos: How to ﬁt any dataset with a single parameter》
+
+
+4.《reducing multiclass to binary：a unifying approach for margin classifiers》
+
+**传统方法：**
+
+（1）each class is compared against all others
+
+（2）all pairs of classes are compared to each other
+
+(3) output codes with error-correcting properties are used, [文献](http://www.ccs.neu.edu/home/vip/teach/MLcourse/4_boosting/lecture_notes/ecoc/ecoc.pdf)，周志华老师的书上也有介绍，不过更常见的多是前两种。
+
+3.《classifying relations by ranking with convolutional neural networks》
+
+**主要贡献：**
+
+（1）提出了一个新的pairwise rank loss用于减少人工类的影响。（我们之前也有一个工作将改进的pairwise rank loss用于图片质量评价）
+
+（2）提供了一个证据：cnn+rank loss > cnn+softmax
+
+（3）在关系分类任务中，如果仅仅考虑两个nominal之间的text，使用word embedding就可以sota
+
+周博文挂名的文章看的几篇都是思路比较清晰的，方法上虽然看起来不太复杂，但是work。同时，有必要关注一下，logistic loss， rank loss， margin loss等在nlp领域中的应用，不一定logistic loss去dominate所有的情况，印象中cv的某些任务上，margin就表现的比较好。rank loss印象中在ir上应用较广，但是loss之间并非绝对的独立，对他们之间关系的思考也是一个有趣的方向，估计已经有一些工作了。
+
+
+2.《dropout training as adaptive regularization》,percy liang等人的文章
+
+主要贡献：对于glm，dropout可以认为是一种自适应正则化的技术，同时建立了与adagrad的联系。在dropout，regularization和adagrad的联系基础上，提出了一个semi-supervised算法，该算法使用没有标签的数据可以建立一个更好的自适应的regularizer。
+
+we show that the dropout regularizer is first-order equivalent so an L2 regularizer applied after scaling
+
+the features by an estimate of the inverse diagonal Fisher information matrix.
+
+1.《Using Pre-Training Can Improve Model Robustness and Uncertainty》
+
+Through extensive experiments on **label corruption, class imbalance, adversarial examples, out-of-distribution detection, and conﬁdence calibration**, we demonstrate large gains from pre-training and complementary effects with task-speciﬁc methods.
+
+### Language Model
+
+4.《On Extractive and Abstractive Neural Document Summarization with Transformer Language Models》
+
+用LM的方法做摘要，其实类似思路在GPT系列已经体现。例如做翻译，用"="来连接两个语种的句子；例如摘要，用"TL;DR;"的符号来连接等。另外，这里存在一个术语上可能会混淆的地方，一般说Transformer是指seq2seq，包含一个encoder和decoder，实际上这里只是使用一个decoder，标准的lm。
+
+3.《The Curious Case of Neural Text Degeneration》
+
+motivation：机器生成的语言的prob分布（锯齿状且更加平稳）和人生成的语言的prob分布是不一致的；
+
+solution：一种decoder端的策略。
+
+2.《Using the Output Embedding to Improve Language Models》
+
+weight typing技术。lm的input和output embedding共享。
+
+优点：减少模型容量到一半；正则化；
+
+印象中多个lm的实现都支持相同做法。
+
+ 1.《think again network, the delta loss, and an application in language modeling》
+ 
+ lm在penn treebank上的新的sota，通过在rnn的hidden输出上再添加一层recurrent机制，使得性能提升；同时提出了一个新的损失函数，但是实验上并没有提升；虽然实现了新的sota，但是个人认为模型会相对较大，需要保留较多的历史信息。
+
+
 ### NLG
+
+10.《Neural Text DeGeneration With Unlikelihood Training》
+
+指出了传统decoder端的一些策略的问题（top-k/nucleus sampling/beam blocking etc.），通过修改损失函数作为文章的contribution。
+
+9.工业Track的一些文章
+
+(1)《OpenTag: Open Attribute Value Extraction from Product Profiles》，KDD2018
+
+(2)《Scaling Up Open Tagging from Tens to Thousands: Comprehension Empowered Attribute Value Extraction from Product Title》，ACL2019
+
+(3)《A Multi-task Learning Approach for Improving Product Title Compression with User Search Log Data》，AAAI2018
+
+(4)《Multi-Source Pointer Network for Product Title Summarization》，CIKM2018
+
+上述四篇都是工业Track的文章（阿里），（1）和（2）解决从商品标题中抽取商品属性值的问题。（3）和（4）采用seq2seq，输入商品长标题，输出商品短标题，并保证尽可能商品短标题中的词是关键词。
+
+（1）采用sequence labeling的思路，模型上的一个尝试是在经典的BiLSTM+CRF之间添加了Attention层。但是（1）的问题是：商品属性数量众多，导致分类空间巨大。
+
+（2）采用MRC的架构，将商品标题和属性作为输入，三类标签作为输出(BIO)。相比于（1），（2）将问题进行了分解，大大减小了分类空间，同时在属性支持上更加灵活。文章认为，当新属性出现时，使用已经训练好的模型仍旧可以提取到属性值，因为MRC架构已经学习到了属性和商品标题的语义分布。个人对此持怀疑态度，待王磊实验反馈。
+
+（3）一个Encoder的输入是商品长标题，两个Decoder分别编码对应的商品短标题和商品长标题对应的用户搜索Query。训练时，保证二者的Attention分布尽可能一致；预测时，只使用一个Decoder。整体上是一个multi-task任务，共享Encoder端。训练一个Query端的Decoder有一定的启发性。
+
+（4）两个Encoder，分别编码商品长标题和与该商品相关的知识信息(可以扩展为知识图谱)，一个Decoder端用于生成商品短标题。同时训练一个分类器，判断使用哪个Encoder，或者说生成的关键词来自哪个数据源，这其实是一种hard的copy机制使用，并且不使用vocab的信息，区别于传统的soft的copy机制，同时用到attention和vocab的分布信息。整体上的思路比较naive，不过将知识图谱引入有一定的启发性。
+
+8.《Mask-Predict_Parallel Decoding of Conditional Masked Language Models》
+
+7.《FlowSeq: Non-Autoregressive Conditional Sequence Generation with Generative Flow》
+
+7和8都是近期关于Non-Autoregressive的工作，7的价值似乎更大一些。但是征哥认为：**该工作是CVAE的一个变种而已**。
+
+6.《MASS: Masked Sequence to Sequence Pre-training for Language Generation》
+
+motivation：近期来主要的工作围绕pretrained language model，比如经典的bert系列（transformer的encoder）和gpt系列（transformer的decoder），那既然这样，为啥不能两个都pretrained呢（seq2seq）？为了pretrain这个seq2seq，按照传统思路，自然需要大量的平行语料，但是如果这个条件现实，可能已经不需要这个工作了。所以，一种方式是类似自编码的思路，input和output的句子相同。如果真是这样，就没啥意思了。所以，本文采用的思路是：input端挖掉一些片段，然后output端预测这些片段。
+
+优点：强迫input端做好理解的事情；强迫output端能够在生成的时候更加依赖input端的表示，而不是上一个预测输出的token；
+
+做法：pre-trained seq2seq + fine-tuning下游任务
+
+扩展：这种思路可以用于基于生成的完形填空吧。
+
+**trick（soft contextual data augmentation）**：为了获得更多更多的训练语料，可以基于挖空的句子语料训练一个lm，然后让lm去预测空位对应的词，选择topk，填入到空位。这样就形成了多个平行语料对。
+
+5.《Comparison of Diverse Decoding Methods from Conditional Language Models》
+
+梳理了围绕beam search改进的各种方法，可以在不损失quality的同时，增加diversity。
+
+4.《A Simple Theoretical Model of Importance for Summarization》
+
+几个用于评估摘要的指标：**Redundancy**, **Relevance**, and **Informativeness**.
+
+3.《Towards Knowledge-Based Personalized Product Description Generation in E-commerce》，kdd2019
+
+主要贡献：基于seq2seq（transformer），融合用户属性，商品属性和知识图谱，生成个性化的商品描述。
+
+2.《challenging common assumptions in the unsupervised learning of disentangled representation》
+
+主要内容：如题
+
+主要特色：用大量的实验来challenge一个common assumption，主要讨论的是vae相关变种模型。
+
+想法：对vae和gan以及正则化流相关的工作没有做过深入思考，因此这篇文章自认为并不是读的特别明白，后续有相关工作了需要进一步思考。
 
 1.《Unifying Human and Statistical Evaluation for Natural Language Generation》NAACL2019
 
@@ -14,7 +493,77 @@ motivation:
 
 结论：huse=quality+diversity
 
+2.[Are generative models good enough?](https://blog.singularitynet.io/are-generative-models-good-enough-a-case-study-on-class-modeling-9a57c91ddcae)
+
+用**一个简单的例子**讲了几个generative模型的问题，包括生成模型和判别模型的区别和联系；vae/gan等；
+
 ### Transformer
+
+4.《Accelerating Neural Transformer via an **Average Attention Network**》
+
+Transformer在decoder端的加速工作，通过加层的方式实现。比起直接将auto-regressive的方式转化为nonauto-regressive的方式，这种方式还是相对廉价的。 
+
+3.《Attention is all you need》,nips2017
+
+从整体上看，transformer的encoder端就是一堆linear层的堆叠，添加**norm layer和dropout**，在最后的pooling层添加了tanh的activation函数；
+
+思想：完全依赖attention机制获取input和output端的全局依赖。
+
+end-to-end memory networks are based on a **recurrent attention mechanism** instead of **sequence-aligned recurrence**. Transformer is the first transduction model relying entirely on self-attention to compute representations of its input and output without using sequence-aligned RNNs or convolution.
+
+Encoder: LayerNorm（x+SubLayer(x)）；
+
+Decoder: 是三个子层，self-attention需要添加mask；
+
+问题：
+
+（1）transformer中，scaled dot-production attention可以用additive attention代替吗？能和不能的原因是什么？
+
+（2）attention(q,k,v)=softmax(qk^t/sqrt(d_k))v中，为啥需要这个**scaling factor**？
+
+（3）为什么self-attention是可以work的？或者说self-attention的优点是什么？
+
+a.computational complexity per layer
+
+b.amount of computation that can be parallelized(measured by the minimum number of sequential operations required)
+
+(个人认为可以并行优化的地方：第一：分别计算q，k，v的时候；第二，multi-head scaled dot-product attention)
+
+c.the path length for long-range dependencies(from one position to another position)
+
+d.interpretable(syntactic and semantic)
+
+（4）transformer中使用的regularization技术有哪些？
+
+a. apply dropout to the output of each sub-layer
+
+b. apply dropout to the sums of the embeddings and positional encodings in both the encoder and decoder stacks
+
+c. label smooothing: this hurts perplexity, as the model learns to be more unsure, but improves accuracy and BLEU score.
+
+
+
+2.《SpanBERT: Improving Pre-training by Representing and Predicting Spans》
+
+contribution：
+
+（1）masking contiguous random spans, rather than random tokens
+
+（2）training the span boundary representations, encourage the model to store this span-level information at the boundary token.
+
+一张图解释：
+
+![img](http://wx3.sinaimg.cn/mw690/aba7d18bgy1g5d25mjbdqj214y0gwacy.jpg)
+
+个人想法：类似工作很多了，印象中今年MSRA在wmt2019取的好多第一的工作《MASS: Masked Sequence to Sequence Pre-training for Language Generation》ICML2019;
+
+百度的[ERNIE](https://github.com/PaddlePaddle/ERNIE)的工作；
+
+我的博客[神经关系抽取](https://zhpmatrix.github.io/2019/06/30/neural-relation-extraction/)中的一些工作；
+
+我们组在生成方面的一些尝试等。
+
+总之，个人对类似工作已经提不起兴趣了。
 
 1.《Training Tips for The Transformer Model》基于英语-捷克语的语料，用transformer做翻译模型。使用tensor2tensor框架，对任务中的各个参数进行了实验探索。
 
@@ -23,110 +572,3 @@ motivation:
 #### （1）checkpoint averaging：几乎总是有稳定的提升。
 
 #### （2）resumed training：
-
-使用场景：
-
-（1）由于硬件故障，得重新训练；
-
-（2）有更好的超参搜索想法
-
-（3）domain adaption
-
-缺点：
-
-（1）并不记录训练数据中的位置。也可以利用这个特性做checkpoint averaging，因为训练数据不同，理论上会影响到最后的训练结果；
-
-（2）tensorboard中的relative time(wall-clock time)不对齐。表现为新的损失曲线和原来的曲线不对齐；
-
-#### (3)learning rate and warmup step
-
-（1）大batch学习是一个开放问题，主要解决的是当batch变大后，学习率应该怎样变化？当使用warmup时，也需要考虑该问题。
-
-（2）当由单gpu切换到多gpu时，学习率保持单gpu上的就可以；同时warmup并不能显著改善最后的度量，但是有助于收敛和发散过程的控制。
-
-（3）缓解训练过程中的divergence：更小的学习率；gradient clipping；more warmup steps。
-
-#### （4）number of gpus
-
-多卡能够带来更快收敛的同时，提升度量指标。
-
-#### （5）batch size：越大越好
-
-#### （6）max\_length
-
-#### （7）model size
-
-(1)prefer the big over the base model
-
-(2)use transformer\_tiny to fast debugging
-
-#### (8) training data size
-
-smaller and cleaner v.s. bigger and noisier
-
-#### (9)training data preprocessing
-
-（1）在t2t-datagen之前，过滤过长的句子，这样在tfrecord阶段可以节约很多时间。
-
-（2）数据处理规范：train/dev/test；过滤掉数字和特殊符号；过滤掉过长的句子；将整个流程分批次进行；
-
-### Graph Convolutional Network
-
-4.《Graph Attention Networks》，ICLR2018
-
-在nlp的问题中，看到了rnn，cnn的效果，同时更看到了attention的效果。在这篇文章前，很早就有人做graph的问题，比如基于kernel的方法，基于conv的方法(gcn)等，那么一个很直觉的想法是将attention引入到graph的问题中去。
-
-主要贡献：
-
-使用self-attention（multi-head）做基于graph的transductive和inductive两类问题。给定node的feature后，可以计算与neighbors的attention得分，然后attend到node feature中去。
-
-在保证效果不错的同时，具备attention的优点。不过，结合graph问题本身，之前的一类基于spectral的方法注重eigen value/vector的计算，使用attention不会有前者的巨大的计算开销。不过，和gcn对比时，仍旧可以讨论在nlp中的问题，**conv和attention选哪个？**
-
-后续工作：
-
-（1）受限于目前库的实现，导致现有方案的batch能力较弱。可以从两个方面来做：第一:完善现有库，支持更高阶的稀疏矩阵运算；第二：对算法本身的修改
-
-（2）通过skip connection加深网络层，因为文章中的实验仍旧是在两层结构上做的。不深的网络结构，意味着无法充分发挥gpu的效能。在gcn的那篇工作中，作者是加了residual的，确实证明能够进一步提升效果，不过太浅的话，很容易会遇到degration的现象。
-
-（3）减少大规模图中，分布式场景下的冗余计算。
-
-想法：在graph的问题中，cnn，rnn，attention等都已经出现了相关的工作，不过显然cnn和attention的相关工作大概两年前刚刚开始。起码在深度上还是相当的浅，虽然有一些对深度的探讨工作。可能graph的场景比起nlp其他的任务场景来说，较少，导致相关数据集也不是很多，更不用提一些比较令人惊讶的在某些经典任务上的模型了。kg的相关积累正在进行中，可能一些工作也正在尝试把gcn或者gan的东西用进去吧，期待有新的工作进展。不过，graph早期的基于spectral的方法在理论上是非常漂亮的，包括一些基于kernel的方法。
-
-
-
-
-3.《Large-Scale Learnable Graph Convolutional Networks》,KDD2018
-
-整体上看，要把conv用到graph结构上，一方面要考虑**是否conv在cv和nlp中的常见相关应用能否确实直接迁移到graph结构上？**另一方面要考虑**如何结合graph结构做针对性的设计？**
-
-主要工作：
-
-（1）**为了可以构建deeper的网络结构**，提出learnable graph convolutional layer(LGCL)。主要思想是将相邻节点feature聚合的粒度变小，基于每个node的每个feature dim考察。当切分粒度有node整体变为node的每个feature dim时就更容易解决对齐的问题，同时不损失提取的feature质量。
-
-（2）**为了实现在大规模场景下提高训练的高效性**，提出sub-graph selection process。大规模场景下，要尽可能地减少数据量，因此可以通过采样的方式来进行。从一个大的graph中采样一部分edeg和node形成一个小的graph。具体思路是任意给定初始节点，然后用bfs去寻找一阶近邻节点，之后采样。之后从这些采样后的node中继续前述过程，直到进行给定迭代数。类似于剥洋葱，一层层局部的去采样一些node，这样整体性不会被打破。
-
-后续工作：
-
-（1）graph上的pooling操作。
-
-（2）将该工作用于文本数据（文中的实验都是在引用关系网络上做的）。
-
-总结：整体上看，实验结果相比于前人也不是特别的显著。但是方法简单，同时能够通过实验证明确实是有效的。文章写的很好。
-
-2.《semi-supervised classification with graph convolutional network》,iclr2017
-
-应该是最早提出gcn的文章，文章给出了tf的代码，后来作者又给出了pt，keras等各个版本下的代码。rgb以写faster-rcnn来打发无聊的时候，不知道kipf是不是靠写gcn来排遣空闲。这里的应用场景是半监督分类。典型的一个例子是论文分类+论文引用信息。论文引用构成了一个graph，graph包含的丰富的信息。比如，相关类别的论文有更大的可能应用同类别的论文。因此如何将graph的信息融合进分类任务从而帮助分类效果的提升就是一个关键了。因为需要处理的数据是graph形式的，因此就多了一些特色。类似的处理场景在nlp下有kg知识的融合，之前做的一个事情是简单的将kg中的三元组concat后embedding到网络中，从而确实提升了对话效果，能否将gcn用于kg是一个值得思考的问题。由于是最早的工作，作者做了两层的gcn，从结构上的设计来看，更像是一个前馈网络的形式。这篇文章提供了应用gcn的原始建模思路，值得借鉴。这里给出[pygcn的代码地址](https://github.com/tkipf/pygcn)，代码基于一个论文引用网络做文本分类，结构非常清晰易懂。
-
-1.《Multi-Label Image Recognition with Graph Convolutional Networks》
-
-0.《Graph Convolutional Networks for Text Classification
-》
-
-想法：0和1是两篇关于gcn的文章。印象中18年年底和19年年初，gcn的综述文章出了至少有三篇。0的思路是这样的，将文本分类转化为一个graph上的node分类问题。很显然，这里的node要满足\#node>=c，其中c是类别总数。既然是graph，不仅需要node，还需要edge。在文章中，node有两类组成，分别是document和word，那么edge的信息就是document和word的关联关系的表示了。比较容易想到的有经典的tf-idf，co-currence等，在论文中词与词之间的关联关系表示用了pmi，也是一个统计量。这样的话，图就构造结束了。对文档分类，损失函数只考虑node类型为document的就可以了。
-
-1是cvpr2019的文章。multi-label问题的关键之一是要考虑：**标签依赖**。那么用graph来建模这种依赖关系好了，这样还是node分类问题，edge表示的关联信息来自对数据集中标签的统计量，典型的co-currence。不过仅仅通过co-currence得到的edge关系在数值上是不完美的，文章对edge关系进行了基于weight的修正。文章堆叠了gcn，最后输出的矩阵维度为\#node\*#d。对图片的特征提取就是一个普通的cnn网络，最后输出的矩阵维度为\#d，两类输出做点积就是类别预测向量了(
-\#node=\#c)。
-
-扩展：针对细粒度情感分类问题（如ai challenger2018赛道），或许也可以用gcn来做。对评论文本的特征提取用任意一个好的结构来做。将标签展开成20个label，显然label之间是有着依赖关系的，比如性价比和折扣力度是正相关的。对label本身embedding做为node feature，edge信息如何算？一种思路是计算情感值的差，这样的话，edge的信息就是一个多维向量了。剩下的事情和1差不多。不过，由于标签存在层次结构，因此或许可以利用一下。此外，attention能否在这种场景下得到应用也值得思考。
-
-
