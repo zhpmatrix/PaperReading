@@ -8,6 +8,10 @@
 
 4.《Universal Model Fine-tuning for Text Classiﬁcation》
 
+### GNN/GCN/GAN
+
+1.《Keep It Simple: Graph Autoencoders Without Graph Convolutional Networks》
+
 ### Dialogue System
 
 1.《End-to-end LSTM-based dialog control optimized with supervised and reinforcement learning》
@@ -61,6 +65,12 @@
 （4）“机器翻译的成功是一个比较特殊的例子，这是因为它的**源语言和目标原因的语义都是精确对应**的，所以它只要有足够的数据而并不需要其他的支撑，就能取得较好的效果。现在的自然语言处理系统大部分，还只是流于对词语符号之间的关系建模，没有对所描述的问题语义进行建模，即对客观世界建模。而人理解语言的时候，脑子里一定会形成一个客观世界的影像，并在理解影像后再用自己的语言去描述自己想说的事情。 ”（本质的讨论：现有模型学到的是啥？syntactic和semantic如何界定？我们实际需要的是semantic哦）
 
 ### Pre-trained Language Model
+
+5.《Unified Language Model Pre-training for Natural Language Understanding and Generation》
+
+多种预训练模式的大杂烩。如下：
+
+![multi-pretrained-method](https://wx2.sinaimg.cn/mw690/aba7d18bly1g7oy2a23mwj212x0u0ng8.jpg)
 
 4.《Enriching BERT with Knowledge Graph Embeddings for Document Classiﬁcation》
 
@@ -416,6 +426,17 @@ weight typing技术。lm的input和output embedding共享。
 
 
 ### NLG
+
+13.《BERTSCORE : EVALUATING TEXT GENERATION WITH BERT》
+
+我们组也正在做的工作。
+
+12.《LARGE-SCALE PRETRAINING FOR NEURAL MACHINE TRANSLATION WITH TENS OF B ILLIONS OF SENTENCE PAIRS》
+
+我们组也正在做的工作，偏实践。
+
+
+11.《BottleSum: Unsupervised and Self-supervised Sentence Summarization using the Information Bottleneck Principle》
 
 10.《Neural Text DeGeneration With Unlikelihood Training》
 
