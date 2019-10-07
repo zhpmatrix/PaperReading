@@ -427,6 +427,14 @@ weight typing技术。lm的input和output embedding共享。
 
 ### NLG
 
+14.《Unsupervised Text Summarization Using Sentence Embeddings》
+
+无监督方式做文本摘要，两种方式：
+
+抽取式：句子做cluster，选择cluster中心的句子作为摘要，不流畅。（流畅应该是摘要的评估指标之一吗？）
+
+生成式：句子做cluster，选择cluster中心的embedding，作为一个decoder的输入。
+
 13.《BERTSCORE : EVALUATING TEXT GENERATION WITH BERT》
 
 我们组也正在做的工作。文章的一个特色是40+页，大量都是实验。思路比较简单，如下：
