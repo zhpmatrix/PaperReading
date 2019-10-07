@@ -431,9 +431,23 @@ weight typing技术。lm的input和output embedding共享。
 
 我们组也正在做的工作。
 
-12.《LARGE-SCALE PRETRAINING FOR NEURAL MACHINE TRANSLATION WITH TENS OF B ILLIONS OF SENTENCE PAIRS》
+12.《LARGE-SCALE PRETRAINING FOR NEURAL MACHINE TRANSLATION WITH TENS OF B ILLIONS OF SENTENCE PAIRS》，ICLR2020，under review
 
-我们组也正在做的工作，偏实践。
+我们组也正在做的工作，偏实践。今年关于用非常大的规模的语料训练nmt系统的工作印象中已经有好几篇了。这篇文章大概40billion的平行pair，BLEU+3.2。
+
+整体上的流程是：预训练+fine-tuning，标准玩法。因此，要解决的主要是工程上的问题，关于两个基本问题：大规模的数据难免包含一些noise；很长的训练时间。为此，这篇文章尝试了以下四类方法：
+
+（1）一个单模型直接训练；
+
+（2）把数据平均分成K份，训练K个模型，概率层做K等权值融合；
+
+（3）把数据按照topic分成K份，训练K个模型，先分类，再训练；topic的划分基于LDA；
+
+（4）上述三种都是在train前数据集都是static的，实际上dynamic理论上更好一些。也就是说，一个example可以在train的过程中，被dynamic的分给任意一个模型。技术上采用hard-EM的思想，使用batched-EM，将latent variable的计算（分给哪个模型）转化为一个整数线性规划问题，用Hill Climbing解决。batched-EM也是神经mixture模型相关工作的一个经典方法。
+
+（5）我们自己做的工作是直接cluster；通过t-sne可以看到cluster是make sense的；
+
+
 
 
 11.《BottleSum: Unsupervised and Self-supervised Sentence Summarization using the Information Bottleneck Principle》
