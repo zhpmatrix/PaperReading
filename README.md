@@ -427,6 +427,12 @@ weight typing技术。lm的input和output embedding共享。
 
 ### NLG
 
+15.《Learning to Encode Text as Human-Readable Summaries using Generative Adversarial Networks》
+
+类似玩法印象中有几篇。
+
+![img_](https://wx2.sinaimg.cn/mw690/aba7d18bly1g7prsoh823j20ow0af766.jpg)
+
 14.《Unsupervised Text Summarization Using Sentence Embeddings》
 
 无监督方式做文本摘要，两种方式：
@@ -434,6 +440,8 @@ weight typing技术。lm的input和output embedding共享。
 抽取式：句子做cluster，选择cluster中心的句子作为摘要，不流畅。（流畅应该是摘要的评估指标之一吗？）
 
 生成式：句子做cluster，选择cluster中心的embedding，作为一个decoder的输入。
+
+既然是sentence embedding，这里ICLR2017有一篇讨论了sentence embedding的方法，《A Simple But Tough-to-Beat Baseline For Sentence Embeddings》，除此之外，讨论更好的embedding的文章不要太多。
 
 13.《BERTSCORE : EVALUATING TEXT GENERATION WITH BERT》
 
