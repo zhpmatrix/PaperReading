@@ -429,7 +429,11 @@ weight typing技术。lm的input和output embedding共享。
 
 13.《BERTSCORE : EVALUATING TEXT GENERATION WITH BERT》
 
-我们组也正在做的工作。
+我们组也正在做的工作。文章的一个特色是40+页，大量都是实验。思路比较简单，如下：
+
+![img](https://wx2.sinaimg.cn/mw690/aba7d18bly1g7pqsofpv9j217z0f2gro.jpg)
+
+准备用在无监督的文本摘要任务上。
 
 12.《LARGE-SCALE PRETRAINING FOR NEURAL MACHINE TRANSLATION WITH TENS OF B ILLIONS OF SENTENCE PAIRS》，ICLR2020，under review
 
@@ -446,8 +450,6 @@ weight typing技术。lm的input和output embedding共享。
 （4）上述三种都是在train前数据集都是static的，实际上dynamic理论上更好一些。也就是说，一个example可以在train的过程中，被dynamic的分给任意一个模型。技术上采用hard-EM的思想，使用batched-EM，将latent variable的计算（分给哪个模型）转化为一个整数线性规划问题，用Hill Climbing解决。batched-EM也是神经mixture模型相关工作的一个经典方法。
 
 （5）我们自己做的工作是直接cluster；通过t-sne可以看到cluster是make sense的；
-
-
 
 
 11.《BottleSum: Unsupervised and Self-supervised Sentence Summarization using the Information Bottleneck Principle》
