@@ -66,6 +66,28 @@
 
 ### Pre-trained Language Model
 
+6.《DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter》
+
+主要贡献：通过蒸馏的方式，获取一个更小，inference速度更快，performance损失极少的bert。
+
+主要方法：teacher网络就是原始较大的bert，student网络是较小的bert。损失函数=L(masked lm)+**L(cross entroy based-on soft targets)** + L(cosine distance based-on hidden representation)三个部分组成。
+
+个人想法：
+
+（1）student网络设计
+
+student网络设计理论上应该比较灵活。比如选择一个三层的Transformer的Encoder端，一个一层的BiLSTM，甚至CNN系网络。对于第一种，假设用原始较大的bert中的一些层的参数做初始化，则可以认为是一个小的bert，这和文章中的做法是一致的。当然也可以选择初始化，比如对于第二种和第三种，类似工作后来在文章《Distilling Task-Specific Knowledge from BERT into Simple Neural Networks》中有看到，直觉上初始化方式和网络结构是强相关的。对于第一种，天然适合用原始bert的参数做初始化，那么对于第二种，第三种能否做参数共享值得思考。实际上，初始化方式对于蒸馏比较重要。
+
+此外，能否直接在原始较大bert上实现类似student网络的功能也值得思考，因为这样就不需要重新去train一个新的网络，这就和bert在fine-tuning时的freeze layer/lr schedule等相关Trick相关了。
+
+（2）损失函数设计
+
+实际上，损失函数的设计不限于文章中所说的，本质上是如何建立teacher和student的logits之间的关系，让二者尽可能接近。比如本文的ce和（1）中提到文章的mse等。除此之外，regularization的探讨也是一个很自然的想法。
+
+（3）蒸馏任务设计
+
+文章的蒸馏任务是Masked LM，仍旧需要在下游任务上做fine-tuning，（1）中提到的是直接用下游任务来蒸馏。当考虑pretrained+fine-tuning的时候，蒸馏任务的设计就会比较灵活。
+
 5.《Unified Language Model Pre-training for Natural Language Understanding and Generation》
 
 多种预训练模式的大杂烩。如下：
