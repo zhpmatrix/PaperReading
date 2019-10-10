@@ -64,7 +64,7 @@
 
 （4）“机器翻译的成功是一个比较特殊的例子，这是因为它的**源语言和目标原因的语义都是精确对应**的，所以它只要有足够的数据而并不需要其他的支撑，就能取得较好的效果。现在的自然语言处理系统大部分，还只是流于对词语符号之间的关系建模，没有对所描述的问题语义进行建模，即对客观世界建模。而人理解语言的时候，脑子里一定会形成一个客观世界的影像，并在理解影像后再用自己的语言去描述自己想说的事情。 ”（本质的讨论：现有模型学到的是啥？syntactic和semantic如何界定？我们实际需要的是semantic哦）
 
-### Pre-trained Language Model
+### Pre-trained 
 
 6.《DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter》
 
@@ -433,6 +433,8 @@ Through extensive experiments on **label corruption, class imbalance, adversaria
 个人想法：
 
 （1）指标问题：BLEU值每增加一个单位，ACC显著的掉点。当BLEU为SOTA的时候，ACC非常差；当ACC为SOTA的时候，BLEU也为SOTA，这意味着既能做content preserving，又能实现style transfer；显然，前者BLEU的SOTA值高于后者。前者没有意义，因为假设不对句子做任何的修改，BLEU也将为SOTA；
+
+相关文献：《Unsupervised Text Style Transfer using Language Models as Discriminators》
 
 4.《On Extractive and Abstractive Neural Document Summarization with Transformer Language Models》
 
