@@ -424,6 +424,16 @@ Through extensive experiments on **label corruption, class imbalance, adversaria
 
 ### Language Model
 
+5.《Mask and Infill: Applying Masked Language Model to Sentiment Transfer》,IJCAI 2019
+
+主要贡献：non-parallel下的style transfer(情感)的SOTA
+
+具体工作：两个阶段，第一个阶段为Mask，也就是给定一句话，把情感词Mask掉。第二个阶段为Infill。分为两个过程，分别是重构和判别。重构的含义是给定被Mask情感词的句子和目标情感，用Mask LM做被Mask词的填充预测。判别的含义是用一个预先训练好的分类器判断情感是否正确。
+
+个人想法：
+
+（1）指标问题：BLEU值每增加一个单位，ACC显著的掉点。当BLEU为SOTA的时候，ACC非常差；当ACC为SOTA的时候，BLEU也为SOTA，这意味着既能做content preserving，又能实现style transfer；显然，前者BLEU的SOTA值高于后者。前者没有意义，因为假设不对句子做任何的修改，BLEU也将为SOTA；
+
 4.《On Extractive and Abstractive Neural Document Summarization with Transformer Language Models》
 
 用LM的方法做摘要，其实类似思路在GPT系列已经体现。例如做翻译，用"="来连接两个语种的句子；例如摘要，用"TL;DR;"的符号来连接等。另外，这里存在一个术语上可能会混淆的地方，一般说Transformer是指seq2seq，包含一个encoder和decoder，实际上这里只是使用一个decoder，标准的lm。
