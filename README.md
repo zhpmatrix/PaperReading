@@ -461,6 +461,12 @@ weight typing技术。lm的input和output embedding共享。
 
 ### NLG
 
+17.《Fine-tune BERT for Extractive Summarization》
+
+16.《HIBERT：Document Level Pre-training of Hierarchical Bidirectional Transformers for Document Summarization》
+
+两种基于BERT做extractive summarization的工作；第16需要处理hierarchical的doc。
+
 15.《Learning to Encode Text as Human-Readable Summaries using Generative Adversarial Networks》
 
 类似玩法印象中有几篇。
