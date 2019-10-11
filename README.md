@@ -8,6 +8,8 @@
 
 4.《Universal Model Fine-tuning for Text Classiﬁcation》
 
+
+
 ### GNN/GCN/GAN
 
 1.《Keep It Simple: Graph Autoencoders Without Graph Convolutional Networks》
@@ -29,6 +31,7 @@
 5.《A Deep Reinforced Model For Abstractive Summarization》
 
 在RL的应用上感觉没有特别亮的点，类比之前的几篇工作。
+
 
 4.《A Study of Reinforcement Learning for Neural Machine Translation》
 
