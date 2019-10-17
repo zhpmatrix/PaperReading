@@ -8,6 +8,27 @@
 
 4.《Universal Model Fine-tuning for Text Classiﬁcation》
 
+### Others
+
+1.《PAWS:Paraphrase Adversaries from Word Scrambling》
+
+主要贡献：构建了一个非常有趣的数据集。数据集的特点：两个句子，word order不一样，但是word overlap非常高；标签为语义相同/不同。
+
+用途：bert直接作用于这样的数据集，指标非常差；通过将该类数据添加到训练数据中，可以提升模型的robustness。能够很好的处理该类数据的模型，获取non-local contextual information的能力要强。此外，使用该数据，可以很好的度量模型对于word order和syntactic structure的sensitivity。
+
+延伸思考：该数据集是平行语料，应该有其他可能的场景。
+
+举例如下：
+
+(1)Flights from New York to Florida.
+
+(2)Flights to Florida from NYC.
+
+(3)Flights from Florida to New York.
+
+主要技术：Language Model(按照规则构建数据后，打分过滤)+Back Translation，最终构建类型如下：
+
+![img__](https://wx4.sinaimg.cn/mw690/aba7d18bly1g813dh8n3oj21n40f2wix.jpg)
 
 
 ### GNN/GCN/GAN
