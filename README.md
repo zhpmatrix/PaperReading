@@ -37,6 +37,12 @@
 
 ### Dialogue System
 
+2.《PLATO：Pre-trained Dialogue Generation Model with Discrete Latent Variable》
+
+domain code是可控文本生成的一个好的策略，具体使用方式也比较灵活。这周实现的一个工作，也有应用。
+
+《Mask and Infill：Applying Masked Language Model to Sentiment Transfer》
+
 1.《End-to-end LSTM-based dialog control optimized with supervised and reinforcement learning》
 
 这个是小蜜参考的另外一篇文章。整体上两篇文章时间都算是相对较早的。
@@ -194,6 +200,11 @@ facebook的工作，bert是undertrained的，并对bert重新训练的细节做�
 解决的问题：组合beam search和depth-first search做精确推断用于NMT任务。作者在文末明确指出：该方法不实用，但是可以帮助理解现有一些NMT的Trick可能并不能完全解决一些特定的问题。
 
 ### BERT
+
+
+8.《Universal Text Representation from BERT: An Empirical Study》
+
+讨论了各种Bert抽Sentence Embedding的方法，比较系统。
 
 7.《ALBERT：A Lite BERT For Self-Supervised Learning Of Language Representations》，iclr2020投稿
 
