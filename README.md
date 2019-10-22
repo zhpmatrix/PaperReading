@@ -33,6 +33,10 @@
 
 ### GNN/GCN/GAN
 
+2.《MASKGAN: BETTER TEXT GENERATION VIA FILLING IN THE_____》
+
+微软的MASS感觉和这篇思路很是类似。
+
 1.《Keep It Simple: Graph Autoencoders Without Graph Convolutional Networks》
 
 ### Dialogue System
