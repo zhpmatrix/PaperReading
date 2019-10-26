@@ -10,6 +10,16 @@
 
 ### Others
 
+3.《Language Models as Knowledge Bases》
+
+属于对Bert做Probing的流派，从Bert出来后，相关工作就有几个，颇有盲人摸象的感觉。看别人摸也挺有意思的，这篇的想法与最近做的两个工作有一些联系。
+
+（1）术语纠错。直觉上看是一个Low Resource问题，基本做法是拿Bert在汽车语料上做MLM的fine-tune，句子过来，利用做好的实体识别模型mask掉术语，MLM直接预测mask的术语。初步结果是：有些确实可以预测到正确的术语，多数情况下虽然预测不到正确的术语，但是术语的类型是正确的，比如品牌，厂商类型等，给你的车系取一个霸气的名字就靠MLM啦。
+
+（2）non-parallel的style transfer。和上述对比，直觉上难度要低一些。方法很简单，把pos情感的句子的pos词mask掉，加neg情感的emb，MLM预测mask对应的neg词。mask的位置类型相同，情感相反。这个任务中，mask的位置很重要。实现的工作暂时未能收敛，大概率在对谁mask这件事上没做好，完整的Pipeline还有一个情感判别模型要参与到MLM的训练中，只能有时间再调了。
+
+嗯，一词多义，contextual embedding v.s. word embedding，总之，感觉MLM可以用来搞很多事情，值得挖一挖。
+
 2.《Effective Neural Solution for Multi-Criteria Word Segmentation》
 
 在每种分词方案后添加属于该分词方案的特殊标志符。虽然是2017年的文章，但是类似思想可以用在非常多的地方，在分词任务上的提升也是非常显著的。
