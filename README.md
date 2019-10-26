@@ -10,6 +10,10 @@
 
 ### Others
 
+2.《Effective Neural Solution for Multi-Criteria Word Segmentation》
+
+在每种分词方案后添加属于该分词方案的特殊标志符。虽然是2017年的文章，但是类似思想可以用在非常多的地方，在分词任务上的提升也是非常显著的。
+
 1.《PAWS:Paraphrase Adversaries from Word Scrambling》
 
 主要贡献：构建了一个非常有趣的数据集。数据集的特点：两个句子，word order不一样，但是word overlap非常高；标签为语义相同/不同。
