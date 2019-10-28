@@ -114,6 +114,21 @@ domain code是可控文本生成的一个好的策略，具体使用方式也比
 
 ### Pre-trained 
 
+7.《Learning and Evaluating General Linguistic Intelligence》
+
+个人非常喜欢的一篇文章，讨论了一些大家似乎习以为常，但是却没有深入思考的一些问题。比如：
+
+（1）预训练提升performance的量化分析？用downstream任务来评估总觉得不是很合适。
+
+（2）相同的预训练任务，能否直接generalize到其他数据上？比如，SQuAD训练的模型，可以直接用于TriviaQA。
+
+（3）fine-tune的时候，模型忘记之前学习到的knowledge有多快？
+
+（4）curriculum是如何影响performance的，应该如何设计curriculum？
+
+主要的研究方式：提出一个量化指标，code length，该指标与acc/f1-score等有直接关系。
+
+
 6.《DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter》
 
 主要贡献：通过蒸馏的方式，获取一个更小，inference速度更快，performance损失极少的bert。
