@@ -219,6 +219,9 @@ facebook的工作，bert是undertrained的，并对bert重新训练的细节做�
 
 ### BERT
 
+9.《Semantics-aware BERT for Language Understanding》
+
+个人理解这篇工作比较工业风，核心观点：把语言学知识融入到模型中。类似工作非常多并且适合灌水，比如融入NMT/Dialogue等。这里语言学：SRL;模型：Bert。技术上的问题：SRL结果较多需要融合，Bert的SubWord分词和SRL输出结果的对齐，模型结构的对齐，和原始Bert Word Emb的融合等。其实挺没劲的，不过挂了非常多的作者。词法，句法，语义都可以灌，逃。
 
 8.《Universal Text Representation from BERT: An Empirical Study》
 
