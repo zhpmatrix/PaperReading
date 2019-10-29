@@ -114,6 +114,10 @@ domain code是可控文本生成的一个好的策略，具体使用方式也比
 
 ### Pre-trained 
 
+8.《On the Cross-lingual Transferability of Monolingual Representations》
+
+基于Bert的嫁接技术：self-attention block和word embdding的嫁接。
+
 7.《Learning and Evaluating General Linguistic Intelligence》
 
 个人非常喜欢的一篇文章，讨论了一些大家似乎习以为常，但是却没有深入思考的一些问题。比如：
