@@ -238,6 +238,29 @@ facebook的工作，bert是undertrained的，并对bert重新训练的细节做�
 
 ### BERT
 
+11.《FASPell: A Fast, Adaptable, Simple, Powerful Chinese Spell Checker Based On DAE-Decoder Paradigm》，EMNLP2019
+
+前言：一大早老大投喂的纸。论文还没有放出来，给作者发了mail，还没回。[PR稿](https://www.jiqizhixin.com/articles/2019-10-29-8)，不过给了代码地址，还没决定要读。
+
+主要内容：基于BERT，用MLM的方式做中文纠错。
+
+特色：不使用烂大街技术（召回+排序），而是直接预测+后处理。直接预测部分是典型的MLM的路子，特色在后处理。整体上希望得到一组confidence和similarity的阈值，筛选出错别字。因此，简单点说：“卡个阈值做后处理。”。因此问题的关键是：confidence/similarity如何计算？前者很容易想到用prob，后者则利用了字音和字形的特征。有啥好处？比起召回+排序的路子，充分考虑了字与字的similarity。为啥是一组？这点还没想特别明白。如果是针对每个token位置计算一个，似乎make sense，但是由于序列是不等长的，也就意味着这组阈值在利用的时候也是动态的；如果是对prob排序后的行计算一组阈值，那么阈值数目固定（等于字典长度），但是似乎在similarity上不make sense。需要后续确定下细节。
+
+问题：
+
+（1）从文章实验数据来看，后处理对文本类纠错有性能损伤；对OCR类提升比较明显。这也是在没有看到实验结果的时候就可以想到的问题。字形的similarity想必重要性要高于字音。字音和字形理论上对文本类同音字和形近字错误纠正有帮助，但是看到了明显的损伤。
+
+（2）文章中的实验结果和代码README.md的表格结果不一致。此外，文章中的表格数据方差也太大了。
+
+（3）召回+排序 还是 直接预测+后处理，是围绕MLM的在技术路线上的选择。前者更加的可控，不过也不太灵活；后者很灵活，但是可控性较差。具体使用哪种，还是要具体问题具体分析。其实，本质上具有一致性，就是filter的操作放在模型前做，还是放在模型后做的问题。简单点说：“前处理还是后处理”。围绕这个选择，最近真的是有好几个工作，组里也是有不同的尝试。
+
+
+10.《Exploiting BERT for End-to-End Aspect-based Sentiment Analysis》
+
+干货不多。有一个问题值得思考：Does BERT-based model tend to **overfit the small training set**?
+
+文章认为：F1-score on the development set are quite stable and do not decrease much as the training proceeds, which shows that the BERT-based model is exceptionally robust to overfitting.
+
 9.《Semantics-aware BERT for Language Understanding》
 
 个人理解这篇工作比较工业风，核心观点：把语言学知识融入到模型中。类似工作非常多并且适合灌水，比如融入NMT/Dialogue等。这里语言学：SRL;模型：Bert。技术上的问题：SRL结果较多需要融合，Bert的SubWord分词和SRL输出结果的对齐，模型结构的对齐，和原始Bert Word Emb的融合等。其实挺没劲的，不过挂了非常多的作者。词法，句法，语义都可以灌，逃。
