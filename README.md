@@ -1,5 +1,11 @@
 ### Others
 
+5.《Neural Relation Extraction via Inner-Sentence Noise Reduction and Transfer Learning》
+
+神经关系抽取，对input做句法分析，拿到包含两个entity的子树作为context(表示怀疑)，如下：
+
+![img_nre](https://wx1.sinaimg.cn/mw690/aba7d18bly1g8h9smpyevj20p50e6418.jpg)
+
 4.《BPE-Dropout: Simple and Effective Subword Regularization》
 
 很容易想到，有提升。
