@@ -1,14 +1,8 @@
-### 个人觉得值得精读/反复读的一些文章
-
-1.《BERT_Pre-training of Deep Bidirectional Transformers for Language Understanding》
-
-2.《Attention Is All You Need》
-
-3.《Summarization with Pointer-Generator Networks》
-
-4.《Universal Model Fine-tuning for Text Classiﬁcation》
-
 ### Others
+
+4.《BPE-Dropout: Simple and Effective Subword Regularization》
+
+很容易想到，有提升。
 
 3.《Language Models as Knowledge Bases》
 
