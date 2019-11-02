@@ -120,7 +120,7 @@ domain code是可控文本生成的一个好的策略，具体使用方式也比
 
 9.《BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension》
 
-FAIR的工作，同期类似工作MASS/UniLM/。整体上和GPT系列类似，不过添加了BERT系组件。一图说明问题，如下：
+FAIR的工作，同期类似工作MASS/UniLM/T5/。整体上和GPT系列类似，不过添加了BERT系组件。一图说明问题，如下：
 
 ![img_BART](https://wx3.sinaimg.cn/mw690/aba7d18bly1g8ixvzt4pjj21a20u0thi.jpg)
 
