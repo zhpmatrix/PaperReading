@@ -1,5 +1,13 @@
 ### Others
 
+9.《ELECTRA: PRE-TRAINING TEXT ENCODERS AS DISCRIMINATORS RATHER THAN GENERATORS》,ICLR2020
+
+主要内容：Thorough experiments demonstrate this new pre-training task is more efﬁ- cient than MLM because the model learns from all input tokens rather than just the small subset that was masked out.
+
+延伸思考：和non-parallel style transfer的工作类似。不过这篇的主要目的是学到一个好的MLM。图示如下：
+
+![img_electra](https://wx3.sinaimg.cn/mw690/aba7d18bly1g8jwz090qcj20ub0dqq6a.jpg)
+
 8.《Pseudolikelihood Reranking with Masked Language Models》
 
 整体上工作类似于一个知识蒸馏，相对简单。如下：
