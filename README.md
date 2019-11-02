@@ -10,7 +10,7 @@
 
 不断地召回和排序。具体如下：
 
-[!imag_rank_with_bert](https://wx1.sinaimg.cn/mw690/aba7d18bly1g8jqojc4xjj20t70eead3.jpg)
+![imag_rank_with_bert](https://wx1.sinaimg.cn/mw690/aba7d18bly1g8jqojc4xjj20t70eead3.jpg)
 
 6.《Class-Balanced Loss Based on Effective Number of Samples》，2019年
 
