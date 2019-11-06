@@ -1,5 +1,16 @@
 ### Others
 
+10.《ZEN: Pre-training Chinese Encoder Enhanced by N-gram Representations》
+
+号称目前为止最强中文NLP预训练模型。整体思路上可以从deep&wide结构来理解。deep结构和传统的bert类似，wide结构用来encode n-gram的信息。其实，提供了缓解中文bert在词语粒度上modeling不足的问题。
+
+延伸思考：对词语粒度的语义单元modeling是关于中文bert的老问题了。一般有两个思路：第一个思路，直接在deep结构的input端添加embedding信息，但是这样的问题在于可能会引入noise信息；第二个思路，使用wide结构，单独训练词语粒度的embedding，最后在output端进行信息的融合。这里选择了第二种，其实也是一种比较general的思路。
+
+虽然不清楚在哪个粒度建模比较合适，但是从最近的一些工作来看，融合一些高层semantic信息（多粒度的信息）不是一件很坏的事情。不管怎样，整体上是我喜欢的思路，简单有效。
+
+具体图如下：
+![img_zen](https://wx4.sinaimg.cn/mw690/aba7d18bly1g8om2b1jsej20iv0gradb.jpg)
+
 9.《ELECTRA: PRE-TRAINING TEXT ENCODERS AS DISCRIMINATORS RATHER THAN GENERATORS》,ICLR2020
 
 主要内容：Thorough experiments demonstrate this new pre-training task is more efﬁ- cient than MLM because the model learns from all input tokens rather than just the small subset that was masked out.
