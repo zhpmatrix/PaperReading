@@ -1,5 +1,29 @@
 ### Others
 
+11.**如何使用更多的外部数据提升模型效果？**
+
+（1）《Exploiting Monolingual Data at Scale for Neural Machine Translation》,EMNLP2019
+
+观点：在机翻中，单独地利用src端做Forward Translation和单独地利用tgt端做Back Translation，在模型性能提升到一定阶段后都会有损失，不过二者的损失速度不同。那么，这篇文章综合利用二者提升机翻的效果。
+
+整体上数据利用流程：标注的平行语料->混合语料（标注+伪标签+**加噪**）->伪标签语料。
+
+过程中需要训练/微调的翻译模型个数：8个。
+
+需要强调的是：加噪很重要。
+
+（2）《Self-training with Noisy Student improves ImageNet classification》，两天前的文章
+
+贡献：标准的self-training的范式，将ImageNet的分类指标极限又推进了一点儿。
+
+需要强调的是：student的学习需要加噪。原文如下：
+
+** During the generation of the pseudo labels, the teacher is not noised so that the pseudo labels are as good as possible. But during the learning of the student, we inject noise such as data augmentation, dropout, stochastic depth to the stu- dent so that the noised student is forced to learn harder from the pseudo labels. **
+
+上述两篇文章的延伸思考：
+
+  当数据是构造得到的时候，加噪对下游模型的学习可能会是比较重要的一个因素。除了上述两篇文章，类似的观点在ELECTRA的工作中也可以看到是一个非常重要的地方。在一些场景下，数据的构造过程是比较困难的任务。因为，当开始构造数据的时候，其实已经引入了一定的归纳偏置。这里包括：平衡性，难易程度以及与任务强相关的一些信号等。总之，当模型是在自己构建的数据上去learn的时候，对模型在真实数据集上的表现保持警惕应该没有错，本质上还是i.i.d的问题。
+
 10.《ZEN: Pre-training Chinese Encoder Enhanced by N-gram Representations》
 
 号称目前为止最强中文NLP预训练模型。整体思路上可以从deep&wide结构来理解。deep结构和传统的bert类似，wide结构用来encode n-gram的信息。其实，提供了缓解中文bert在词语粒度上modeling不足的问题。
