@@ -18,7 +18,7 @@
 
 需要强调的是：student的学习需要加噪。原文如下：
 
-** During the generation of the pseudo labels, the teacher is not noised so that the pseudo labels are as good as possible. But during the learning of the student, we inject noise such as data augmentation, dropout, stochastic depth to the stu- dent so that the noised student is forced to learn harder from the pseudo labels. **
+During the generation of the pseudo labels, the teacher is not noised so that the pseudo labels are as good as possible. But during the learning of the student, we inject noise such as data augmentation, dropout, stochastic depth to the stu- dent so that the noised student is forced to learn harder from the pseudo labels. 
 
 上述两篇文章的延伸思考：
 
