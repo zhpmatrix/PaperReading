@@ -1,5 +1,11 @@
 ### Others
 
+12.《KG-BERT: BERT for Knowledge Graph Completion》
+
+这篇工作采用了和之前事件判别模型类似的思路，不同之处在于直接基于三元组做，不包含上下文的具体描述，在相关数据集上取得了SOTA结果。虽然作者给出了一些解释，不过文章实验做的不够充足，并且解释似乎不是特别具有说服性。
+
+结论：灌水。
+
 11.**如何使用更多的外部数据提升模型效果？**
 
 （1）《Exploiting Monolingual Data at Scale for Neural Machine Translation》,EMNLP2019
