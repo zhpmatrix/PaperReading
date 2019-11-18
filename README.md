@@ -1,5 +1,15 @@
 ### Others
 
+13.《Distant supervision for relation extraction without labeled data》
+
+2009年的工作，引用非常多，但是并非distant-supervision第一次提出，作者之一是Dan Jurafsky。文章在关系抽取的时候，还是基于人工构建的feature，包括syntactic和lexicial feature等。
+
+相关启发：
+
+（1）regular expr是learnable的；instance和pattern的snowball式玩法。
+
+（2）distant-supervision下，multi-instance的利用是亮点。
+
 12.《KG-BERT: BERT for Knowledge Graph Completion》
 
 这篇工作采用了和之前事件判别模型类似的思路，不同之处在于直接基于三元组做，不包含上下文的具体描述，在相关数据集上取得了SOTA结果。虽然作者给出了一些解释，不过文章实验做的不够充足，并且解释似乎不是特别具有说服性。
