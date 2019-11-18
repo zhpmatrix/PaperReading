@@ -12,6 +12,8 @@
 
 （3）distant-supervision需要关注multi-instance的相关工作。
 
+相关工作：《Relation Extraction with Multi-instance Multi-label Convolutional Neural Networks》
+
 13.《Distant supervision for relation extraction without labeled data》
 
 2009年的工作，引用非常多，但是并非distant-supervision第一次提出，作者之一是Dan Jurafsky。文章在关系抽取的时候，还是基于人工构建的feature，包括syntactic和lexicial feature等。
