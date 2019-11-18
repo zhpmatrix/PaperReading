@@ -1,5 +1,17 @@
 ### Others
 
+14.《Multi-instance Multi-label Learning for Relation Extraction》
+
+2012年的工作，引用量400+。将distant-supervision得到的数据，建模为一个miml问题。主要技术：graphical model+EM。文章引用了周志华老师的miml的相关工作。
+
+延伸思考：
+
+（1）snorkel的相关技术可以结合distant-supervision，比如denoising。
+
+（2）更加general的relation extraction可以关注fewrel的进展。
+
+（3）distant-supervision需要关注multi-instance的相关工作。
+
 13.《Distant supervision for relation extraction without labeled data》
 
 2009年的工作，引用非常多，但是并非distant-supervision第一次提出，作者之一是Dan Jurafsky。文章在关系抽取的时候，还是基于人工构建的feature，包括syntactic和lexicial feature等。
