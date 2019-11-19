@@ -1,5 +1,9 @@
 ### Others
 
+15.《Hierarchically-Reﬁned Label Attention Network for Sequence Labeling》,EMNLP2019
+
+Label Embedding+Attention用于sequence labeling。平均提升了不足一个百分点，可能和相关任务原来的指标已经较高有关系。不过工作做的还是比较干净的。
+
 14.《Multi-instance Multi-label Learning for Relation Extraction》
 
 2012年的工作，引用量400+。将distant-supervision得到的数据，建模为一个miml问题。主要技术：graphical model+EM。文章引用了周志华老师的miml的相关工作。
