@@ -1,5 +1,17 @@
 ### Others
 
+18.《Learning Semantic Hierarchies via Word Embeddings》，ACL2014
+
+《大词林》，用word2vec的思路做“上下位”关系挖掘。word2vec用好了，应该可以解决很多问题，包括embedding，相关性等任务。
+
+17.《Statistical Machine Translation: IBM Models 1 and 2》，Michael Collins
+
+Noisy Channel Model的经典案例：作为统计模型用于机器翻译任务。除此之外，可以用于拼写纠错，Auto Suggestion等，大二时实现的Bayes Matting也有类似的感觉。总之，NCM是一个比较general的理论模型。
+
+16.《Few-Shot Sequence Labeling with Label Dependency Transfer and Pair-wise Embedding》
+
+ Few-Shot Learning的工作，用于命令实体识别任务上。
+
 15.《Hierarchically-Reﬁned Label Attention Network for Sequence Labeling》,EMNLP2019
 
 Label Embedding+Attention用于sequence labeling。平均提升了不足一个百分点，可能和相关任务原来的指标已经较高有关系。不过工作做的还是比较干净的。
