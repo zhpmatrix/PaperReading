@@ -1,5 +1,9 @@
 ### Others
 
+19.《How to Ask Better Questions? A Large-Scale Multi-Domain Dataset for Rewriting Ill-Formed Questions》
+
+做了一个问题改写的数据集。
+
 18.《Learning Semantic Hierarchies via Word Embeddings》，ACL2014
 
 《大词林》，用word2vec的思路做“上下位”关系挖掘。word2vec用好了，应该可以解决很多问题，包括embedding，相关性等任务。
