@@ -4,6 +4,8 @@
 
 《大词林》，用word2vec的思路做“上下位”关系挖掘。word2vec用好了，应该可以解决很多问题，包括embedding，相关性等任务。
 
+用于开放域的实体类别层次化（上下位关系）。核心思想是用词向量之间的差值刻画上下位关系。工作分为三个步骤：词向量学习，映射矩阵学习和上下位关系判断。上下位关系的判断也可归于关系抽取任务，是一种特殊的较为抽象的关系。因此可以很自然地将文章的想法拓展到关系分类任务上，对每类关系学习一个映射矩阵。当用于SPO三元组直接抽取时，需要有针对性的映射关系学习方法。
+
 17.《Statistical Machine Translation: IBM Models 1 and 2》，Michael Collins
 
 Noisy Channel Model的经典案例：作为统计模型用于机器翻译任务。除此之外，可以用于拼写纠错，Auto Suggestion等，大二时实现的Bayes Matting也有类似的感觉。总之，NCM是一个比较general的理论模型。
