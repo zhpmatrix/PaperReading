@@ -1,5 +1,11 @@
 ### Others
 
+20.《Chinese Word Segmentation as Character Tagging》，2003年的文章，引用量很高。
+
+好像是第一次将分词问题modeling为一个tagging问题来做，共有四个标签（LL/MM/RR/LR）如下：
+
+![img_word_segmentation](https://wx3.sinaimg.cn/mw690/aba7d18bly1g9cvr16rhwj20t808t40d.jpg)
+
 19.《How to Ask Better Questions? A Large-Scale Multi-Domain Dataset for Rewriting Ill-Formed Questions》
 
 做了一个问题改写的数据集。
