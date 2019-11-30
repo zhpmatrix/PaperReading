@@ -1,5 +1,9 @@
 ### Others
 
+21.《Spam Review Detection with Graph Convolutional Networks》，CIKM2019最佳应用论文
+
+将GCN用于闲鱼的垃圾营销广告检测。特征提取层上分为两个部分，分别是基于商品-用户-评论的二部图和不同评论构成的图，GCN作为特征提取器。分类层采用TextCNN。
+
 20.《Chinese Word Segmentation as Character Tagging》，2003年的文章，引用量很高。
 
 好像是第一次将分词问题modeling为一个tagging问题来做，共有四个标签（LL/MM/RR/LR）如下：
