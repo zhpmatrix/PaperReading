@@ -1,5 +1,15 @@
 ### Others
 
+22.《Using Knowledge Graphs for Fact-Aware Language Modeling》，ACL2019
+
+相关的想法：
+
+（1）bert系通过mlm能否直接fact-aware？已经有人做了一些探索。
+
+（2）没有没关系。把kg的信息融入encoder端，提升decoder的能力，就是这篇了。
+
+（3）结合各个任务，融合kg的信息，那么怎么融合kg的信息，就是一个可以玩儿出花儿来的事情。
+
 21.《Spam Review Detection with Graph Convolutional Networks》，CIKM2019最佳应用论文
 
 将GCN用于闲鱼的垃圾营销广告检测。特征提取层上分为两个部分，分别是基于商品-用户-评论的二部图和不同评论构成的图，GCN作为特征提取器。分类层采用TextCNN。
