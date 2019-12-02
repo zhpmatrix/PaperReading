@@ -1,5 +1,9 @@
 ### Others
 
+23.《PyTorch: An Imperative Style, High-Performance Deep Learning Library》，NIPS2019
+
+讨论系统哲学的学术文章，其实官方博客已经讨论了很多相关思想了，所以这篇作为学术文章可能就是方便大家引用吧。作为宇宙最屌框架，PyTorch已经不需要用一篇文章的引用量来证明自己了。
+
 22.《Using Knowledge Graphs for Fact-Aware Language Modeling》，ACL2019
 
 相关的想法：
