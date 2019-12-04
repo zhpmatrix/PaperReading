@@ -1,5 +1,19 @@
 ### Others
 
+27.《Open Domain Web Keyphrase Extraction Beyond Language Modeling》，EMNLP2019
+
+开放域的关键短语抽取。主要贡献：
+
+（1）做了一个目前可能最大的开放域的英文短语抽取数据集。
+
+（2）**提出基于网页搜索的弱监督方案。**（目前的网页搜索，是基于纯字符串匹配，作为候选页面，很早自己就有这个想法，其实想办法用起来还是很酷的。）
+
+（3）提出利用visual feature做增强，可能和数据集构建有关吧，个人不是很感兴趣。
+
+（4）做了一个有点丑陋的架构（基于预训练语言模型）。
+
+难点：当要去learn一个非常general的概念的时候，可能是hard to learn的。
+
 26.《Generating Abstractive Summaries with Finetuned Language Models》
 
 Alexander M. Rush组的工作，讨论预训练语言模型用于文本生成，特别是在seq2seq架构下。目前有很多人在关注这个方向，包括自己组里也在做一些探索，不过效果不是特别好。这篇文章，大致是decoder端用了一个预训练语言模型，不过取得的结果<=transformer+copy在摘要任务上的效果。
