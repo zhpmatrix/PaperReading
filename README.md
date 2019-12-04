@@ -1,5 +1,9 @@
 ### Others
 
+26.《Generating Abstractive Summaries with Finetuned Language Models》
+
+Alexander M. Rush组的工作，讨论预训练语言模型用于文本生成，特别是在seq2seq架构下。目前有很多人在关注这个方向，包括自己组里也在做一些探索，不过效果不是特别好。这篇文章，大致是decoder端用了一个预训练语言模型，不过取得的结果<=transformer+copy在摘要任务上的效果。
+
 25.《TENER: Adapting Transformer Encoder for Named Entity Recognition》
 
 魔改模型上有启发。文章不和BERT比，其实感觉对比意义也不是很大。如果基于此结构，做pretrain，会不会进一步提升BERT在NER任务上的表现？虽然文章讲了Transformer在NER任务上表现不好的原因，但是很好奇是否是真的不好？（这个需要更多实验结果的支持。在一个善于讲故事的年代，总得发生点什么才显得可信。）
