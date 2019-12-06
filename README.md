@@ -1,5 +1,9 @@
 ### Others
 
+30.《Learning From Positive and Unlabeled Data: A Survey》
+
+29.《Distantly Supervised Named Entity Recognition using Positive-Unlabeled Learning》
+
 28.《150 Successful Machine Learning Models: 6 Lessons Learned at Booking.com》,KDD2019, Applied Data Science Track
 
 从Booking.com发布的150个机器学习模型，总结了6条经验，并提供了一些case分析。比如：提高模型的性能并不一定会转化为业务价值的增长；一些最强大的改进并非是在给定setting的上下文中改进模型，而是更改setting本身；减少预测服务的延迟（模型冗余/稀疏模型/预计算和缓存/请求打包/尽可能少的特征变换），尽早获得关于模型质量的反馈（响应分布分析）等
