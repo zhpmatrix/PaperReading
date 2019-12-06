@@ -8,6 +8,11 @@
 
 从Booking.com发布的150个机器学习模型，总结了6条经验，并提供了一些case分析。比如：提高模型的性能并不一定会转化为业务价值的增长；一些最强大的改进并非是在给定setting的上下文中改进模型，而是更改setting本身；减少预测服务的延迟（模型冗余/稀疏模型/预计算和缓存/请求打包/尽可能少的特征变换），尽早获得关于模型质量的反馈（响应分布分析）等
 
+相关文章：
+
+（1）[《Machine Learning:The High-Interest Credit Card of Technical Debt》](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/43146.pdf)
+（2）[《Hidden Technical Debt in Machine Learning Systems》](https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf)
+
 27.《Open Domain Web Keyphrase Extraction Beyond Language Modeling》，EMNLP2019
 
 开放域的关键短语抽取。主要贡献：
