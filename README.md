@@ -4,7 +4,7 @@
 
 改进维度：
 
-模型：相对位置编码的利用
+模型：相对位置编码的利用（Functional Relative Positional Encoding，不需要learn。）
 
 预训练任务：词级Mask+Span信息的利用
 
