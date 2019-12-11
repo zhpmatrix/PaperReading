@@ -1,5 +1,21 @@
 ### Others
 
+32.《NEZHA: Neural Contextualized Representation for Chinese Language Understanding》,[相关介绍](https://mp.weixin.qq.com/s/RkCLSRyy_GuLOXMVSzTMdA)
+
+改进维度：
+
+模型：相对位置编码的利用
+
+预训练任务：词级Mask+Span信息的利用
+
+训练算法：混合精度+适用于大Batch(300000)的优化器LAMB
+
+在训练过程中，我们采用混合精度训练（Mixed Precision Training）方式，在传统的深度学习训练过程中，所有的变量包括weight，activation和gradient都是用FP32（单精度浮点数）来表示。而在混合精度训练过程中，每一个step会为模型的所有weight维护一个FP32的copy，称为Master  Weights，在做前向和后向传播过程中，Master Weights会转换成FP16（半精度浮点数）格式，权重，激活函数和梯度都是用FP16进行表示，最后梯度会转换成FP32格式去更新Master Weights。
+
+Ablation Study: 位置编码，masking策略，span预测任务，训练序列的长度，训练语料的大小均能带来提升，其中位置编码会带来显著提升；
+
+**最大的收获：位置编码的改进。**
+
 31.《DEEP ENSEMBLES:A LOSS LANDSCAPE PERSPECTIVE》
 
 **Why do ensembles trained with just random initialization work so well in practice?**
