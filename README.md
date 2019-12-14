@@ -1,5 +1,7 @@
 ### Others
 
+33.《Image Classiﬁcation with Deep Learning in the Presence of Noisy Labels: A Survey》
+
 32.《NEZHA: Neural Contextualized Representation for Chinese Language Understanding》,[相关介绍](https://mp.weixin.qq.com/s/RkCLSRyy_GuLOXMVSzTMdA)
 
 改进维度：
@@ -497,4 +499,5 @@ facebook的工作，bert是undertrained的，并对bert重新训练的细节做�
 3.《Revealing the Dark Secrets of BERT》
 
 model pruning 
+
 
