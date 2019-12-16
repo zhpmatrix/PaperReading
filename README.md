@@ -1,5 +1,19 @@
 ### Others
 
+34.《“爱情像数学一样复杂”：用于社交聊天机器人的比喻生成系统》
+
+最近比较关注word2vec的更多的应用，相关工作包括这篇文章，大词林的工作，**Trans系列（还没系统想过）**。
+
+这篇文章主要解决给定一个本体，生成一个基于本体的比喻句。整体分为三个工作：
+
+（1）找喻体
+
+（2）找连接词
+
+（3）套模版
+
+这件事情能做的本质原因：本体往往来自抽象域，而喻体往往来自具体域。换言之，人们设法利用比喻，用容易理解的具体概念（即喻体）来解释和表达不易理解的抽象概念（即本体）。（通俗点说：你咋说都是对的。其实，古诗词也是这样滴，古诗词的韵味在于诗词本身和读者之间的交互，具体比如通过联想的方式等）
+
 33.《Image Classiﬁcation with Deep Learning in the Presence of Noisy Labels: A Survey》
 
 32.《NEZHA: Neural Contextualized Representation for Chinese Language Understanding》,[相关介绍](https://mp.weixin.qq.com/s/RkCLSRyy_GuLOXMVSzTMdA)
