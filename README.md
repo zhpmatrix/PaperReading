@@ -1,5 +1,17 @@
 ### Others
 
+35.《Mixtape：Breaking the Softmax Bottleneck Efficiently》，NeurIPS 2019
+
+基于一个假设：**Softmax瓶颈就是说模型的低秩性无法充分表达高秩语言空间**，衍生出的两个方法Mos和Mixtape。其中Mos是指多个softmax的混合, Mixtape在效果上和Mos基本一致，但是大大提升了速度，因为本质上在保证高秩的同时，相比于Mos需要计算多次softmax，同时保存中间logit，在存储和速度上都有改善。
+
+需要思考的点儿：
+
+（1）假设本身的合理性？
+
+（2）“信息冗余”的思想在一个侧面上的多种实现？
+
+类似工作：各种各样的weight normalization实现......逃。
+
 34.《“爱情像数学一样复杂”：用于社交聊天机器人的比喻生成系统》
 
 最近比较关注word2vec的更多的应用，相关工作包括这篇文章，大词林的工作，**Trans系列（还没系统想过）**。
