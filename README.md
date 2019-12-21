@@ -1,5 +1,17 @@
 ### Others
 
+38.《DATA-DEPENDENT GAUSSIAN PRIOR OBJECTIVE FOR LANGUAGE GENERATION》，iclr2020
+
+主要工作：在传统文本生成的loss函数（mle）中，添加一个kl term，这个term是基于gaussian，data-dependent的，主要动机是考虑那些非max prob的prob的分布，这些prob之间的信息同样是非常丰富的哦。举个简单例子：
+
+猫，猪，苹果三分类任务中，对猫的预测结果是（0.7，0.2，0.1），分别对应猫，猪，苹果，这个预测是正确的，但是（0.2，0.1）也是有信息结果的，这个prob向量意味着猫和猪的距离比猫和苹果的距离近啊。
+
+想到了什么？知识蒸馏呗，同样包括一些针对点，用一个分布来modeling的一些工作，好像在一些regression模型中有用。怎么挖掘这些信息，用一个分布来表达，这里的问题是：用啥分布？怎么得到分布的参数？（learnable）
+
+除此之外，该工作融合了prior的信息，实验证明，low resource的setting下，提升明显；但是数据量大的时候，效果变弱。不管怎样，将prior信息融合model，是一个有趣的方向，可做的事情应该挺多的。
+
+整体上，文章的实验，分析和动机都齐全，novelty倒也不是特别大，但是仍旧是一篇好文。东南大学的耿鑫老师做的label distribution learning其实也挺有意思，不过没有深挖。
+
 37.《HOW MUCH POSITION INFORMATION DO CONVOLUTIONAL NEURAL NETWORKS ENCODE ?》，iclr2020
 
 结论：**surprising degree of absolute position information that is encoded in commonly used neural networks.**
@@ -349,138 +361,4 @@ domain code是可控文本生成的一个好的策略，具体使用方式也比
 
 （1）数据量较多场景下，DL具有优势；其他情况下，传统方法胜算更大。（补充一个：简单任务下，传统方法和DL差不多。）
 
-（2）大家心心念念的中文分词技术已经不是机器翻译领域的关键问题了，而是成为了一种建模粒度的选择。（所以，面试官问有几种分词技术的时候就基本等同问茴香豆的茴有几种写法？额，已经不吃豆子了。也劳烦面试官同学们跟进技术发展，不要难为候选人了。当然，喜欢吃豆的候选人能有选择的吃了。）
-
-（3）句法结构多数情况下也不是问题了。（最近比较痴迷把语言学的东西融合进bert，可能任务依赖吧，没有发现显著提升。包括一些bert的理论工作证明，模型是可以在一定程度上learn到句法结构的。）
-
-（4）“机器翻译的成功是一个比较特殊的例子，这是因为它的**源语言和目标原因的语义都是精确对应**的，所以它只要有足够的数据而并不需要其他的支撑，就能取得较好的效果。现在的自然语言处理系统大部分，还只是流于对词语符号之间的关系建模，没有对所描述的问题语义进行建模，即对客观世界建模。而人理解语言的时候，脑子里一定会形成一个客观世界的影像，并在理解影像后再用自己的语言去描述自己想说的事情。 ”（本质的讨论：现有模型学到的是啥？syntactic和semantic如何界定？我们实际需要的是semantic哦）
-
-### Pre-trained 
-
-9.《BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension》
-
-FAIR的工作，同期类似工作MASS/UniLM/T5/。整体上和GPT系列类似，不过添加了BERT系组件。一图说明问题，如下：
-
-![img_BART](https://wx3.sinaimg.cn/mw690/aba7d18bly1g8ixvzt4pjj21a20u0thi.jpg)
-
-8.《On the Cross-lingual Transferability of Monolingual Representations》
-
-基于Bert的嫁接技术：self-attention block和word embdding的嫁接。
-
-7.《Learning and Evaluating General Linguistic Intelligence》
-
-个人非常喜欢的一篇文章，讨论了一些大家似乎习以为常，但是却没有深入思考的一些问题。比如：
-
-（1）预训练提升performance的量化分析？用downstream任务来评估总觉得不是很合适。
-
-（2）相同的预训练任务，能否直接generalize到其他数据上？比如，SQuAD训练的模型，可以直接用于TriviaQA。
-
-（3）fine-tune的时候，模型忘记之前学习到的knowledge有多快？
-
-（4）curriculum是如何影响performance的，应该如何设计curriculum？
-
-主要的研究方式：提出一个量化指标，code length，该指标与acc/f1-score等有直接关系。
-
-
-6.《DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter》
-
-主要贡献：通过蒸馏的方式，获取一个更小，inference速度更快，performance损失极少的bert。
-
-主要方法：teacher网络就是原始较大的bert，student网络是较小的bert。损失函数=L(masked lm)+**L(cross entroy based-on soft targets)** + L(cosine distance based-on hidden representation)三个部分组成。
-
-个人想法：
-
-（1）student网络设计
-
-student网络设计理论上应该比较灵活。比如选择一个三层的Transformer的Encoder端，一个一层的BiLSTM，甚至CNN系网络。对于第一种，假设用原始较大的bert中的一些层的参数做初始化，则可以认为是一个小的bert，这和文章中的做法是一致的。当然也可以选择初始化，比如对于第二种和第三种，类似工作后来在文章《Distilling Task-Specific Knowledge from BERT into Simple Neural Networks》中有看到，直觉上初始化方式和网络结构是强相关的。对于第一种，天然适合用原始bert的参数做初始化，那么对于第二种，第三种能否做参数共享值得思考。实际上，初始化方式对于蒸馏比较重要。
-
-此外，能否直接在原始较大bert上实现类似student网络的功能也值得思考，因为这样就不需要重新去train一个新的网络，这就和bert在fine-tuning时的freeze layer/lr schedule等相关Trick相关了。
-
-（2）损失函数设计
-
-实际上，损失函数的设计不限于文章中所说的，本质上是如何建立teacher和student的logits之间的关系，让二者尽可能接近。比如本文的ce和（1）中提到文章的mse等。除此之外，regularization的探讨也是一个很自然的想法。
-
-（3）蒸馏任务设计
-
-文章的蒸馏任务是Masked LM，仍旧需要在下游任务上做fine-tuning，（1）中提到的是直接用下游任务来蒸馏。当考虑pretrained+fine-tuning的时候，蒸馏任务的设计就会比较灵活。
-
-5.《Unified Language Model Pre-training for Natural Language Understanding and Generation》
-
-多种预训练模式的大杂烩。如下：
-
-![multi-pretrained-method](https://wx2.sinaimg.cn/mw690/aba7d18bly1g7oy2a23mwj212x0u0ng8.jpg)
-
-4.《Enriching BERT with Knowledge Graph Embeddings for Document Classiﬁcation》
-
-motivation：present a way of enriching BERT with knowledge graph embeddings（PyTorch BigGraph） and additional metadata.
-任务：book classification
-架构：类似于deep&wide
-
-3.《CTRL: A CONDITIONAL TRANSFORMER LANGUAGE MODEL FOR CONTROLLABLE GENERATION》
-
-主要贡献：
-
-（1）带有条件的语言模型。其实，仔细看gpt的相关文章的话，已经在gpt中出现了，作者又发扬光大了。
-
-16亿参数的语言模型，比起nvidia的80亿参数的模型较小，不过仍旧是较大的语言模型了。训练语言模型的文本如下：
-
-Horror Text: I was a little girl when my parents got divorced. My dad had been in the military for years and he left me with my mom. She worked as an RN at a hospital so she could take care of me.\n\n When we moved to our new house it took some time before things settled down. We were still living together but there wasn’t much going on. It didn’t help that my mom would get mad if someone came over or even just walked by her house.\n\n One day while walking through the yard I noticed something out of place...
-
-这里，Horror Text:就是条件了。
-
-（2）penality sampling。类似于coverage机制，decoder不搞一些新的sampling策略，就感觉缺点啥；类似于不在loss上搞点事情，就觉得工作不够高大上。
-
-（3）一个有很多参数的语言模型。16亿。
-
-总结：散了，散了，你们玩儿吧。
-
-
-2.《Pre-Training with Whole Word Masking for Chinese BERT》
-
-BERT-wwm的工作，中文版。
-
-motivation：wordpiece分词会导致将一个完整的词分成几个子词， 原始的bert在mask的时候会mask掉子词，但是从语义角度，更好的mask方式应该是mask一个完整的词（对比，个人持保留意见）。
-
-solution：解决方法相对简单，就是如果发现一个词中某个子词被mask了，就全部mask掉该词对应的所有子词。
-
-工作扩展：在给bert添加语言学信号的时候，例如pos/依存分析/srl的信号，最好考虑wordpiece分词后的对齐问题。
-
-1.《A Robustly Optimized BERT Pretraining Approach》
-
-facebook的工作，bert是undertrained的，并对bert重新训练的细节做了思考。
-
-### EMNLP2019论文选读（浏览了一些自己感兴趣方向的文章）
-
-总结：EMNLP的文章读起来八股气息要弱一些，文章类型更加丰富，个人觉得是好现象。不过收一些个人感觉明显质量有问题的工作也是有点奇怪。下述文章只是看题目觉得可看，就大致浏览了一下。
-
-1.《Text Summarization with Pretrained Encoders》
-
-思路：用bert去fine-tune句子级的embedding，然后对sentence做binary classification(要不要？)。实际上，直接对token做binary classification未尝不可，不过相比前者，semantic的粒度确实小了很多。一如很多工作，这次bert后不加bilstm，不加crf，加self-attention层了。额，可以一直加，但是不要搞得像CV的一些工作就行。比较有启发的是，如何构造输入进行sent embedding的学习。bert不是只可以一个[CLS]和两个[SEP]吧。
-
-2.《Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks》
-
-思路：当输入两个句子直接进bert得到sent embedding的问题在于，当句子比较长的时候就有点尴尬了。一个比较直接的思路是，每个bert喂一个sent，用两个bert做embedding，然后加融合层，比如cosine之类的操作等，整体上是siamese的结构。除此之外，文章也提出了triplet loss的应用。嗯，整体上的工作和人脸领域的一类工作很类似了。
-
-3.《Neural Text Summarization: A Critical Evaluation》
-
-个人较喜欢的一个工作，相对务虚，不过指出的问题需要思考。文章认为：**整体上神经关系抽取近期的工作基本处于停滞状态。**比如，有些数据集上，SOTA只比直接从文章中抽取前三句话好一点点。原因有三个方面：（1）数据集的问题。某些数据集只给定一篇文章+一个参考摘要，除此之外，没啥额外的信息了。真实场景下可不是这样的哦。也就是说，现在的数据集构造还是离真实场景有点远。（2）评估指标的问题。已经是生成式模型的老问题了，除了大家知道的一些弊端，还有对**事实性错误的评估**。（3）模型到底学到的是个啥？
-
-4.《Attending to Future Tokens for Bidirectional Sequence Generation》
-
-思路：用bert做序列生成。输入源句子+目标句子用于训练，其中目标句子随机选一些token用placeholder替换。扩展一下，关于bert用于生成，最近印象中有一些工作。第一：类似于本文的思路。第二：seq2seq中将bert作为encoder，decoder单独训练(模型可以灵活选择)。第三：decoder端用bert。第四：更加广义地应用，比如做extractive摘要的工作。
-
-5.《Dynamic Past and Future for Neural Machine Translation》
-
-思路：用于Capsule Network做机器翻译。
-
-6.《Learning to Recognize Discontiguous Entities》
-
-解决的问题：命名实体识别中，识别不连续的实体。
-
-7.《ner and pos when nothing is capitalized》
-
-解决的问题：在NER和POS任务中，**大小写很重要。**
-
-8.《On NMT Search Errors and Model Errors: Cat Got Your Tongue?》
-
-解决的问题：组合beam search和
+（2）大家心心念念的中文分词技术已经不是机器翻译领域的关键问题了，而是成为了一种建模
