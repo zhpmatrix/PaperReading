@@ -1,5 +1,9 @@
 ### Others
 
+37.《HOW MUCH POSITION INFORMATION DO CONVOLUTIONAL NEURAL NETWORKS ENCODE ?》，iclr2020
+
+结论：**surprising degree of absolute position information that is encoded in commonly used neural networks.**
+
 36.《Sequence Modeling with Unconstrained Generation Order》,NeurIPS 2019
 
 seq2seq中，decoder不一定都要按照left-to-right的顺序，也可以任意方向。主要的工作集中在：
