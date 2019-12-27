@@ -1,3 +1,13 @@
+54.《Probing sentence embeddings for linguistic properties》，ACL2018
+
+属于Probing类工作，讨论句子embedding和语言学属性之间的关系。设计的三个层面的probing任务值得关注一下（但是个人并不认为这些能够完整体现语言学属性。另一方面，此类任务的设计似乎并不是一个简单的任务）：
+
++ surface information:句子长度等
+
++ syntactic information:语法树的深度等
+
++ semantic information: 词的时态
+
 53.《Learning Sparse Sharing: Architectures for Multiple Tasks》, AAAI2020
 
 类似思想体现在很多地方。文章中的一张图有意思：
