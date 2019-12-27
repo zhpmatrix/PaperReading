@@ -1,3 +1,13 @@
+52.《Multi-channel Reverse Dictionary Model》,AAAI2020
+
+解决的问题：给定对词的描述，返回对应的词。
+
+整体思路：对词的描述进行encode，然后和词的embedding算距离。因此，需要好的对词的描述进行特征抽取的encoder。
+
+文章工作：加feature。（对于multi-channel相关的，多是加feature）
+
+想法：不谈novelty，解决的问题很有意思。对于文章对应的系统，可以爬一爬，做weak-supervision相关。
+
 51.《Likelihood Ratios for Out-of-Distribution Detection》
 
 略读。问题：对OOD样本的处理。
