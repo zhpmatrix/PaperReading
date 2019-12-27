@@ -1,3 +1,10 @@
+53.《Learning Sparse Sharing: Architectures for Multiple Tasks》, AAAI2020
+
+类似思想体现在很多地方。文章中的一张图有意思：
+
+![img53](https://mmbiz.qpic.cn/mmbiz_png/vJe7ErxcLmgUZb0kT1OmH0CNKpqTd77uMiazADJHiauicTMoia6LmkjtZNDUic1GF1vnU9syIYzibKicUSej07cM60p2Q/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+
 52.《Multi-channel Reverse Dictionary Model》,AAAI2020
 
 解决的问题：给定对词的描述，返回对应的词。
