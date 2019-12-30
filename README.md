@@ -1,3 +1,13 @@
+55.《PRETRAINED ENCYCLOPEDIA: WEAKLY SUPERVISED KNOWLEDGE-P RETRAINED LANGUAGE MODEL》,iclr2020
+
+这篇文章通过设计预训练任务，希望guide模型去learn到更多的fact。整体思路是：对于一句话，找到话中的实体，用其他类型相同，但是内容不同的实体替代，然后训练模型，训练目标是多任务形式，实体有没有被替换+MLM。至于这样做的原因，文章中提到：
+
+> Compared to the language modeling objective, entity replacement is deﬁned at the entity level and introduces stronger negative signals. When we enforce entities to be of the same type, we pre- serve the linguistic correctness of the original sentence while the system needs to learn to perform judgment based on the factual aspect of the sentence.
+
+类似思想其实可以用在很多其他地方。
+
+相关文章：《Language Models as Knowledge Bases?》
+
 54.《Probing sentence embeddings for linguistic properties》，ACL2018
 
 属于Probing类工作，讨论句子embedding和语言学属性之间的关系。设计的三个层面的probing任务值得关注一下（但是个人并不认为这些能够完整体现语言学属性。另一方面，此类任务的设计似乎并不是一个简单的任务）：
