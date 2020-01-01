@@ -1,3 +1,9 @@
+57.两个有意思的经验性观点：
+
++《Deep Double Descent: Where Bigger Models and More Data Hurt》
+
++《The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks》
+
 56.《K-BERT: Enabling Language Representation with Knowledge Graph》,AAAI2020
 
 融合KG的信息，啥也不想说了。
