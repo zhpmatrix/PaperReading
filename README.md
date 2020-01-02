@@ -1,3 +1,11 @@
+58.《Looking Beyond Label Noise: Shifted Label Distribution Matters in Distantly Supervised Relation Extraction》
+
+没有认真读，这里藏着，主要讨论：一个经典关系抽取数据集中的数据bias对metric的影响。
+
+类似工作：[人脸识别数据集的身份重合问题](https://zhuanlan.zhihu.com/p/31968327)
+
+其他还有一些，记不起来了。
+
 57.两个有意思的经验性观点：
 
 + 《Deep Double Descent: Where Bigger Models and More Data Hurt》
