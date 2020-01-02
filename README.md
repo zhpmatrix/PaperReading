@@ -10,7 +10,23 @@
 
 + 《Deep Double Descent: Where Bigger Models and More Data Hurt》
 
+> By considering larger function classes, which contain more candidate predictors compatible with the data, we are able to ﬁnd interpolating functions that have smaller norm and are thus “simpler”. Thus increasing function class capacity improves performance of classiﬁers.
+
+参考如下图：
+
+![57_img](https://wx1.sinaimg.cn/mw690/aba7d18bly1gaih6g6q7kj20tz0dywgw.jpg)
+
 + 《The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks》
+
+彩票假设：
+
+> A randomly initialized, dense neural network contains a subnetwork that is initialized such that when trained in isolation, it can match the test accuracy of the original network after training for at most the same number of iterations.
+
+彩票假设的启发：
+
+（1）pruning irrelevant weight
+
+（2）retrain from scratch using only the 'lottery ticket' weights
 
 56.《K-BERT: Enabling Language Representation with Knowledge Graph》,AAAI2020
 
