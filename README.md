@@ -1,3 +1,28 @@
+59.《GPT-based Generation for Classical Chinese Poetry》
+
+整体思路如下：
+
+![img59](https://wx1.sinaimg.cn/mw690/aba7d18bly1gana6e98duj20r30g140q.jpg)
+
+该思路可以对比中文纠错的两种思路：
+
+（1）seq2seq
+
+（2）序列标注（自编码）
+
+对于对联，诗等的生成，（1）是经典思路，（2）是本文的思路（自回归）。用序列标注的优点之一在于：平行数据是天然对齐的。此外，两个问题：
+
+（1）自编码可行？（针对对齐场景）
+
+（2）中文维基的预训练 vs 古诗词的预训练（两种语言结构）
+
+最后，看到文章写道：
+
+> Though the generated poems are not perfect all the time, our preliminary experiments have shown that GPT provides a good start to promote the overall quality of generated poems.
+
+心头一惊。
+
+
 58.《Looking Beyond Label Noise: Shifted Label Distribution Matters in Distantly Supervised Relation Extraction》
 
 没有认真读，这里藏着，主要讨论：一个经典关系抽取数据集中的数据bias对metric的影响。
