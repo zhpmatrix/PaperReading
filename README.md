@@ -22,7 +22,6 @@ Transformer的优点？（思考角度）
 
 （4）可解释性
 
-
 + 时间复杂度：关联input和output任意两个positon的信号，需要的操作的次数？Transformer=O(constant),ConvS2S=O(N),ByteNet=O(logN,不是很确定),这里的区别和用数组还是用链表相似。
 
 + Memory Network是基于recurrent attention机制的，不是sequence-aligned recurrence（类似2014年经典的seq2seq+attention），从这点儿来讲，Transformer也算是延续了Memory Network的血脉，尤记得当年Memory Network🔥过。
@@ -56,6 +55,22 @@ Decoder端的三个细节：
 + 共享
 
 encoder端和decoder端的embedding层共享，pre-softmax linear层共享。这里有意思的点儿是，**将一些机制用于预训练seq2seq模型中？**
+
+三种Regularization策略：
+
+（1）每个sub-layer的输出
+
+（2）sums of the embeddings
+
+（3）label smoothing:虽然会hurt到ppl（该trick的目的就是使得模型变得unsure），但是可以提高bleu。
+
+其他Trick：
+
+（1）average last few checkpoints
+
+（2）基于devset，找到beam size值和length penalty值
+
+（3）maximum output length = input length + 50，允许早停
 
 59.《GPT-based Generation for Classical Chinese Poetry》
 
