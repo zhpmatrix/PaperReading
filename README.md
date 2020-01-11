@@ -12,6 +12,16 @@
 
 为啥选择dot-product attention而不是additive attention？**最主要的目的还是工程上快。因为存在计算更快，空间更加高效的矩阵乘法。**二者的理论时间复杂度一样，实际上，后者的效果不依赖于待计算vector的维度大小，且整体上效果更好。但是还想用前者，那就必须消除vector的维度影响，因此分母除sqrt(d\_k)。实际上，对前者，V的weight是直接计算得到，而对后者，是learn到的。那么，为啥d\_k会对前者产生影响？主要是qk的variance是与d\_k有关的，当d\_k很大时，variance很大，这样容易导致gradient进入softmax的饱和区，玩儿个锤子。
 
+Transformer的优点？（思考角度）
+
+（1）每层的计算复杂度
+
+（2）可并行的总量
+
+（3）能否很好地learn到long range dependency（很遗憾，这里dependency仍旧是distance的函数）
+
+（4）可解释性
+
 
 + 时间复杂度：关联input和output任意两个positon的信号，需要的操作的次数？Transformer=O(constant),ConvS2S=O(N),ByteNet=O(logN,不是很确定),这里的区别和用数组还是用链表相似。
 
