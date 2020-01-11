@@ -3,7 +3,7 @@
 亮点：
 
 （1）SOTA
-（2）并行
+（2）并行(feed forward是position wise的；self-attention的矩阵乘法计算；multi-head等)
 （3）简单（抛弃了recurrence和conv）
 
 + Attention: 在建模input和output之间的dependency时，无需考虑二者之间的distance。dependency不一定必须是distance的函数，取决于如何定义dependency?
@@ -48,7 +48,7 @@ Decoder端的三个细节：
 
 + shifted right
 
-训练时（teacher forcing）：输入“<sos> 我 爱 吃 苹 果 。”， 预测“我 爱 吃 苹 果 。<eos>”
+训练时：输入“<sos> 我 爱 吃 苹 果 。”， 预测“我 爱 吃 苹 果 。<eos>”
 
 预测时（自回归）：生产者-消费者模型，一次一个。
 
