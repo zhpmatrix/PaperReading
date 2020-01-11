@@ -1,3 +1,35 @@
+60.《Attention Is All You Need》（Transformer的概念难道不是在这里定义的吗？为啥好多paper瞎写，好多人瞎说，不是只有encoder啊。）
+
+亮点：
+
+（1）SOTA
+（2）并行
+（3）简单（抛弃了recurrence和conv）
+
++ Attention: 在建模input和output之间的dependency时，无需考虑二者之间的distance。dependency不一定必须是distance的函数，取决于如何定义dependency?
+
+描述： output = f(a query, a set of key-value pairs)
+
++ 时间复杂度：关联input和output任意两个positon的信号，需要的操作的次数？Transformer=O(constant),ConvS2S=O(N),ByteNet=O(logN,不是很确定),这里的区别和用数组还是用链表相似。
+
++ Memory Network是基于recurrent attention机制的，不是sequence-aligned recurrence（类似2014年经典的seq2seq+attention），从这点儿来讲，Transformer也算是延续了Memory Network的血脉，尤记得当年Memory Network🔥过。
+
++ Transformer定义:
+
+>  The Transformer follows encoder-decoder structure using stacked self-attention and point-wise, fully connected layers for both the encoder and decoder.
+
+Decoder端的两个细节：
+
++ Masked Multi-Head Attention
+
+对于“我 爱 吃 苹 果 。”， 预测“吃”这个token的时候，不能看到“苹果。”这三个token。
+
++ shifted right
+
+训练时（teacher forcing）：输入“<sos> 我 爱 吃 苹 果 。”， 预测“我 爱 吃 苹 果 。<eos>”
+
+预测时（自回归）：生产者-消费者模型，一次一个。
+
 59.《GPT-based Generation for Classical Chinese Poetry》
 
 整体思路如下：
