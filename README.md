@@ -10,6 +10,8 @@
 
 描述： output = f(a query, a set of key-value pairs)
 
+为啥选择dot-product attention而不是additive attention？**最主要的目的还是工程上快。因为存在计算更快，空间更加高效的矩阵乘法。**二者的理论时间复杂度一样，实际上，后者的效果不依赖于待计算vector的维度大小，且整体上效果更好。但是还想用前者，那就必须消除vector的维度影响，因此分母除sqrt(d\_k)。实际上，对前者，V的weight是直接计算得到，而对后者，是learn到的。那么，为啥d\_k会对前者产生影响？主要是qk的variance是与d\_k有关的，当d\_k很大时，variance很大，这样容易导致gradient进入softmax的饱和区，玩儿个锤子。
+
 + 时间复杂度：关联input和output任意两个positon的信号，需要的操作的次数？Transformer=O(constant),ConvS2S=O(N),ByteNet=O(logN,不是很确定),这里的区别和用数组还是用链表相似。
 
 + Memory Network是基于recurrent attention机制的，不是sequence-aligned recurrence（类似2014年经典的seq2seq+attention），从这点儿来讲，Transformer也算是延续了Memory Network的血脉，尤记得当年Memory Network🔥过。
@@ -18,7 +20,7 @@
 
 >  The Transformer follows encoder-decoder structure using stacked self-attention and point-wise, fully connected layers for both the encoder and decoder.
 
-Decoder端的两个细节：
+Decoder端的三个细节：
 
 + Masked Multi-Head Attention
 
@@ -29,6 +31,10 @@ Decoder端的两个细节：
 训练时（teacher forcing）：输入“<sos> 我 爱 吃 苹 果 。”， 预测“我 爱 吃 苹 果 。<eos>”
 
 预测时（自回归）：生产者-消费者模型，一次一个。
+
++ 共享
+
+encoder端和decoder端的embedding层共享，**pre-softmax linear层共享。**这里有意思的点儿是，**将一些机制用于预训练seq2seq模型中？**
 
 59.《GPT-based Generation for Classical Chinese Poetry》
 
