@@ -1,3 +1,13 @@
+62.《Q8BERT: Quantized 8Bit BERT》,NeurIPS2019
+
+模型压缩和加速的Topic。
+
+相关Paper：《Quantizing deep convolutional networks for efﬁcient inference: A whitepaper》
+
+PyTorch1.3.0开始支持这个feature，不过目前是experimental的，[tutorial地址](https://pytorch.org/tutorials/)
+
+transformers的issues区有人提出了相关[issue](https://github.com/huggingface/transformers/issues/2466)
+
 61.《PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization》
 
 提示：共52页，附录40页。方法如下：
