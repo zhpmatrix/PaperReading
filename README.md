@@ -1,3 +1,9 @@
+61.《PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization》
+
+提示：共52页，附录40页。方法如下：
+
+![img](https://wx1.sinaimg.cn/mw690/aba7d18bly1gatvxcslymj20oj0bgwgu.jpg)
+
 60.《Attention Is All You Need》（Transformer的概念难道不是在这里定义的吗？为啥好多paper瞎写，好多人瞎说，不是只有encoder啊。）
 
 亮点：
@@ -425,118 +431,4 @@ During the generation of the pseudo labels, the teacher is not noised so that th
 
 延伸思考：和non-parallel style transfer的工作类似。不过这篇的主要目的是学到一个好的MLM。图示如下：
 
-![img_electra](https://wx3.sinaimg.cn/mw690/aba7d18bly1g8jwz090qcj20ub0dqq6a.jpg)
-
-20.《Pseudolikelihood Reranking with Masked Language Models》
-
-整体上工作类似于一个知识蒸馏，相对简单。如下：
-
-![img_pseudo](https://wx1.sinaimg.cn/mw690/aba7d18bly1g8jqqsumfxj20zd0jgq60.jpg)
-
-19.《Multi-Stage Document Ranking with BERT》
-
-不断地召回和排序。具体如下：
-
-![imag_rank_with_bert](https://wx1.sinaimg.cn/mw690/aba7d18bly1g8jqojc4xjj20t70eead3.jpg)
-
-18.《Class-Balanced Loss Based on Effective Number of Samples》，2019年
-
-损失函数reweight解决imbalanced问题。2009年何海波的一篇综述，做到今天其实还是这些问题，无非换个姿势，再来一次，逃。
-
-17.《Neural Relation Extraction via Inner-Sentence Noise Reduction and Transfer Learning》
-
-神经关系抽取，对input做句法分析，拿到包含两个entity的子树作为context(表示怀疑)，如下：
-
-![img_nre](https://wx1.sinaimg.cn/mw690/aba7d18bly1g8h9smpyevj20p50e6418.jpg)
-
-16.《BPE-Dropout: Simple and Effective Subword Regularization》
-
-很容易想到，有提升。
-
-15.《Language Models as Knowledge Bases》
-
-属于对Bert做Probing的流派，从Bert出来后，相关工作就有几个，颇有盲人摸象的感觉。看别人摸也挺有意思的，这篇的想法与最近做的两个工作有一些联系。
-
-（1）术语纠错。直觉上看是一个Low Resource问题，基本做法是拿Bert在汽车语料上做MLM的fine-tune，句子过来，利用做好的实体识别模型mask掉术语，MLM直接预测mask的术语。初步结果是：有些确实可以预测到正确的术语，多数情况下虽然预测不到正确的术语，但是术语的类型是正确的，比如品牌，厂商类型等，给你的车系取一个霸气的名字就靠MLM啦。
-
-（2）non-parallel的style transfer。和上述对比，直觉上难度要低一些。方法很简单，把pos情感的句子的pos词mask掉，加neg情感的emb，MLM预测mask对应的neg词。mask的位置类型相同，情感相反。这个任务中，mask的位置很重要。实现的工作暂时未能收敛，大概率在对谁mask这件事上没做好，完整的Pipeline还有一个情感判别模型要参与到MLM的训练中，只能有时间再调了。
-
-嗯，一词多义，contextual embedding v.s. word embedding，总之，感觉MLM可以用来搞很多事情，值得挖一挖。
-
-14.《Effective Neural Solution for Multi-Criteria Word Segmentation》
-
-在每种分词方案后添加属于该分词方案的特殊标志符。虽然是2017年的文章，但是类似思想可以用在非常多的地方，在分词任务上的提升也是非常显著的。
-
-13.《PAWS:Paraphrase Adversaries from Word Scrambling》
-
-主要贡献：构建了一个非常有趣的数据集。数据集的特点：两个句子，word order不一样，但是word overlap非常高；标签为语义相同/不同。
-
-用途：bert直接作用于这样的数据集，指标非常差；通过将该类数据添加到训练数据中，可以提升模型的robustness。能够很好的处理该类数据的模型，获取non-local contextual information的能力要强。此外，使用该数据，可以很好的度量模型对于word order和syntactic structure的sensitivity。
-
-延伸思考：该数据集是平行语料，应该有其他可能的场景。
-
-举例如下：
-
-(1)Flights from New York to Florida.
-
-(2)Flights to Florida from NYC.
-
-(3)Flights from Florida to New York.
-
-主要技术：Language Model(按照规则构建数据后，打分过滤)+Back Translation，最终构建类型如下：
-
-![img__](https://wx4.sinaimg.cn/mw690/aba7d18bly1g813dh8n3oj21n40f2wix.jpg)
-
-12.《MASKGAN: BETTER TEXT GENERATION VIA FILLING IN THE_____》
-
-微软的MASS感觉和这篇思路很是类似。
-
-11.《Keep It Simple: Graph Autoencoders Without Graph Convolutional Networks》
-
-10.《PLATO：Pre-trained Dialogue Generation Model with Discrete Latent Variable》
-
-domain code是可控文本生成的一个好的策略，具体使用方式也比较灵活。这周实现的一个工作，也有应用。
-
-《Mask and Infill：Applying Masked Language Model to Sentiment Transfer》
-
-9.《End-to-end LSTM-based dialog control optimized with supervised and reinforcement learning》
-
-这个是小蜜参考的另外一篇文章。整体上两篇文章时间都算是相对较早的。
-
-8.《A Network-based End-to-End Trainable Task-oriented Dialogue System》
-
-陈海青在2019年的云栖大会上分享中谈到的，小蜜用的一个工作，涉及一些RL的内容。
-
-一些关于RL（**主要是policy gradient**）用于text generation任务的文章：
-
-7.《A Deep Reinforced Model For Abstractive Summarization》
-
-在RL的应用上感觉没有特别亮的点，类比之前的几篇工作。
-
-6.《A Study of Reinforcement Learning for Neural Machine Translation》
-
-将RL用于nmt任务（单语），和之前几篇整体上类似。文章给了一个经验性的结论：
-
-**several previous tricks such as reward shaping and baseline reward does not make signiﬁcant difference。**
-
-5.《Sequence Level Training With Recurrent Neural Networks》,第一篇将RL用于文本生成的文章
-
-4.《Self-critical Sequence Training for Image Captioning》[参考笔记](https://zhuanlan.zhihu.com/p/58832418)
-
-这篇文章差不多是基于3做了一点儿小的改进。
-
-3.《Improved Image Captioning via Policy Gradient optimization of SPIDEr》
-
-2.《Connecting Generative Adversarial Networks and Actor-Critic Methods》, Oriol Vinyals等
-
-从MDP的角度解释了两个方法，gan中的生成器约等于ac中的actor，gan中的判别器约等于ac中的critic。同时梳理了一些**稳定**两种方法的训练trick。**从目前的一些观察来看，要想将rl用于自己的任务，先要保证收敛，其次再谈效果。具体的任务，比如文本生成相关。**
-
-1.[基于深度学习的自然语言处理，边界在哪里？](https://mp.weixin.qq.com/s?__biz=MzI4MDYzNzg4Mw==&mid=2247489825&idx=5&sn=026e9257fa25bb1af2a13cab0888138f&chksm=ebb421f5dcc3a8e33463b506de142bcd4b36628977f1d095191ff68c25ef6dcab30654fdbd94&mpshare=1&scene=23&srcid&sharer_sharetime=1567267555857&sharer_shareid=0e8353dcb5f53b85da8e0afe73a0021b%23rd)
-
-亮点：文章中在解释问题时，对应的例子真的很棒。
-
-总结：现在这种关于在特定任务领域的DL缺陷的讨论，各家基本说辞一致，倒也没什么新鲜感。但是说归说，自己能否真正理解可能就是另外一回事了。读这类文章，印证自己的观点可能是目的之一吧。对自己相对认同的一些观点整理一下：
-
-（1）数据量较多场景下，DL具有优势；其他情况下，传统方法胜算更大。（补充一个：简单任务下，传统方法和DL差不多。）
-
-（2）大家心心念念的中文分词技术已经不是机器翻译领域的关键问题了，而是成为了一种建模
+![img_electra](https://wx3.sinaimg.cn/mw690/aba7d18bly1g8jwz090qcj20
