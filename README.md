@@ -1,3 +1,11 @@
+63.《A Baseline For Detecting MisClassified And Out Of Distribution Examples In Neural Networks》，ICLR2017
+
+提出一个很有意思的问题：针对二分类问题，当你的模型预测一个样本prob很低的时候，这个样本是负样本，还是这个样本是OOD？（out of distribution）
+
+最近做的一个序列标注的工作中观察到：OOD一般的prob确实要低很多。从置信度的角度来理解，make sense。
+
+该方向上的工作与鲁棒性强相关。
+
 62.《Q8BERT: Quantized 8Bit BERT》,NeurIPS2019
 
 模型压缩和加速的Topic。
