@@ -1,3 +1,7 @@
+64.《Rethinking Generalization of Neural Models: A Named Entity Recognition Case Study》
+
+从NER任务谈神经网络模型的泛化性。定义了一些比较浅的指标，找出了公有数据集的一些bug。看似简单，但是这些问题实际场景下会经常遇到。
+
 63.《A Baseline For Detecting MisClassified And Out Of Distribution Examples In Neural Networks》，ICLR2017
 
 提出一个很有意思的问题：针对二分类问题，当你的模型预测一个样本prob很低的时候，这个样本是负样本，还是这个样本是OOD？（out of distribution）
