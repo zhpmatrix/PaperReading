@@ -1,10 +1,10 @@
-66.《Graph Convolution for Multimodal Information Extraction from Visually Rich Documents》
+66.《Graph Convolution for Multimodal Information Extraction from Visually Rich Documents》 ，达摩院
 
 一般的做法是：半结构化数据到文本，比如PDF转化为文本，然后对文本做抽取。这里说不仅要文本feature，同时要融合visual feature（GCN获取）做sequence labeling。
 
 问题：既然是半结构化数据，能否只利用visual feature呢？
 
-相关比赛：https://tianchi.aliyun.com/competition/entrance/231771/rankingList（从人物PDF简历中抽取人名，学历，年龄等信息）
+[相关比赛](https://tianchi.aliyun.com/competition/entrance/231771/rankingList)(从人物PDF简历中抽取人名，学历，年龄等信息）
 
 65.《Empower Sequence Labeling with Task-Aware Neural Language Model》
 
