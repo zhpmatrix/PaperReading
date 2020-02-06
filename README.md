@@ -1,3 +1,7 @@
+65.《Empower Sequence Labeling with Task-Aware Neural Language Model》
+
+multi-task用于优化sequence labeling，LM-LSTM-CRF用于sequence labeling，围绕直接的LSTM/BERT做序列标注，可以用LM/LAN/CRF优化。
+
 64.《Rethinking Generalization of Neural Models: A Named Entity Recognition Case Study》
 
 从NER任务谈神经网络模型的泛化性。定义了一些比较浅的指标，找出了公有数据集的一些bug。看似简单，但是这些问题实际场景下会经常遇到。
