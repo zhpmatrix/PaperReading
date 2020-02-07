@@ -1,3 +1,9 @@
+67.《The Power of Pivoting for Exact Clique Counting》，WSDM2020 Best Paper
+
+私以为相同类型的工作：围绕最近邻相关的工作，以及本篇文章。
+
+《A holistic lexicon-based approach to opinion mining》WSDM2008，WSDM2020 Test of Time Award
+
 66.《Graph Convolution for Multimodal Information Extraction from Visually Rich Documents》 ，达摩院
 
 一般的做法是：半结构化数据到文本，比如PDF转化为文本，然后对文本做抽取。这里说不仅要文本feature，同时要融合visual feature（GCN获取）做sequence labeling。
