@@ -1,3 +1,17 @@
+70.《Editable Neural Networks》，ICLR2020，Poster
+
+这篇文章是最近看到的非常有启发的文章，体现在一下几点：
+
+（1）这篇文章的方案具有工业实用性。针对badcase的hotfix手段。
+
+（2）针对hotfix的问题，也正是lifelong learning可以发挥能力的地方，只不过这里是few-shot的sample。
+
+（3）baseline中关于KNN的部分也带来了一些启发。长尾数据和badcase的fix问题。
+
+在这篇文章的[OpenReview](https://openreview.net/forum?id=HJedXaEtvS)中，其中一个Reviewer提出了一个有意思的问题，该问题其实是OOD相关的，同样是一个有趣且非常重要的问题，如下：
+
+![img70](https://wx4.sinaimg.cn/mw690/aba7d18bly1gbpcvlvgzhj20sz02lab0.jpg)
+
 69.《Lifelong Learning for Sentiment Classification》
 
 Bayes用于LLL，给出了LL的一个定义，需要四个组件。
