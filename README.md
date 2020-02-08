@@ -1,3 +1,7 @@
+71.《Concept Discovery through Information Extraction in Restaurant Domain》
+
+word2vec+cluster,类似工作，类似方法，效果一般不差。
+
 70.《Editable Neural Networks》，ICLR2020，Poster
 
 这篇文章是最近看到的非常有启发的文章，体现在以下几点：
