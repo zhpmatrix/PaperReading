@@ -1,6 +1,6 @@
 70.《Editable Neural Networks》，ICLR2020，Poster
 
-这篇文章是最近看到的非常有启发的文章，体现在一下几点：
+这篇文章是最近看到的非常有启发的文章，体现在以下几点：
 
 （1）这篇文章的方案具有工业实用性。针对badcase的hotfix手段。
 
