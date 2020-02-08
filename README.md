@@ -1,3 +1,7 @@
+69.《Lifelong Learning for Sentiment Classification》
+
+Bayes用于LLL，给出了LL的一个定义，需要四个组件。
+
 68.《Deep learning for drug–drug interaction extraction from the literature: a review》
 
 下载不到，但是想看。
