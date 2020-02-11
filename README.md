@@ -2,11 +2,11 @@
 
 稍后会写一篇博客总结这类问题，与OOD相关。
 
-[img73_1](https://wx2.sinaimg.cn/mw690/aba7d18bly1gbsukjkw9qj20z2072tbv.jpg)
+![img73_1](https://wx2.sinaimg.cn/mw690/aba7d18bly1gbsukjkw9qj20z2072tbv.jpg)
 
-[img73_2](https://wx2.sinaimg.cn/mw690/aba7d18bly1gbsukfeyquj20zc0dvtdt.jpg)
+![img73_2](https://wx2.sinaimg.cn/mw690/aba7d18bly1gbsukfeyquj20zc0dvtdt.jpg)
 
-[img73_3](https://wx4.sinaimg.cn/mw690/aba7d18bly1gbsukaki2wj20z50a1adu.jpg)
+![img73_3](https://wx4.sinaimg.cn/mw690/aba7d18bly1gbsukaki2wj20z50a1adu.jpg)
 
 72.《Deep k-Nearest Neighbors: Towards Conﬁdent, Interpretable and Robust Deep Learning》
 
