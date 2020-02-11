@@ -1,3 +1,13 @@
+73.《Can You Trust Your Model’s Uncertainty? Evaluating Predictive Uncertainty Under Dataset Shift》，NeurIPS2019
+
+稍后会写一篇博客总结这类问题，与OOD相关。
+
+[img73_1](https://wx2.sinaimg.cn/mw690/aba7d18bly1gbsukjkw9qj20z2072tbv.jpg)
+
+[img73_2](https://wx2.sinaimg.cn/mw690/aba7d18bly1gbsukfeyquj20zc0dvtdt.jpg)
+
+[img73_3](https://wx4.sinaimg.cn/mw690/aba7d18bly1gbsukaki2wj20z50a1adu.jpg)
+
 72.《Deep k-Nearest Neighbors: Towards Conﬁdent, Interpretable and Robust Deep Learning》
 
 > This hybrid classiﬁer combines the k-nearest neighbors algorithm with representations of the data learned by each layer of the DNN: a test input is compared to its neighboring training points according to the distance that separates them in the representations.
