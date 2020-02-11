@@ -1,3 +1,9 @@
+72.《Deep k-Nearest Neighbors: Towards Conﬁdent, Interpretable and Robust Deep Learning》
+
+> This hybrid classiﬁer combines the k-nearest neighbors algorithm with representations of the data learned by each layer of the DNN: a test input is compared to its neighboring training points according to the distance that separates them in the representations.
+
+NN是一个非常general的方法，印象中2018年的CVPR有篇关于detection的文章，此外，在之前做的一些比赛中，可以作为一个post-processing的手段。一直在思考的问题是：能否作为一种解决长尾分类的方法？
+
 71.《Concept Discovery through Information Extraction in Restaurant Domain》
 
 word2vec+cluster,类似工作，类似方法，效果一般不差。
