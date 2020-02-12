@@ -1,3 +1,7 @@
+74.《Snippext: Semi-supervised Opinion Mining with Augmented Data》，WWW2020
+
+属于BERT系工作，Snippext = MixDA（一种数据增强技术）+MixMatch（一种半监督学习算法）。文章中提到，这套方法已经用在了酒店评论聚合平台和某猎头公司。
+
 73.《Can You Trust Your Model’s Uncertainty? Evaluating Predictive Uncertainty Under Dataset Shift》，NeurIPS2019
 
 稍后会写一篇博客总结这类问题，与OOD相关。
