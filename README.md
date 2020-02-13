@@ -1,3 +1,5 @@
+75.《A review of novelty detection》，Marco A.F. Pimentel 2014年，310篇引文
+
 74.《Snippext: Semi-supervised Opinion Mining with Augmented Data》，WWW2020
 
 属于BERT系工作，Snippext = MixDA（一种数据增强技术）+MixMatch（一种半监督学习算法）。文章中提到，这套方法已经用在了酒店评论聚合平台和某猎头公司。
