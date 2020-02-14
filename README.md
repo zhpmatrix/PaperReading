@@ -1,3 +1,10 @@
+76.《Encode, Tag, Realize: High-Precision Text Editing》,EMNLP2019
+
+一张图说明，如下：
+![img76](https://wx4.sinaimg.cn/mw690/aba7d18bly1gbvqpq61e9j20wd04ijsg.jpg)
+
+将Text Editing转化为一个Sequence Tagging任务，通过设计Tagging方案（编辑操作标签+词或短语级联作为Tagging的标签），解决输入和输出可以不等长的问题，适用于多个任务。
+
 75.《A review of novelty detection》，Marco A.F. Pimentel 2014年，310篇引文
 
 74.《Snippext: Semi-supervised Opinion Mining with Augmented Data》，WWW2020
