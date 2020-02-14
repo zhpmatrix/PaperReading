@@ -1,3 +1,7 @@
+78.《How Contextual are Contextualized Word Representations?》,EMNLP2019
+
+对context的一种量化分析方法。一个概念是否是玄学，与定义和度量的方式有一定关系。
+
 77.《Utilizing BERT Intermediate Layers for Aspect Based Sentiment Analysis
 and Natural Language Inference》
 
