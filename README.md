@@ -12,9 +12,15 @@ and Natural Language Inference》
 
 ![img76](https://wx4.sinaimg.cn/mw690/aba7d18bly1gbvqpq61e9j20wd04ijsg.jpg)
 
-将Text Editing转化为一个Sequence Tagging任务，通过设计Tagging方案（编辑操作标签+词或短语级联作为Tagging的标签），解决输入和输出可以不等长的问题，适用于多个任务。
+适合解决的问题：生成类任务中，输入和输出overlap较多的时候。传统的seq2seq在解决这类问题时，就显得效率会很低，主要是由于decoder端的token是都要生成得到。
 
-关键是Tagging中词或短语的挖掘。
+主要内容：Encode端是BERT, Tag表示针对特定任务的操作(删除，保留，添加等)，Realize是针对Tag序列的聚合阶段。整体上是一个基于BERT的序列标注任务，特色在于针对特定任务设计特殊的Tag体系，从而完成任务目标，如文本融合，压缩，纠错等。
+
+优点：典型任务上的SOTA(虽然有些任务是微弱提升)，推理速度，方法体系相对简单。
+
+缺点：Tag阶段做不好，会直接影响到最终效果。当Tag阶段得到的Vocab比较大的时候，导致模型的分类层比较重，或许可以采用分级分类的想法来缓解。
+
+其他：在纠错任务上，作为文章的对比对象，《Neural Grammatical Error Correction Systems with Unsupervised Pre-training on Synthetic Data》的F值比该工作高了近20个百分点，文章认为主要的原因是，前者使用了更多外部数据。
 
 [PR文档](https://www.jiqizhixin.com/articles/2020-02-10-8)，文档中的内容和Paper不完全一致，可以直接看Paper。
 
