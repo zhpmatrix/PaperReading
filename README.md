@@ -8,6 +8,10 @@
 
 将Text Editing转化为一个Sequence Tagging任务，通过设计Tagging方案（编辑操作标签+词或短语级联作为Tagging的标签），解决输入和输出可以不等长的问题，适用于多个任务。
 
+关键是Tagging中词或短语的挖掘。
+
+[PR文档](https://www.jiqizhixin.com/articles/2020-02-10-8)，文档中的内容和Paper不完全一致，可以直接看Paper。
+
 75.《A review of novelty detection》，Marco A.F. Pimentel 2014年，310篇引文
 
 74.《Snippext: Semi-supervised Opinion Mining with Augmented Data》，WWW2020
