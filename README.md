@@ -1,5 +1,7 @@
 76.《Encode, Tag, Realize: High-Precision Text Editing》,EMNLP2019
 
+一大早，我老大发的一篇Paper。
+
 一张图说明，如下：
 
 ![img76](https://wx4.sinaimg.cn/mw690/aba7d18bly1gbvqpq61e9j20wd04ijsg.jpg)
