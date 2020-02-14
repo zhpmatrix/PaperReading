@@ -1,3 +1,9 @@
+77.《Utilizing BERT Intermediate Layers for Aspect Based Sentiment Analysis
+and Natural Language Inference》
+
+![img77](https://wx4.sinaimg.cn/mw690/aba7d18bly1gbvtwwpwocj20er0dowg7.jpg)
+
+
 76.《Encode, Tag, Realize: High-Precision Text Editing》,EMNLP2019
 
 一大早，我老大发的一篇Paper。
