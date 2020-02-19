@@ -1,3 +1,16 @@
+79.《Incorporating BERT into Neural Machine Translation》,ICLR2020
+
+结论：7个数据集的SOTA
+
+思路：BERT只负责抽feature，然后和seq2seq的encoder&decoder的layers的feature做融合。
+
+示例图如下：
+
+ ![img79](https://wx1.sinaimg.cn/mw690/aba7d18bly1gc1i5zzevqj20ii0c5wgn.jpg)
+ 
+ 这个方向很多人在探索，比如现在相对有效的是，encoder端用BERT做fine-tune，decoder端train from scratch.
+
+
 78.《How Contextual are Contextualized Word Representations?》,EMNLP2019
 
 对context的一种量化分析方法。一个概念是否是玄学，与定义和度量的方式有一定关系。
