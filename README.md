@@ -1,3 +1,7 @@
+81.《Identifying Relations for Open Information Extraction》，引用量1000+
+
+给出了一种开放信息抽取的方式，总结了漏报和误报的pattern，同时给出了一种基于feature构建的三元组质检的方式。
+
 80.《Fine-Tuning Pretrained Language Models:
 Weight Initializations, Data Orders, and Early Stopping》
 
