@@ -1,3 +1,10 @@
+80.《Fine-Tuning Pretrained Language Models:
+Weight Initializations, Data Orders, and Early Stopping》
+
+随机种子对最终结果的影响是很大的。这篇文章探讨了随机种子对权重初始化和训练数据排序的影响。
+
+TIPS：心情不好，换个种子？
+
 79.《Incorporating BERT into Neural Machine Translation》,ICLR2020
 
 结论：7个数据集的SOTA
