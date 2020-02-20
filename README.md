@@ -1,3 +1,7 @@
+82.《A New Clustering neural network for Chinese word segmentation》
+
+Clustering的思路做分词。先将问题转化为一个multi-label的问题，然后做Clustering(GMM/K-means)
+
 81.《Identifying Relations for Open Information Extraction》，引用量1000+
 
 给出了一种开放信息抽取的方式，总结了漏报和误报的pattern，同时给出了一种基于feature构建的三元组质检的方式。
