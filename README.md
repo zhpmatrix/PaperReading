@@ -1,3 +1,7 @@
+85.《Neural Grammatical Error Correction Systems with Unsupervised Pre-training on Synthetic Data》
+
+比较新的SOTA，seq2seq做gec任务。
+
 84.《An Empirical Study of Incorporating Pseudo Data into Grammatical Error Correction》
 
 围绕seq2seq的思路做gec任务，做了很多实验性的对比，包括：数据构造策略，后处理，原始数据使用等。最终的一个经验性结论是：Gigaword作为种子数据源+BackTranslation+seq2seq在经典benchmark上可以取得不错的结果（看了下Precision和Recall，均不到0.75！）。
