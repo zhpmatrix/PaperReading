@@ -1,3 +1,8 @@
+83.《LAMBERT: Layout-Aware language Modeling using BERT for
+information extraction》
+
+抽取PDF时，可以融合Layout的信息。印象中达摩院在PDF抽取中也有类似想法的工作，[相关比赛](https://tianchi.aliyun.com/competition/entrance/231771/information)
+
 82.《A New Clustering neural network for Chinese word segmentation》
 
 Clustering的思路做分词。先将问题转化为一个multi-label的问题，然后做Clustering(GMM/K-means)
