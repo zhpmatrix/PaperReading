@@ -1,3 +1,5 @@
+86.《Joint Embedding in Named Entity Linking on Sentence Level》
+
 85.《Neural Grammatical Error Correction Systems with Unsupervised Pre-training on Synthetic Data》
 
 比较新的SOTA，seq2seq做gec任务。
