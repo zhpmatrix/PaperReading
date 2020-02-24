@@ -1,3 +1,9 @@
+87.《Fast Structured Decoding for Sequence Models》
+
+非自回归Transformer和自回归Transformer的区别，主要的贡献在Decoder的改造，类CRF，该技术不但可以用在seq2seq上，同时也可以用在字到字的纠错任务上，否则原生的CRF，你train个试一试？字典大的吓屎人。
+
+![img87](https://wx4.sinaimg.cn/mw690/aba7d18bly1gc7sjgw4m3j20r60g1gpi.jpg)
+
 86.《Joint Embedding in Named Entity Linking on Sentence Level》
 
 85.《Neural Grammatical Error Correction Systems with Unsupervised Pre-training on Synthetic Data》
