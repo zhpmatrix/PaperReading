@@ -1,3 +1,15 @@
+89.《Semantic Relatedness for Keyword Disambiguation: Exploiting Different Embeddings》
+
+这篇文章主要解决的问题是：
+
+> traditional WSD techniques do not perform well in situations in which the available linguistic information is very scarce, such as the case of keyword-based queries.
+
+WSD任务的入门介绍：https://blog.csdn.net/jclian91/article/details/90117189
+
+88.《Label-guided Learning for Text Classiﬁcation》
+
+水文，不议。
+
 87.《Fast Structured Decoding for Sequence Models》
 
 非自回归Transformer和自回归Transformer的区别，主要的贡献在Decoder的改造，类CRF，该技术不但可以用在seq2seq上，同时也可以用在字到字的纠错任务上，否则原生的CRF，你train个试一试？字典大的吓屎人。
