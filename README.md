@@ -1,3 +1,9 @@
+92.《Rethinking Bias-Variance Trade-off for Generalization of Neural Networks》,马毅老师的工作
+
+期望风险曲线 = bias曲线+variance曲线，当bias曲线和variance曲线的scale不同时，期望风险曲线就会呈现出不同的形态。类比高中物理学波运动和分解...反正对马老师说，这篇文章就是homework而已。如下：
+
+![img92](https://wx2.sinaimg.cn/mw690/aba7d18bly1gcdmxi04loj20xl097djl.jpg)
+
 91.《A Generalized Framework of Sequence Generation with Application to Undirected Sequence Models》
 
 90.《End-to-End Entity Linking and Disambiguation leveraging Word and Knowledge Graph Embeddings》
