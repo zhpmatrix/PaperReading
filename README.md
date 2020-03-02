@@ -2,7 +2,7 @@
 
 《Creative Language Encoding under Censorship》
 
-《Linguistic Fingerprints of Internet Censorship_the Case of Sina Weibo》
+《Linguistic Fingerprints of Internet Censorship: the Case of Sina Weibo》
 
 《How Censorship in China Allows Government Criticism but Silences Collective Expression》
 
