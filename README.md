@@ -1,3 +1,7 @@
+93.《A Primer in BERTology: What we know about how BERT works》
+
+姑且算是一篇关于BERT的Review吧，后面一定有质量更高的Review。不过这篇文章的特色主要在于引用了更多关于probing的工作。由于probing工作，在任务设计的时候，可能就已经引入了过多的假设，导致结论理论上带有一定的bias。总体上，仍旧值得读一下。
+
 92.《Rethinking Bias-Variance Trade-off for Generalization of Neural Networks》,马毅老师的工作
 
 期望风险曲线 = bias曲线+variance曲线，当bias曲线和variance曲线的scale不同时，期望风险曲线就会呈现出不同的形态。类比高中物理学波运动和分解...反正对马老师说，这篇文章就是homework而已。如下：
