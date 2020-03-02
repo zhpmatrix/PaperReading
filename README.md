@@ -1,3 +1,9 @@
+94.关于CensorShip的三篇文章：
+
+《Creative Language Encoding under Censorship》
+《Linguistic Fingerprints of Internet Censorship_the Case of Sina Weibo》
+《How Censorship in China Allows Government Criticism but Silences Collective Expression》
+
 93.《A Primer in BERTology: What we know about how BERT works》
 
 姑且算是一篇关于BERT的Review吧，后面一定有质量更高的Review。不过这篇文章的特色主要在于引用了更多关于probing的工作。由于probing工作，在任务设计的时候，可能就已经引入了过多的假设，导致结论理论上带有一定的bias。总体上，仍旧值得读一下。
