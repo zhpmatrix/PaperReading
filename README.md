@@ -1,3 +1,9 @@
+95.《Train Large, Then Compress: Rethinking Model Size for Efficient Training and Inference of Transformers》
+
+讨论了一个比较实际的问题，如下：
+
+![img95](https://bair.berkeley.edu/static/blog/compress/Flowchart.png)
+
 94.关于CensorShip的三篇文章：
 
 《Creative Language Encoding under Censorship》
