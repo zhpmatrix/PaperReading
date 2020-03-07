@@ -1,3 +1,34 @@
+97.如何利用语言学提升任务表现？
+
+一个朴素的观点：数据不够，先验来凑。啥是先验？比如语言学。知识图谱也可以认为是先验的一种载体，但是更多的承担的是common sense/world knowledge的角色.
+
+[《Why BERT Fails in Commercial Environments》](https://www.intel.ai/bert-commercial-environments/#gs.ykp1xd)
+
+[《Attending to Entities for Better Text Understanding》](https://arxiv.org/abs/1911.04361)
+
+[《Linguistically-Informed Self-Attention for Semantic Role Labeling》](https://arxiv.org/pdf/1804.08199.pdf)
+
+**语言学信号融合**
+
+关键问题：(1)如何量化语言学信号？(2)如何对多种语言学信号融合？
+
+词性信号：词性标注集[参考](http://www.ltp-cloud.com/intro#pos_how)，语言学信号暂且来自LTP，不做分词策略的对齐(LTP和WordPiece)。量化思路：直接表示；间接表示(BERT的hidden representation)；
+
+依存句法信号：依存句法关系[参考](http://ltp.ai/docs/appendix.html#id5)，量化思路：直接表示；转化为邻接矩阵；Graph Embedding；(@凡哥@松旭)
+
+语义角色信号：非对齐输出，后续考虑如何加入。
+
+初步结论：指标下降。猜测原因之一是添加了新的embedding需要去learn，当前训练集不足以learn到质量较高的embedding，在一定程度上意味着在信号融合端会造成noise的引入。
+
+参考文章：
+
++ 《Linguistic Input Features Improve Neural Machine Translation》
+
++ 《Extending Neural Question Answering with Linguistic Input Features》
+
++ 《Semantics-aware BERT for Language Understanding》
+
+
 96.《Data Augmentation using Pre-trained Transformer Models》
 
 文章比较了基于自编码(BERT)，预训练语言模型(GPT-2)，和预训练seq2seq(BART/T5)的三种模型用于数据增强的效果。具体的，比如对于一个情感分类任务，三种方式都可以做，哪种好一些？文章的结论是：考虑到标签保持的能力和多样性，seq2seq整体上较好。
