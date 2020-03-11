@@ -1,3 +1,5 @@
+98.《Improving Neural Named Entity Recognition with Gazetteers》
+
 97.如何利用语言学提升任务表现？
 
 一个朴素的观点：数据不够，先验来凑。啥是先验？比如语言学。知识图谱也可以认为是先验的一种载体，但是更多的承担的是common sense/world knowledge的角色.
