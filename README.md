@@ -1,3 +1,7 @@
+100.《Sentence-Level Fluency Evaluation》
+
+no-reference evaluation.
+
 99.《CASE: Context-Aware Semantic Expansion》
 
 暴力的方法，将问题转化为一个多标签分类问题（所有下位词的集合）。为了解决分类总数较多的问题，采用了特殊Trick解决。
