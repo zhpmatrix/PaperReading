@@ -1,3 +1,7 @@
+101.《Speeding Up Neural Machine Translation Decoding by Cube Pruning》
+
+一种decode端的技术。
+
 100.《Sentence-Level Fluency Evaluation》
 
 no-reference evaluation.
