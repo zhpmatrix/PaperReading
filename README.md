@@ -1,5 +1,7 @@
 102.《A Hierarchical Multi-task Approach for Learning Embeddings from Semantic Tasks》
 
+总结了很多multi-task训练的Trick。
+
 ![img102](https://wx3.sinaimg.cn/mw690/aba7d18bly1gcsa3ifkfjj20lr0o3mzk.jpg)
 
 101.《Speeding Up Neural Machine Translation Decoding by Cube Pruning》
