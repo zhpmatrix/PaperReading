@@ -1,3 +1,11 @@
+103.《FixMatch: Simplifying Semi-Supervised Learning with
+Consistency and Confidence》
+
+利用weak/strong样本增强，实现semi-supervised的效果提升。近些年来，CV领域关于semi-supervised的一些相对不错的工作，整体上的特点就是简单，简单并不意味着容易想到。时至今日，越来越觉得，针对DL的问题，能够在“道路千万条”的前提下，找到最合适的那几条，做对几件事，基本就可以带来很大的提升。过于依赖试错，导致经验这种东西也显得很飘。如果能够给经验一个定量描述，那就再好不过了，不过似乎目前还没有发现，包括自己也是。能够做的是，还是要结合场景和分析大量的badcase，选择要做的事情。很多人脱离badcase，空谈general的优化，导致试错空间巨大，成本巨高，实在太过于粗放。
+
+![img103](https://wx1.sinaimg.cn/mw690/aba7d18bly1gctdqyep7oj20q50anq64.jpg)
+
+
 102.《A Hierarchical Multi-task Approach for Learning Embeddings from Semantic Tasks》
 
 总结了很多multi-task训练的Trick。
