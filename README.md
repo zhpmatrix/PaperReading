@@ -1,3 +1,25 @@
+104.《Conditional BERT Contextual Augmentation》
+
+刚刚看到一篇[文章](https://zhuanlan.zhihu.com/p/112877845)，关于用近期的一些技术做文本分类增强的。因此，很好奇就看了原始论文，其实类似的思想，在组里已经在很多地方用到了，简单写下笔记吧。
+
+**核心：用label embedding替代segmentation embedding。**
+
+为什么要做数据增强？（防止过拟合和提升泛化）
+
+为啥NLP的增强不好搞？uncontrollable(semantic invariance, label correctness)
+
+贡献是啥？
+
++ augment sentences without breaking the label-compatibility
++ can be applied to style transfer
++ SOTA 
+
+相关工作？
+
++ sample-based methods
++ generation-based methods(gan, vae)
++ domain-specific methods(同义词替换之类)
+
 103.《FixMatch: Simplifying Semi-Supervised Learning with
 Consistency and Confidence》
 
