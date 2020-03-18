@@ -1,3 +1,5 @@
+105.[《A Survey on Contextual Embeddings》](https://arxiv.org/pdf/2003.07278.pdf)
+
 104.《Conditional BERT Contextual Augmentation》
 
 刚刚看到一篇[文章](https://zhuanlan.zhihu.com/p/112877845)，关于用近期的一些技术做文本分类增强的。因此，很好奇就看了原始论文，其实类似的思想，在组里已经在很多地方用到了，简单写下笔记吧。
