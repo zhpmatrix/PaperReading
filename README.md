@@ -1,3 +1,9 @@
+106.《Pre-trained Models for Natural Language Processing: A Survey》
+
+黄萱菁，邱锡鹏老师们的工作。
+
+相关工作：BERT的简易版Review，《A Primer in BERTology: What we know about how BERT works》
+
 105.[《A Survey on Contextual Embeddings》](https://arxiv.org/pdf/2003.07278.pdf)
 
 104.《Conditional BERT Contextual Augmentation》
