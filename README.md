@@ -1,10 +1,17 @@
 107.《Contextual String Embeddings for Sequence Labeling》
 
+CoNLL03的SOTA。
+
 关于字和词的融合，也有很多玩法：
+
 （1）直接融合分词信息
+
 （2）先去学字的feature，然后基于词做融合，就是这篇了
+
 （3）类似于ZEN，融合n-gram的信息
+
 （4）......
+
 ![img107](https://wx3.sinaimg.cn/mw690/aba7d18bly1gd0r1ep530j214a0fg41q.jpg)
 
 106.《Pre-trained Models for Natural Language Processing: A Survey》
