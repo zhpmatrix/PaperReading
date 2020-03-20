@@ -1,3 +1,7 @@
+108.《Parallel sequence tagging for concept recognition》
+
+实体识别和Linking都转化为一个labeling任务，这里Linking的目的是给一个实体编号，也就是基于Closed Set的假设。
+
 107.《Contextual String Embeddings for Sequence Labeling》
 
 CoNLL03的SOTA。
