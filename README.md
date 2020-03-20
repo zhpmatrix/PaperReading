@@ -1,3 +1,10 @@
+109.《AUC-Maximized Deep Convolutional Neural Fields For Sequence Labeling》,ICLR2016
+《AUCpreD: proteome-level protein disorder prediction by AUC-maximized deep convolutional neural fields》，ECCB2016
+同一篇文章。核心观点(用于sequence labeling任务)：
+
+**The widely-used training methods, such as maximum-likelihood and maximum labelwise accuracy, do not work well on imbalanced data.by directly maximizing the empirical Area Under the ROC Curve (AUC), which is an unbiased measurement for imbalanced data.**
+
+
 108.《Parallel sequence tagging for concept recognition》
 
 实体识别和Linking都转化为一个labeling任务，这里Linking的目的是给一个实体编号，也就是基于Closed Set的假设。
