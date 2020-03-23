@@ -27,6 +27,10 @@ CoNLL03的SOTA。
 
 ![img107](https://wx3.sinaimg.cn/mw690/aba7d18bly1gd0r1ep530j214a0fg41q.jpg)
 
+补充一篇相关文章，《Chinese NER Using Lattice LSTM》,ACL2018
+
+![img072](https://wx2.sinaimg.cn/mw690/aba7d18bly1gd47nc552gj20bo069t9f.jpg)
+
 106.《Pre-trained Models for Natural Language Processing: A Survey》
 
 黄萱菁，邱锡鹏老师们的工作。
