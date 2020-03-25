@@ -1,3 +1,15 @@
+111.《Prior Knowledge Driven Label Embedding for Slot Filling in Natural Language Understanding》俞凯老师组的文章
+
+核心观点：融合先验知识到slot filling任务中，先验知识分为三类：
+
+atomic concepts:原子概念，比如一个slot类型可以描述为其他多个子类型
+
+slot description:就是slot类型的描述了
+
+slot exemplars: 就是slot本身啦
+
+整体上的方式就是确定要用的先验知识后，做encode，融合进slot filling任务中。前两种先验知识需要专家参与。
+
 110.《Adaptive Name Entity Recognition under Highly Unbalanced Data》
 
 提升robustness：关于noise和missing data
