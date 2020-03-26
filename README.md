@@ -1,3 +1,7 @@
+112.《Felix: Flexible Text Editing Through Tagging and Insertion》
+
+和EMNLP2019的这篇《Encode, Tag, Realize: High-Precision Text Editing》类似，上文的比较对象正是这篇文章。
+
 111.《Prior Knowledge Driven Label Embedding for Slot Filling in Natural Language Understanding》俞凯老师组的文章
 
 核心观点：融合先验知识到slot filling任务中，先验知识分为三类：
