@@ -1,3 +1,11 @@
+114.《One for All: Neural Joint Modeling of Entities and Events》
+
+信息抽取领域的"宗教之争"：pipeline v.s. joint(二者各有优缺点，在自己的实践中，主要看个人的技术品味了，自己比较喜欢后者，但是还是要综合考虑数据，任务等各个方面的因素)
+
+个人比较喜欢的工作：一个模型做事件抽取，包括trigger识别，实体识别，关系识别。（另外关于一个模型的做法，不仅在tagging方式上做，也可以通过共享encoder在classifier上做，inference的时候仍旧可以拆成多个模型，本质在于shared encoder和multi-task）
+
+![114](https://github.com/zhpmatrix/zhpmatrix.github.io/blob/master/images/One%20for%20All_Neural%20Joint%20Modeling%20of%20Entities%20and%20Events.png?raw=true)
+
 113.《Exploring Pre-trained Language Models for Event Extraction and Generation》
 
 工作：pipeline+一种数据增强方案
