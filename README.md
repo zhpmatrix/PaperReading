@@ -1,3 +1,9 @@
+113.《Exploring Pre-trained Language Models for Event Extraction and Generation》
+
+工作：pipeline+一种数据增强方案
+
+![113](https://github.com/zhpmatrix/zhpmatrix.github.io/blob/master/images/Exploring%20Pre-trained%20Language%20Models%20for%20Event%20Extraction%20and%20Generation.png?raw=true)
+
 112.《Felix: Flexible Text Editing Through Tagging and Insertion》
 
 和EMNLP2019的这篇《Encode, Tag, Realize: High-Precision Text Editing》类似，上文的比较对象正是这篇文章。
