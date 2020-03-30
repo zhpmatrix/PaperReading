@@ -1,3 +1,13 @@
+115. Multi-Hop MRC（这是一个有意思的问题）
+
+《Cognitive Graph for Multi-Hop Reading Comprehension at Scale》，主要思想是：BERT+GNN。
+
+《Building Dynamic Knowledge Graphs From Text Using Machine Reading Comprehension》，ICLR2019
+
+问题的setting如下：
+
+![115](https://pic2.zhimg.com/80/v2-2e3569441f6955bb1eaf4f5f1b87ac89_720w.jpg)
+
 114.《One for All: Neural Joint Modeling of Entities and Events》
 
 信息抽取领域的"宗教之争"：pipeline v.s. joint(二者各有优缺点，在自己的实践中，主要看个人的技术品味了，自己比较喜欢后者，但是还是要综合考虑数据，任务等各个方面的因素)
