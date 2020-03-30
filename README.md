@@ -1,3 +1,7 @@
+116.《Pairwise Multi-Class Document Classification for Semantic Relations between Wikipedia Articles》
+
+BERT系用于doc分类。
+
 115. Multi-Hop MRC（这是一个有意思的问题）
 
 《Cognitive Graph for Multi-Hop Reading Comprehension at Scale》，主要思想是：BERT+GNN。
