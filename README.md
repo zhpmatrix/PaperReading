@@ -6,7 +6,7 @@
 
 问题的setting如下：
 
-![115](https://pic2.zhimg.com/80/v2-2e3569441f6955bb1eaf4f5f1b87ac89_720w.jpg)
+![115](https://github.com/zhpmatrix/zhpmatrix.github.io/blob/master/images/multi-hop-mrc.png?raw=true)
 
 114.《One for All: Neural Joint Modeling of Entities and Events》
 
