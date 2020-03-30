@@ -1,3 +1,9 @@
+117.不平衡问题的两篇paper
+
+《Class-Balanced Loss Based on Effective Number of Samples》，CVPR2019
+
+《Dice Loss for Data-imbalanced NLP Tasks》，NLP问题上（主要是NER和MRC任务上的不平衡），这篇文章针对NER和MRC任务中的标签不平衡问题，比较了包括ce，weighted ce，focal loss，dice loss等共计6种loss在多个理解任务上的效果。（我真的很少听说focal loss在一些任务上帮助很大，从2017年做一个比赛的时候就用，到2020年了，每次准备用的时候都要嘀咕一下，以后不再用了。）
+
 116.《Pairwise Multi-Class Document Classification for Semantic Relations between Wikipedia Articles》
 
 BERT系用于doc分类。
