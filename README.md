@@ -101,6 +101,10 @@ CoNLL03的SOTA。
 
 ![img072](https://wx2.sinaimg.cn/mw690/aba7d18bly1gd47nc552gj20bo069t9f.jpg)
 
+看一个相关的，如何把专家知识融入实体识别？
+
+![相关](https://pic4.zhimg.com/80/v2-52eb4dc87a89861438b0c04e2e98cda3_720w.jpg)
+
 106.《Pre-trained Models for Natural Language Processing: A Survey》
 
 黄萱菁，邱锡鹏老师们的工作。
