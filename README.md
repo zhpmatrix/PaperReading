@@ -97,6 +97,8 @@ CoNLL03的SOTA。
 
 补充一篇相关文章，《Chinese NER Using Lattice LSTM》,ACL2018
 
+想法：这篇工作和ZEN存在某种程度上的相关性，不过这篇的工作是基于LSTM特殊的网络结构来做的。而ZEN是在BERT的体系下完成的，比起分不分词，n-gram是一种更加灵活，同时具有信息量的表示。
+
 ![img072](https://wx2.sinaimg.cn/mw690/aba7d18bly1gd47nc552gj20bo069t9f.jpg)
 
 106.《Pre-trained Models for Natural Language Processing: A Survey》
