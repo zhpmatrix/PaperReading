@@ -1,3 +1,7 @@
+120.《Improving Named Entity Recognition for Chinese Social Media with Word Segmentation Representation Learning》
+
+Joint Learing： NER+CWS（应该也属于比较早的工作）
+
 119.《CharNER: Character-Level Named Entity Recognition》
 
 比较早期的文章了。证明了对于NER任务来说，不分词也是OK的。尤其对于中文和日文。
