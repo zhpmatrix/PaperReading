@@ -165,6 +165,8 @@ no-reference evaluation.
 
 （3）这篇文章，with Gazetteers.（**TIPS：《现代汉语词典》也是一个高度结构化的好东西，为啥没人用呢？**）
 
+![98](https://github.com/zhpmatrix/zhpmatrix.github.io/blob/master/images/Improving%20Neural%20Named%20Entity%20Recognition%20with%20Gazetteers.png?raw=true)
+
 97.如何利用语言学提升任务表现？
 
 一个朴素的观点：数据不够，先验来凑。啥是先验？比如语言学。知识图谱也可以认为是先验的一种载体，但是更多的承担的是common sense/world knowledge的角色.
