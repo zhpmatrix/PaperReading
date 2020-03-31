@@ -781,6 +781,9 @@ Noisy Channel Model的经典案例：作为统计模型用于机器翻译任务�
 
 Label Embedding+Attention用于sequence labeling。平均提升了不足一个百分点，可能和相关任务原来的指标已经较高有关系。不过工作做的还是比较干净的。
 
+文章的主要贡献：精度略有提升的前提下，速度提升了不少。主要的方式是基于label probability distribution，做self-attention。从效果来看，self-attention能够替代crf的效果，同时由于multi-head self-attention的并行特性，因此，速度上去了。经典序列标注的模型结构是bilstm+crf，这篇说，bilstm+lan也阔以。近一段的工作证明，bert多数情况下都不需要crf，这篇文章也算是提供了一个佐证，既然crf都可以被self-attention替代，那直接把encoder也用self-attention替代完事儿了，结构还显得更加清晰。再一次证明：《attention is all you need》，逃。
+
+
 26.《Multi-instance Multi-label Learning for Relation Extraction》
 
 2012年的工作，引用量400+。将distant-supervision得到的数据，建模为一个miml问题。主要技术：graphical model+EM。文章引用了周志华老师的miml的相关工作。
