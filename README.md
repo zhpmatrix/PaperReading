@@ -1,3 +1,7 @@
+118.《Comprehensive Named Entity Recognition on CORD-19 with Distant or Weak Supervision》
+
+这篇文章引用了一些文章，用词典加持NER任务，Jiongbo的好几篇文章。
+
 117.不平衡问题的两篇paper
 
 《Class-Balanced Loss Based on Effective Number of Samples》，CVPR2019
