@@ -1,3 +1,7 @@
+119.《CharNER: Character-Level Named Entity Recognition》
+
+比较早期的文章了。证明了对于NER任务来说，不分词也是OK的。尤其对于中文和日文。
+
 118.《Comprehensive Named Entity Recognition on CORD-19 with Distant or Weak Supervision》
 
 这篇文章引用了一些文章，用词典加持NER任务，Jiongbo的好几篇文章。
