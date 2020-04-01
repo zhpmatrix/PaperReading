@@ -1,3 +1,5 @@
+122.《word2vec, node2vec, graph2vec, X2vec: Towards a Theory of Vector Embeddings of Structured Data》
+
 121.《AliCoCo: Alibaba E-commerce Cognitive Concept Net》
 
 阿里认知图谱的构建工作，PAKDD2020。
