@@ -1,3 +1,9 @@
+121.《AliCoCo: Alibaba E-commerce Cognitive Concept Net》
+
+阿里认知图谱的构建工作，PAKDD2020。
+
+相关工作： 哈工大的大词林，相关的工作也是很赞。最近放出了很大一批[数据](https://mp.weixin.qq.com/s?__biz=MzIxMjAzNDY5Mg==&mid=2650797234&idx=1&sn=a2791160d643a04ace67e4630046b6b9&chksm=8f476159b830e84ff25c9a62b74a3074d8c8c4b57dfbec04faa689ee4be74e376ce900f6cee3&token=711471654&lang=zh_CN%23rd)。
+
 120.《Improving Named Entity Recognition for Chinese Social Media with Word Segmentation Representation Learning》
 
 Joint Learing： NER+CWS（应该也属于比较早的工作）
