@@ -1,3 +1,7 @@
+123.《Information Leakage in Embedding Models》
+
+![img123](https://github.com/zhpmatrix/zhpmatrix.github.io/blob/master/images/Information%20Leakage%20in%20Embedding%20Models.png?raw=true)
+
 122.《word2vec, node2vec, graph2vec, X2vec: Towards a Theory of Vector Embeddings of Structured Data》
 
 121.《AliCoCo: Alibaba E-commerce Cognitive Concept Net》
