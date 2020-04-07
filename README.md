@@ -1,3 +1,10 @@
+125.《Well-Read Students Learn Better: On the Importance of Pre-training Compact Models》
+
+围绕BERT做模型压缩的工作，很扎实。附带Jacob Devlin最近在一个talk上的关于模型蒸馏的想法：
+
+![img125](https://github.com/zhpmatrix/zhpmatrix.github.io/blob/master/images/model_distill.png?raw=true)
+
+
 124.指代消解的论文（部门[大佬](https://github.com/jerrychen1990)的笔记）
 
 End-to-end Neural Coreference Resolution:baseline版本，将预测span与预测两个span是否同指代放在一个任务里训练。**利用剪枝的方式避免过大复杂度的span pair搜索**
