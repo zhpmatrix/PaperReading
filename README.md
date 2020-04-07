@@ -1,3 +1,25 @@
+127.模型校准
+
+logit就是置信度，就是概率？not for all.
+
+概率校准解释的相对系统的文章：https://zhuanlan.zhihu.com/p/90479183
+
+sklearn的介绍：https://scikit-learn.org/stable/auto_examples/calibration/plot_calibration.html#sphx-glr-auto-examples-calibration-plot-calibration-py
+
+核心观点：
+
++ 对于SVM，是基于margin的训练，没有prob
+
++ Platt Scaling:原始模型之外，重新训练一个模型(LR)
+
++ Isotonic Regression(保序回归)：曲线拟合
+
++ 概率校准方法的评估
+
+关于预训练NLP模型的工作：《Calibration of Pre-trained Transformers》（个人围绕这块也做了一些工作）
+
+《On Calibration of Modern Neural Networks》
+
 126.阅读理解中的multi-span工作
 
 启发：MRC也是一个经典的自然语言理解任务，同时包括很多子任务。在multi-span的问题设定下，有一些有意思的想法。
