@@ -1,3 +1,11 @@
+124.指代消解的论文（部门[大佬](https://github.com/jerrychen1990)的笔记）
+
+End-to-end Neural Coreference Resolution:baseline版本，将预测span与预测两个span是否同指代放在一个任务里训练。**利用剪枝的方式避免过大复杂度的span pair搜索**
+
+Higher-order Coreference Resolution with Coarse-to-ﬁne Inference：除了利用pair-wise的信息，利用整个cluster的信息做span matching
+
+BERT for Coreference Resolution: Baselines and Analysis：在上一篇论文的基础上，利用bert代替原有的特征提取器
+
 123.《Information Leakage in Embedding Models》
 
 ![img123](https://github.com/zhpmatrix/zhpmatrix.github.io/blob/master/images/Information%20Leakage%20in%20Embedding%20Models.png?raw=true)
