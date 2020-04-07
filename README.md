@@ -1,3 +1,11 @@
+126.阅读理解中的multi-span工作
+
+启发：MRC也是一个经典的自然语言理解任务，同时包括很多子任务。在multi-span的问题设定下，有一些有意思的想法。
+
+《Tag-based Multi-Span Extraction in Reading Comprehension》，BIO标注+**多种解码策略对比**
+
+《A Multi-Type Multi-Span Network for Reading Comprehension that Requires Discrete Reasoning》
+
 125.《Well-Read Students Learn Better: On the Importance of Pre-training Compact Models》
 
 围绕BERT做模型压缩的工作，很扎实。附带Jacob Devlin最近在一个talk上的关于模型蒸馏的想法：
