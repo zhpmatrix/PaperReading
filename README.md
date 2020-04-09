@@ -1,3 +1,5 @@
+131.《Deep Learning Based Text Classification: A Comprehensive Review》,42页，最新综述，我看不动了...
+
 130.《Poly-Encoders: Architectures And Pre-training Strategies For Fast and Accurate Multi-Sentence Scores》,ICLR2020
 
 上篇文章的follower：《Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks》这篇文章，很早就浏览到，当时觉得不就是Encoder端换成BERT了吗？...不过看了ICLR2020的那篇，FAIR出品的，我都不清楚啥是好，啥是不好了？
