@@ -2,6 +2,14 @@
 
 李纪为第三篇用问答的思路做的工作，两个相关数据集的SOTA。第一步：找出候选实体；第二步：Query构建。包含候选实体的句子，用特殊标识符标识出候选实体。输入为Query+Context，输出为其他实体的位置。和之前的工作类似，一个样本仍旧需要多次inference完成训练和测试。
 
+相关文章：
+
+（1）《Dice Loss for Data-imbalanced NLP Tasks》
+
+（2）《A Uniﬁed MRC Framework for Named Entity Recognition》
+
+（3）《Scaling Up Open Tagging from Tens to Thousands: Comprehension Empowered Attribute Value Extraction from Product Title》
+
 127.模型校准
 
 logit就是置信度，就是概率？not for all.
