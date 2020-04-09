@@ -1,3 +1,7 @@
+129.《Distantly Supervised Named Entity Recognition using Positive-Unlabeled Learning》
+
+核心观点：只用词典做命名实体识别
+
 128.《Coreference Resolution as Query-based Span Prediction》，ACL2020
 
 李纪为第三篇用问答的思路做的工作，两个相关数据集的SOTA。第一步：找出候选实体；第二步：Query构建。包含候选实体的句子，用特殊标识符标识出候选实体。输入为Query+Context，输出为其他实体的位置。和之前的工作类似，一个样本仍旧需要多次inference完成训练和测试。
