@@ -10,6 +10,8 @@ NER: 《A Survey on Deep Learning for Named Entity Recognition》
 
 知识图谱：《A Survey on Knowledge Graphs: Representation, Acquisition and Applications》
 
+机器翻译：《Neural Machine Translation: Challenges, Progress and Future》
+
 131.《Deep Learning Based Text Classification: A Comprehensive Review》,42页，最新综述，我看不动了...
 
 130.《Poly-Encoders: Architectures And Pre-training Strategies For Fast and Accurate Multi-Sentence Scores》,ICLR2020
