@@ -1,3 +1,15 @@
+132.最近的Review文章感觉比较多，梳理如下：
+
+文本分类：《Deep Learning Based Text Classification: A Comprehensive Review》
+
+关系抽取：《More Data, More Relations, More Context and More Openness: A Review and Outlook for Relation Extraction》
+
+NER: 《A Survey on Deep Learning for Named Entity Recognition》
+
+预训练模型：《Pre-trained Models for Natural Language Processing: A Survey》
+
+知识图谱：《A Survey on Knowledge Graphs: Representation, Acquisition and Applications》
+
 131.《Deep Learning Based Text Classification: A Comprehensive Review》,42页，最新综述，我看不动了...
 
 130.《Poly-Encoders: Architectures And Pre-training Strategies For Fast and Accurate Multi-Sentence Scores》,ICLR2020
