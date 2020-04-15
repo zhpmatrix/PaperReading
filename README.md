@@ -1,3 +1,7 @@
+133.《CrossWOZ: A Large-Scale Chinese Cross-Domain Task-Oriented Dialogue Dataset》
+
+最近出的大规模，跨领域（酒店，餐馆等），任务型对话数据集。除了给出一个数据集之外，同时将一个对话系统分为五个部分：user simulator, nlu, dst, dpl, nlg.其中user simulator有特色。此外，在每个stage，都给出了一个实现。
+
 132.最近的Review文章感觉比较多，梳理如下：
 
 文本分类：《Deep Learning Based Text Classification: A Comprehensive Review》
