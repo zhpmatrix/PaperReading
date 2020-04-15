@@ -1,3 +1,5 @@
+139.《A Joint Model for Question Answering and Question Generation》
+
 138.Query改写：《Learning to Paraphrase for Question Answering》，EMNLP2017
 
 137.《Reading Wikipedia to Answer Open-Domain Questions》,Danqi Chen，应该还有不少玩儿法
