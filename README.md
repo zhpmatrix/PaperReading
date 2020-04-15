@@ -1,3 +1,9 @@
+135.吕正东两篇关于神经—+符号的工作：
+
+https://arxiv.org/pdf/1512.00965.pdf
+
+《Coupling Distributed and Symbolic Execution for Natural Language Queries》
+
 134.《From Machine Reading Comprehension to Dialogue State Tracking: Bridging the Gap》
 
 核心方法：将DST任务用MRC的方式modeling，剩下的就是MRC的优点了。
