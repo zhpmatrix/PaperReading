@@ -1,3 +1,7 @@
+134.《From Machine Reading Comprehension to Dialogue State Tracking: Bridging the Gap》
+
+核心方法：将DST任务用MRC的方式modeling，剩下的就是MRC的优点了。
+
 133.《CrossWOZ: A Large-Scale Chinese Cross-Domain Task-Oriented Dialogue Dataset》
 
 最近出的大规模，跨领域（酒店，餐馆等），任务型对话数据集。除了给出一个数据集之外，同时将一个对话系统分为五个部分：user simulator, nlu, dst, dpl, nlg.其中user simulator有特色。此外，在每个stage，都给出了一个实现。
