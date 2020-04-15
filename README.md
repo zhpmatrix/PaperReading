@@ -1,3 +1,5 @@
+138.Query改写：《Learning to Paraphrase for Question Answering》，EMNLP2017
+
 137.《Reading Wikipedia to Answer Open-Domain Questions》,Danqi Chen，应该还有不少玩儿法
 
 136.《A Survey on Dialogue Systems: Recent Advances and New Frontiers》,JD的文章，简单清晰
