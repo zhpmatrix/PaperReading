@@ -1,3 +1,7 @@
+143.《Curate and Generate: A Corpus and Method for Joint Control of Semantics and Style in Neural NLG》
+
+如何构造NLG的数据？
+
 142.《Overestimation of Syntactic Representation in Neural Language Models》，ACL2020
 
 140.《Natural Perturbation for Robust Question Answering》
