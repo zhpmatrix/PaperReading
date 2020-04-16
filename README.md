@@ -20,9 +20,13 @@ https://arxiv.org/pdf/1512.00965.pdf
 
 核心方法：将DST任务用MRC的方式modeling，剩下的就是MRC的优点了。
 
-133.《CrossWOZ: A Large-Scale Chinese Cross-Domain Task-Oriented Dialogue Dataset》
+133.《CrossWOZ: A Large-Scale Chinese Cross-Domain Task-Oriented Dialogue Dataset》，ACL2020
 
 最近出的大规模，跨领域（酒店，餐馆等），任务型对话数据集。除了给出一个数据集之外，同时将一个对话系统分为五个部分：user simulator, nlu, dst, dpl, nlg.其中user simulator有特色。此外，在每个stage，都给出了一个实现。
+
+补充：《MuTual: A Dataset for Multi-Turn Dialogue Reasoning》ACL2020
+
+基于中国高考英语听力，需要逻辑和推理（BERT比人差很多）。难度比Ubuntu Dialogue Corpus高很多（已经被BERT拿下）。
 
 132.最近的Review文章感觉比较多，梳理如下：
 
