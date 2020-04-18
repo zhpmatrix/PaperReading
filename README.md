@@ -1,6 +1,6 @@
 145.《PALM: Pre-training an Autoencoding&Autoregressive Language Model for Context-conditioned Generation》，ACL2020
 
-[img145](https://github.com/zhpmatrix/zhpmatrix.github.io/blob/master/images/palm.png?raw=true)
+![img145](https://github.com/zhpmatrix/zhpmatrix.github.io/blob/master/images/palm.png?raw=true)
 
 144.PU Learning
 
