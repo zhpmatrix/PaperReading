@@ -1,3 +1,12 @@
+144.PU Learning
+
+《Learning Classifiers from Only Positive and Unlabeled Data》，2008
+
+《An Evaluation of Two-Step Techniques for Positive-Unlabeled Learning in Text Classification》，2014
+
+举一个简单的例子：训练二分类的时候，一般情况下，需要标注正样本和负样本；现在不了，只标注正样本就OK了，把剩下的当做负类（虽然剩下的可能包含正类）。一方面可以减小标注的难度，另一方面是对数据偏置的利用。整体上，可以放在半监督的视角下来看。
+
+
 143.《Curate and Generate: A Corpus and Method for Joint Control of Semantics and Style in Neural NLG》
 
 如何构造NLG的数据？
