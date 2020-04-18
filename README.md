@@ -1,3 +1,8 @@
+146.《A Novel Hierarchical Binary Tagging Framework for Relational Triple Extraction》
+
+![img146](https://github.com/zhpmatrix/zhpmatrix.github.io/blob/master/images/hbt.png?raw=true)
+
+
 145.《PALM: Pre-training an Autoencoding&Autoregressive Language Model for Context-conditioned Generation》，ACL2020
 
 ![img145](https://github.com/zhpmatrix/zhpmatrix.github.io/blob/master/images/palm.png?raw=true)
