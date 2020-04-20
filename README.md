@@ -1,3 +1,12 @@
+147.《A Survey of Text Clustering Algorithms》,Charu C. Aggarwal, IBM
+
++ K-means(二分K-means、K-means++)和层次聚类是非常general的clustering算法
++ LDA+pLSA
++ Embedding-based(One-Hot, BOW, Word2Vec,TF-IDF,Sentence-BERT)
++ Online Clustering(较陌生)
++ 其他
+
+
 146.《A Novel Hierarchical Binary Tagging Framework for Relational Triple Extraction》
 
 ![img146](https://github.com/zhpmatrix/zhpmatrix.github.io/blob/master/images/hbt.png?raw=true)
