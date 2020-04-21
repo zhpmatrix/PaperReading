@@ -1,3 +1,7 @@
+148.《Dialogue-Based Relation Extraction》
+
+对话数据中做关系抽取的数据集。
+
 147.《A Survey of Text Clustering Algorithms》,Charu C. Aggarwal, IBM
 
 + K-means(二分K-means、K-means++)和层次聚类是非常general的clustering算法
