@@ -1,3 +1,17 @@
+150.《FAQ Retrieval using Query-Question Similarity and BERT-Based Query-Answer Relevance》
+
+FAQ最近的一篇paper，思想上是完整的。
+
+Query-Question：相似性建模
+
+Query-Answer：相关性建模
+
+模型融合：分数加权（一些基于长度的正则化技术）
+
+149.《Neural Architectures for Named Entity Recognition》
+
+LSTM+CRF的经典paper，里边还聊到一种transition-based alg,类似于依存分析的shift-reduced alg。（之前做把依存信号encode进bert的时候，第一次了解到shift-reduced的概念）
+
 148.《Dialogue-Based Relation Extraction》
 
 对话数据中做关系抽取的数据集。
