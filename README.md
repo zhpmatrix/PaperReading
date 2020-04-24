@@ -877,6 +877,22 @@ Ablation Study: 位置编码，masking策略，span预测任务，训练序列�
 
 41.《Distantly Supervised Named Entity Recognition using Positive-Unlabeled Learning》
 
+组里大佬今天分享了这篇文章。主要讨论的问题是如何利用词典做NER？借助于PU Learning的思路，关于PU Learning的想法记得在某个位置写过。
+
+基本步骤：
+
+（1）第一步：按照字典去原始数据中做标注。标0或者1；
+
+（2）第二步：针对每个实体类别，训练一个二分类器；
+
+（3）第三步：聚合标注类别个数的二分类器的预测结果；
+
+（4）其他：可以逐步完善字典，提升效果；
+
+损失函数不是ce loss，而是一个求差函数（类似于margin）。
+
+想法：如何用在中文场景？
+
 40.《150 Successful Machine Learning Models: 6 Lessons Learned at Booking.com》,KDD2019, Applied Data Science Track
 
 从Booking.com发布的150个机器学习模型，总结了6条经验，并提供了一些case分析。比如：提高模型的性能并不一定会转化为业务价值的增长；一些最强大的改进并非是在给定setting的上下文中改进模型，而是更改setting本身；减少预测服务的延迟（模型冗余/稀疏模型/预计算和缓存/请求打包/尽可能少的特征变换），尽早获得关于模型质量的反馈（响应分布分析）等
