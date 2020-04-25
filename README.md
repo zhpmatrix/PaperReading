@@ -1,3 +1,13 @@
+151.《SKEP: Sentiment Knowledge Enhanced Pre-training for Sentiment Analysis》，ACL2020，Baidu
+
+核心思想：对aspect和sent word进行mask。
+
+套路：Baidu的同学说，我们能预训练，想要啥，就对啥进行mask，你看，刷了情感的sota吧？
+
+我：鼓掌。。
+
+![151_img](https://mmbiz.qpic.cn/mmbiz_jpg/uYIC4meJTZ0vad7YcUGC4WTAgya8zHRvsPk3dgP8lN1cJu8EnTXnEh0iahbGCQGL0XoItBF4aWZEfZXzaSAhZicg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
 150.《FAQ Retrieval using Query-Question Similarity and BERT-Based Query-Answer Relevance》
 
 FAQ最近的一篇paper，思想上是完整的。
