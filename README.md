@@ -73,6 +73,12 @@ LSTM+CRF的经典paper，里边还聊到一种transition-based alg,类似于依�
 
 https://arxiv.org/pdf/1512.00965.pdf
 
+用在对话系统，提升鲁棒性：
+
+《Neural symbolic machines: Learning semantic parsers on freebase with weak supervision》
+
+《Neural-symbolic machine learning for retrosynthesis and reaction prediction. Chemistry–A European Journal》
+
 《Coupling Distributed and Symbolic Execution for Natural Language Queries》
 
 134.《From Machine Reading Comprehension to Dialogue State Tracking: Bridging the Gap》
