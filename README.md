@@ -554,6 +554,10 @@ and Natural Language Inference》
 
 ![img73_3](https://wx4.sinaimg.cn/mw690/aba7d18bly1gbsukaki2wj20z50a1adu.jpg)
 
+补充：
+
+《Learning under Concept Drift: A Review》核心大框架：检测分布的一致性。
+
 72.《Deep k-Nearest Neighbors: Towards Conﬁdent, Interpretable and Robust Deep Learning》
 
 > This hybrid classiﬁer combines the k-nearest neighbors algorithm with representations of the data learned by each layer of the DNN: a test input is compared to its neighboring training points according to the distance that separates them in the representations.
