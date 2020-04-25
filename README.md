@@ -1,3 +1,7 @@
+152.《Distilling Knowledge for Fast Retrieval-based Chat-bots》SIGIR2020
+
+关于知识蒸馏的，把BERT的知识蒸馏到BiLSTM中。其中有两个小Trick，一个是带上原始的标签；另一个是算MSE；都是Loss端的优化。最简单的形式是只要soft标签+ce损失。（自己用12层BERT蒸6层，蒸Albert。）
+
 151.《SKEP: Sentiment Knowledge Enhanced Pre-training for Sentiment Analysis》，ACL2020，Baidu
 
 核心思想：对aspect和sent word进行mask。
