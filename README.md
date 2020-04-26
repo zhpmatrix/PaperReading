@@ -1,3 +1,17 @@
+154. 融合词典的信息用于NER的三篇工作，黄萱菁老师组感觉对这个topic很感兴趣。去年ACL2019有篇PU Learning搞的。
+
+《Chinese NER Using Flat-Lattice Transformer》ACL2020
+
+把Lattice LSTM中对词的利用拍平。
+
+《Simplify the Usage of Lexicon in Chinese NER》，ACL2020
+
+工作在思路上类似ZEN。
+
+相关工作：
+
+《Enhancing Pre-trained Chinese Character Representation with Word-aligned Attention》
+
 153.《Learning to Classify Intents and Slot Labels Given a Handful of Examples》
 
 解决Chatbot中的low resource setting下的问题。核心思路：MAML和原型网络+pre-trained model用于意图分类和槽填充。
