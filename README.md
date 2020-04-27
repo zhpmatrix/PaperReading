@@ -1,3 +1,9 @@
+155.《Learning to Rank with BERT in TF-Rankings》
+
+最近做问答，一个比较general的框架最后是一个ranking模型，这篇文章没有单独将ranking模型剥离出来，而是和BERT一块modeling，思路上有启发性。
+
+![img155](https://github.com/zhpmatrix/zhpmatrix.github.io/blob/master/images/bert_with_tf_ranking.png?raw=true)
+
 154. 融合词典的信息用于NER的三篇工作，黄萱菁老师组感觉对这个topic很感兴趣。去年ACL2019有篇PU Learning搞的。
 
 《Chinese NER Using Flat-Lattice Transformer》ACL2020
