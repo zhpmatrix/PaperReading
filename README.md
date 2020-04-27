@@ -103,6 +103,8 @@ https://arxiv.org/pdf/1512.00965.pdf
 
 《Coupling Distributed and Symbolic Execution for Natural Language Queries》
 
+《NEURAL SYMBOLIC READER: SCALABLE INTEGRATION OF DISTRIBUTED AND SYMBOLIC REPRESENTATIONS FOR READING COMPREHENSION》，ICLR2020（原来这个方向真的有一些工作在做。）
+
 134.《From Machine Reading Comprehension to Dialogue State Tracking: Bridging the Gap》
 
 核心方法：将DST任务用MRC的方式modeling，剩下的就是MRC的优点了。
