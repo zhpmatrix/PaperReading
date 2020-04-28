@@ -1,3 +1,7 @@
+156.《Coach: A Coarse-to-Fine Approach for Cross-domain Slot Filling》,ACL2020
+
+文中的template regularization比较有意思。整体上的思路是coarse-to-fine，是实体识别中的标准范式（比如通常第一步是边界预测，第二步是类型预测）；
+
 155.《Learning to Rank with BERT in TF-Rankings》
 
 最近做问答，一个比较general的框架最后是一个ranking模型，这篇文章没有单独将ranking模型剥离出来，而是和BERT一块modeling，思路上有启发性。
