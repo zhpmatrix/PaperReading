@@ -1,3 +1,12 @@
+159.《How Does NLP Benefit Legal System: A Summary of Legal Artificial
+Intelligence》ACL2020
+
+比赛，相关文章，还有这篇，法律领域的PR稿？
+
+158.《BLEU Neighbors: A Reference-less Approach to Automatic Evaluation》
+
+梳理了相关评价指标的一些工作。
+
 157.《LightPAFF: A Two-Stage Distillation Framework for Pre-training and finetuning》
 
 这篇文章的技术思路风格和之前读过的一篇关于BT的文章很是类似。
