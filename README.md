@@ -167,6 +167,10 @@ Chatbot：《Recent Advances and Challenges in Task-oriented Dialog System》
 
 （3）《Scaling Up Open Tagging from Tens to Thousands: Comprehension Empowered Attribute Value Extraction from Product Title》
 
+补充：
+
+《Event Extraction by Answering (Almost) Natural Questions》，路子一致，用在事件抽取上很正常。
+
 127.模型校准
 
 logit就是置信度，就是概率？not for all.
