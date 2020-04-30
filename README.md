@@ -1,3 +1,7 @@
+157.《LightPAFF: A Two-Stage Distillation Framework for Pre-training and finetuning》
+
+这篇文章的技术思路风格和之前读过的一篇关于BT的文章很是类似。
+
 156.《Coach: A Coarse-to-Fine Approach for Cross-domain Slot Filling》,ACL2020
 
 文中的template regularization比较有意思。整体上的思路是coarse-to-fine，是实体识别中的标准范式（比如通常第一步是边界预测，第二步是类型预测）；
