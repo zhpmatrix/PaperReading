@@ -210,6 +210,8 @@ sklearn的介绍：https://scikit-learn.org/stable/auto_examples/calibration/plo
 
 《Distance-Based Learning from Errors for Confidence Calibration》ICLR2020（还没读..）
 
+《Posterior Calibrated Training on Sentence Classification Tasks》ACL2020（还没读..）
+
 126.阅读理解中的multi-span工作
 
 启发：MRC也是一个经典的自然语言理解任务，同时包括很多子任务。在multi-span的问题设定下，有一些有意思的想法。
