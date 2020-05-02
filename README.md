@@ -1,3 +1,8 @@
+162.《Enriched Pre-trained Transformers for Joint Slot Filling and Intent Detection》
+
+slot filling and intent classification同时做，基本是在damo之前的工作基础上加了一些东西。
+
+
 161.《Look at the First Sentence: Position Bias in Question Answering》
 
 非常有意思的文章，讨论了QA中的positional bias问题。
