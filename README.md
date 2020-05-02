@@ -1,6 +1,8 @@
 162.《Enriched Pre-trained Transformers for Joint Slot Filling and Intent Detection》
 
-slot filling and intent classification同时做，基本是在damo之前的工作基础上加了一些东西。
+slot filling and intent classification同时做，基本是在达摩院之前的工作基础上加了一些东西。
+
+![img_162](https://github.com/zhpmatrix/zhpmatrix.github.io/blob/master/images/Enriched%20Pre-trained%20Transformers%20for%20Joint%20Slot%20Filling%20and%20Intent%20Detection.png?raw=true)
 
 
 161.《Look at the First Sentence: Position Bias in Question Answering》
