@@ -1,3 +1,15 @@
+160.《Code-Switching for Enhancing NMT with Pre-Specified Translation》，NAACL2019
+
+很实用的工作。利用用户词典和电商术语库提升翻译质量。简单来说，之前的方式是用一个特殊符号占位，翻译对应的词；特殊符号和原始上下文在一定程度上会破坏原始的语义信息。这里采用的是另外一种方式(假设中英翻译，其实是另外一种占位，不过semantic上似乎更加合理一些)：
+
+原文：病越来越厉害
+
+中间原文：sick越来越厉害
+
+翻译结果：sick is worse
+
+总结：**机器翻译中的干预机制**是一个小方向，非常具有实用价值，相关工作应该有不少。
+
 159.《How Does NLP Benefit Legal System: A Summary of Legal Artificial
 Intelligence》ACL2020
 
