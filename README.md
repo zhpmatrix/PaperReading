@@ -1,3 +1,7 @@
+163.《StructBERT:Incorporating Language Structures into Pre-training for Deep Language Understanding》,ICLR2020
+
+达摩院的关于bert的工作，作为基础模型在推广。
+
 162.《Enriched Pre-trained Transformers for Joint Slot Filling and Intent Detection》
 
 slot filling and intent classification同时做，基本是在达摩院之前的工作基础上加了一些东西。
