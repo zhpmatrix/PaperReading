@@ -1,3 +1,13 @@
+165.知识驱动对话的两个应用工作：
+
+《A Knowledge-Grounded Neural Conversation Model》
+
+![img165_0](https://github.com/zhpmatrix/zhpmatrix.github.io/blob/master/images/knowledge_driven_baseline_0.png?raw=true)
+
+《Learning to select knowledge for response generation in dialog systems》
+
+![img165_1](https://github.com/zhpmatrix/zhpmatrix.github.io/blob/master/images/knowledge_driven_baseline_1.png?raw=true)
+
 164.《A Survey on Dialog Management: Recent Advances and Challenges》
 
 小蜜北京团队最新关于对话管理的综述文章。讨论了**scalability，data sparsity, training efficiency**的三个问题。总结：工业界还是写if...else...，研究上可以做一些RL的探索，最近蚂蚁做对话的人来公司交流的时候，说他们就在做类似工作。
