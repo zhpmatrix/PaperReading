@@ -1,3 +1,7 @@
+164.《A Survey on Dialog Management: Recent Advances and Challenges》
+
+小蜜北京团队最新关于对话管理的综述文章。讨论了**scalability，data sparsity, training efficiency**的三个问题。总结：工业界还是写if...else...，研究上可以做一些RL的探索，最近蚂蚁做对话的人来公司交流的时候，说他们就在做类似工作。
+
 163.《StructBERT:Incorporating Language Structures into Pre-training for Deep Language Understanding》,ICLR2020
 
 达摩院的关于bert的工作，作为基础模型在推广。
