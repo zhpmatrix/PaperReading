@@ -1,3 +1,7 @@
+167.《DCR-Net: A Deep Co-Interactive Relation Network for Joint Dialog Act Recognition and Sentiment Classiﬁcation》
+
+joint learning with dialog act recognition and sentiment classification
+
 166.《Mapping Natural Language Instructions to Mobile UI Action Sequences》ACL2020
 
 解决的任务：
