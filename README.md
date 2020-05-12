@@ -1,3 +1,14 @@
+166.《Mapping Natural Language Instructions to Mobile UI Action Sequences》ACL2020
+
+解决的任务：
+
+![img_166_0](https://github.com/zhpmatrix/zhpmatrix.github.io/blob/master/images/acl2020.png?raw=true)
+
+解决的方法：（相似的思想：如何将序列标注任务转化为一个seq2seq呢？在今天组里的分享中同样提到这个观点）
+
+![img_166_1](https://github.com/zhpmatrix/zhpmatrix.github.io/blob/master/images/acl2020_.png?raw=true)
+
+
 165.知识驱动对话的两个应用工作：
 
 《A Knowledge-Grounded Neural Conversation Model》
