@@ -1,3 +1,14 @@
+171.《Enabling Language Models to Fill in the Blanks》
+
+提出一种预训练LM的输入/输出构建方式。输入是包含Blank的句子，输出是输入和Blank对应Token的并（用Answer符号显式拼接）。对比T5，采用seq2seq，输出端不包含输入。一种想法是：输出包含输入，在作用上可以类比seq2seq中的encoder的作用，好处是不需要一个单独的encoder。因此也就能够讲得通T5在输出端不需要包含输入。该工作用于故事生成，用Blank替换一段故事描述，采用预训练LM生成该描述，类比于改写的工作。
+
+至此，对于包含Blank的输入，输出如何构建才能得到一个好的预训练LM，看到的有以下方式：
+（1）从左到右生成原始句子
+（2）从右到左生成原始句子
+（3）输入和原始句子的并
+（4）输入和Blank对应Token的并（用Answer符号显式拼接）
+（5）Blank对应Token的并（用Answer符号显式拼接，类比T5）
+
 170.《A Simple Framework for Opinion Summarization》
 
 169.《Fine-grained Fact Veriﬁcation with Kernel Graph Attention Network》，ACL2020
