@@ -1,3 +1,5 @@
+170.《A Simple Framework for Opinion Summarization》
+
 169.《Fine-grained Fact Veriﬁcation with Kernel Graph Attention Network》，ACL2020
 
 之前做过一个事实性校验的工作。典型的场景是这样的：给定一句话包含对一个人物的描述，如”zhpmatrix在杭州工作，做NLP方向的工作，balabala...“，也就是说这句话能够精准定位一个人物：zhpmatrix，但是这句话中可能某个地方错了（事实性错误），现在要检查并修正这个事实性错误。
