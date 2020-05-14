@@ -1,5 +1,12 @@
 169.《Fine-grained Fact Veriﬁcation with Kernel Graph Attention Network》，ACL2020
 
+之前做过一个事实性校验的工作。典型的场景是这样的：给定一句话包含对一个人物的描述，如”zhpmatrix在杭州工作，做NLP方向的工作，balabala...“，也就是说这句话能够精准定位一个人物：zhpmatrix，但是这句话中可能某个地方错了（事实性错误），现在要检查并修正这个事实性错误。
+
+一般的思路是：需要一个参照上下文，这个上下文的存在方式可以是知识图谱，可以是非结构化的对该人物的描述等。如果是知识图谱，则存在实体消歧的问题，会引入另外一个模型；这篇文章采用的思路是后者。
+
+modeling：建模为一个多分类问题。（KGA是这篇工作的内容，个人不是特别感兴趣。）
+
+![img_169](https://github.com/zhpmatrix/zhpmatrix.github.io/blob/master/images/fact%20verification.png?raw=true)
 
 168.《On the Robustness of Language Encoders against Grammatical Errors》，ACL2020
 
