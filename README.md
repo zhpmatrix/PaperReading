@@ -1,3 +1,7 @@
+168.《On the Robustness of Language Encoders against Grammatical Errors》，ACL2020
+
+讨论BERT系用于中文纠错的robustness问题（这个问题在基于BERT的相关工作中基本都可以看到，不过不同任务对robustness的敏感度不同，比如文本分类一般认为是对于鲁棒性不敏感的任务），解决的思路：adversarial learning（其实也是一个常见的思路了）。具体方法：构建一些样本（如何构建是关键）和原始训练样本一块训练。
+
 167.《DCR-Net: A Deep Co-Interactive Relation Network for Joint Dialog Act Recognition and Sentiment Classiﬁcation》
 
 joint learning with dialog act recognition and sentiment classification
