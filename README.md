@@ -1,3 +1,13 @@
+173.《DIET: Lightweight Language Understanding for Dialogue Systems》
+
+rasa内置的一个intent classification和entity extraction结合做的模型。想法上比较有特色的是：
+
+（1）结合masked方式做训练
+
+（2）对label进行embedding，similarity作为loss的输入。而非传统的不对label做embedding，直接算ce loss；
+
+![173_img](https://github.com/zhpmatrix/zhpmatrix.github.io/blob/master/images/diet.png?raw=true)
+
 172.《End-to-end LSTM-based dialog control optimized with supervised and reinforcement learning》
 
 比较早的文章了，第一篇用end2end的方式做task-oriented的bot。supervised learning可以用较少的数据给reinforcement learning提供一个好的initial state。一般而言，玩法是建立在一个多分类任务上，对history的利用是关键。
