@@ -1,3 +1,7 @@
+172.《End-to-end LSTM-based dialog control optimized with supervised and reinforcement learning》
+
+比较早的文章了，第一篇用end2end的方式做task-oriented的bot。supervised learning可以用较少的数据给reinforcement learning提供一个好的initial state。一般而言，玩法是建立在一个多分类任务上，对history的利用是关键。
+
 171.《Enabling Language Models to Fill in the Blanks》
 
 提出一种预训练LM的输入/输出构建方式。输入是包含Blank的句子，输出是输入和Blank对应Token的并（用Answer符号显式拼接）。对比T5，采用seq2seq，输出端不包含输入。一种想法是：输出包含输入，在作用上可以类比seq2seq中的encoder的作用，好处是不需要一个单独的encoder。因此也就能够讲得通T5在输出端不需要包含输入。该工作用于故事生成，用Blank替换一段故事描述，采用预训练LM生成该描述，类比于改写的工作。
