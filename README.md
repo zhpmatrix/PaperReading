@@ -1,3 +1,11 @@
+174.《Iterative Memory-Based Joint Open Information Extraction》，ACL2020
+
+做开放信息抽取的工作，也就是开放SPO抽取相关。主要包含两个工作：
+
+（1）无监督的方式搞数据；（一个score&filter方案）
+
+（2）生成的方式生成多个spo；decoder端每次只去生成一个spo，然后将生成的spo和原始输入做融合，生成第二个spo；
+
 173.《DIET: Lightweight Language Understanding for Dialogue Systems》
 
 rasa内置的一个intent classification和entity extraction结合做的模型。想法上比较有特色的是：
