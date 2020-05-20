@@ -1,3 +1,7 @@
+175.《Beyond Accuracy: Behavioral Testing of NLP Models with CheckList》，ACL2020
+
+一种NLP中的行为驱动测试实现。
+
 174.《Iterative Memory-Based Joint Open Information Extraction》，ACL2020
 
 做开放信息抽取的工作，也就是开放SPO抽取相关。主要包含两个工作：
