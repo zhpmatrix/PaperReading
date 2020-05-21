@@ -1,3 +1,11 @@
+178.《Contextual Embeddings: When Are They Worth It?》,ACL2020
+
+讨论一个问题：什么时候使用contextual embedding，什么时候使用static embedding？
+
+static embedding：语言的变化性不多，数据标注丰富；
+
+contextual embedding：language containing complex structure, ambiguous word usage, words unseen in training;
+
 177.《Table Search Using a Deep Contextualized Language Model》
 
 任务上有趣：表格搜索；但是，收获很小。
