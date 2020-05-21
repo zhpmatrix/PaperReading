@@ -1,3 +1,7 @@
+182.《Efﬁcient strategies for hierarchical text classiﬁcation: External knowledge and auxiliary tasks》，ACL2020
+
+用seq2seq来modeling层次文本分类。
+
 181.《Masked Language Model Scoring》，ACL2020
 
 一种基于MLM的计算PPL的方式，比较重的方案。
