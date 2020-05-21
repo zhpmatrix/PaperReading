@@ -1,3 +1,9 @@
+181.《Masked Language Model Scoring》，ACL2020
+
+一种基于MLM的计算PPL的方式，比较重的方案。
+
+![img_181](https://github.com/zhpmatrix/zhpmatrix.github.io/blob/master/images/mlm_ppl.png?raw=true)
+
 180.《Dialogue-Based Relation Extraction》，ACL2020
 
 基于对话的关系抽取数据集，对话场景下的**信息抽取**在不同的任务中有不同的表示方式。
