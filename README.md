@@ -1,4 +1,8 @@
-179.《Spelling Error Correction with Soft-Masked BERT》ACL2020
+180.《Dialogue-Based Relation Extraction》，ACL2020
+
+基于对话的关系抽取数据集，对话场景下的**信息抽取**在不同的任务中有不同的表示方式。
+
+179.《Spelling Error Correction with Soft-Masked BERT》，ACL2020
 
 检错模型（轻量级的GRU）+纠错模型（重量级的BERT），整体上是序列标注的思路
 
