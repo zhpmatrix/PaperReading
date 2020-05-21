@@ -1,3 +1,7 @@
+179.《Spelling Error Correction with Soft-Masked BERT》ACL2020
+
+检错模型（轻量级的GRU）+纠错模型（重量级的BERT），整体上是序列标注的思路
+
 178.《Contextual Embeddings: When Are They Worth It?》,ACL2020
 
 讨论一个问题：什么时候使用contextual embedding，什么时候使用static embedding？
