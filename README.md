@@ -1,3 +1,11 @@
+176.《Conversational Word Embedding for Retrieval-Based Dialog System》,ACL2020
+
+训练数据：<post,reply>对
+
+模型：传统词向量训练模型+微修
+
+用法：单独使用和传统的Embedding一同使用
+
 175.《Beyond Accuracy: Behavioral Testing of NLP Models with CheckList》，ACL2020
 
 一种NLP中的行为驱动测试实现。
