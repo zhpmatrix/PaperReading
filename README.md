@@ -1,3 +1,7 @@
+177.《Table Search Using a Deep Contextualized Language Model》
+
+任务上有趣：表格搜索；但是，收获很小。
+
 176.《Conversational Word Embedding for Retrieval-Based Dialog System》,ACL2020
 
 训练数据：<post,reply>对
