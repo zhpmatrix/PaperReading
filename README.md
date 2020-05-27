@@ -1,3 +1,7 @@
+183.《Stronger Baselines for Grammatical Error Correction Using Pretrained Encoder–Decoder Model》
+
+基于合成数据做的。
+
 182.《Efﬁcient strategies for hierarchical text classiﬁcation: External knowledge and auxiliary tasks》，ACL2020
 
 用seq2seq来modeling层次文本分类。
