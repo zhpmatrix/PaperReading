@@ -1,3 +1,7 @@
+184.《Pretraining with Contrastive Sentence Objectives Improves Discourse Performance of Language Models》，**Dan Jurafsky**
+
+这篇文章提到了一种预训练模型的技术，该技术可以提升模型获取篇章级表示的能力。一个简单的思想是：设计更大的上下文学习任务（句子级别）。
+
 183.《Stronger Baselines for Grammatical Error Correction Using Pretrained Encoder–Decoder Model》
 
 基于合成数据做的。
