@@ -1,3 +1,7 @@
+186.《CERT: Contrastive Self-supervised Learning for Language Understanding》
+
+提出一种新的contrastive的SSL范式。**针对原始样本，生成该样本的增强样本，两两判断增强样本是否来自一个原始样本。**
+
 185.《GECToR – Grammatical Error Correction: Tag, Not Rewrite》
 
 标注方法类似于LaserTagger，基于序列标注的思路求解。通过迭代序列标注的方式做纠错。仍旧是基于合成数据，并且指标较低。
