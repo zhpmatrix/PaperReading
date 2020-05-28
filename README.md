@@ -1,3 +1,7 @@
+185.《GECToR – Grammatical Error Correction: Tag, Not Rewrite》
+
+标注方法类似于LaserTagger，基于序列标注的思路求解。通过迭代序列标注的方式做纠错。仍旧是基于合成数据，并且指标较低。
+
 184.《Pretraining with Contrastive Sentence Objectives Improves Discourse Performance of Language Models》，**Dan Jurafsky**
 
 这篇文章提到了一种预训练模型的技术，该技术可以提升模型获取篇章级表示的能力。一个简单的思想是：设计更大的上下文学习任务（句子级别）。
