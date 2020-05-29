@@ -1,3 +1,7 @@
+188.《Evaluating Natural Language Generation with BLEURT》
+
+NLG生成新指标：BLEURT，感觉还是稍重的方案。
+
 187.《Language Models are Few-Shot Learners》
 
 GPT-3的原始论文。做了啥事？**更大的GPT，以至于可以不用fine-tune了**。（似乎应该可以想到）关于是否是因为训练数据过大，导致模型记住了数据而已，文章中也有讨论。
