@@ -1,3 +1,7 @@
+187.《Language Models are Few-Shot Learners》
+
+GPT-3的原始论文。做了啥事？**更大的GPT，以至于可以不用fine-tune了**。（似乎应该可以想到）关于是否是因为训练数据过大，导致模型记住了数据而已，文章中也有讨论。
+
 186.《CERT: Contrastive Self-supervised Learning for Language Understanding》
 
 提出一种新的contrastive的SSL范式。**针对原始样本，生成该样本的增强样本，两两判断增强样本是否来自一个原始样本。**
