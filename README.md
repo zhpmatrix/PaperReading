@@ -52,6 +52,8 @@ GPT-3的原始论文。做了啥事？**更大的GPT，以至于可以不用fine
 
 检错模型（轻量级的GRU）+纠错模型（重量级的BERT），整体上是序列标注的思路
 
+[Soft-Masked BERT:文本纠错和BERT的最新结合](https://mp.weixin.qq.com/s?__biz=MzI4MDYzNzg4Mw==&mid=2247498877&idx=4&sn=8720f5d8875484b5acc36d65d2859b0f&chksm=ebb7c4a9dcc04dbfcca21a3053e63578ae1b1a71649189ef0b0f5cce689906b5e219cf5f11e9&mpshare=1&scene=23&srcid&sharer_sharetime=1591150207165&sharer_shareid=0e8353dcb5f53b85da8e0afe73a0021b%23rd)
+
 178.《Contextual Embeddings: When Are They Worth It?》,ACL2020
 
 讨论一个问题：什么时候使用contextual embedding，什么时候使用static embedding？
