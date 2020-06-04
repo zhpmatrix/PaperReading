@@ -1,3 +1,9 @@
+189.《Exploring Cross-sentence Contexts for Named Entity Recognition with BERT》
+
+做法：句子间平滑。（方法简单有效），做法如下：
+
+![img_189](https://github.com/zhpmatrix/zhpmatrix.github.io/blob/master/images/cmv.png?raw=true)
+
 188.《Evaluating Natural Language Generation with BLEURT》
 
 NLG生成新指标：BLEURT，感觉还是稍重的方案。
