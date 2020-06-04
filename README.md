@@ -1,3 +1,9 @@
+190.WWW2020的Best Paper，《Open Intent Extraction from Natural Language Interactions》
+
+（从很久之前的某条微博搬来的）刚好match最近做的一些工作。第一个，OpenIE相关，最近参与做的类似Magi一样的工作,本质上是一个schema设计的问题。之前做意图分类，是Closed域内的问题，这篇文章通过针对意图的schema设计，用序列标注的思路抽取意图，一样的思路。不过存在的问题是，有些意图不会在对话上下文中存在明显的字符串，这和supervised oie与supervised ie之间的问题一样；另一方面，任务型Chatbot的落地方案中，特色在于表的设计，现在还是人工设计，表通常包括三个维度：领域，意图和槽。这篇文章其实一定程度上将意图的自动化推进了一步，领域和槽的自动化设计尚未涉及。最后，文章在序列标注上还是经典的BiLSTM+CRF，不过还有一些基于CRF的比较实用的Trick。总之，大致浏览下文章，甚和我意。不一定是多牛的工作，但是让人很舒服的工作。
+
+补充（新补充）：《Automatic Discovery of Novel Intents &amp; Domains from Text Utterances》
+
 189.《Exploring Cross-sentence Contexts for Named Entity Recognition with BERT》
 
 做法：句子间平滑。（方法简单有效），做法如下：
