@@ -1,3 +1,9 @@
+192.《Dense Passage Retrieval for Open-Domain Question Answering》，ACL2020
+
+想起来ACL2017的文章《Reading Wikipedia to Answer Open-Domain Questions》，这两篇陈丹琦都在作者群中。但是上篇我理解将retrieval阶段由这篇的bm25/tf-idf换成了基于向量检索的方式（个人之前是基于SentenceBert做的），可以使用FAISS等向量检索服务。
+
+所以：为啥中了ACL2020？
+
 191.《Syntactic Search by Example》
 
 个人非常喜欢的工作。[demo](https://spike.wikipedia.apps.allenai.org/search/wikipedia/#query=Ok1pY3Jvc29mdCB3YXMgJGZvdW5kZWQgJGJ5IDpQYXVs&queryType=S&autorun=true)
