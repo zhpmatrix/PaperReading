@@ -1,3 +1,10 @@
+193.《PoWER-BERT: Accelerating BERT inference for Classification Tasks》
+
+**The method works by eliminating
+word-vectors (intermediate vector outputs) from the encoder pipeline. We design a strategy for
+measuring the significance of the word-vectors based on the self-attention mechanism of the
+encoders which helps us identify the word-vectors to be eliminated**
+
 192.《Dense Passage Retrieval for Open-Domain Question Answering》，ACL2020
 
 想起来ACL2017的文章《Reading Wikipedia to Answer Open-Domain Questions》，这两篇陈丹琦都在作者群中。但是上篇我理解将retrieval阶段由这篇的bm25/tf-idf换成了基于向量检索的方式（个人之前是基于SentenceBert做的），可以使用FAISS等向量检索服务。
