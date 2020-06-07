@@ -1,3 +1,4 @@
+
 194.《Maximizing Subset Accuracy with Recurrent Neural Networks in Multi-label Classification》
 
 和SGM的思想类似，但是SGM没有引用这篇文章。用seq2seq做multi-label的问题。
@@ -8,6 +9,10 @@
 word-vectors (intermediate vector outputs) from the encoder pipeline. We design a strategy for
 measuring the significance of the word-vectors based on the self-attention mechanism of the
 encoders which helps us identify the word-vectors to be eliminated**
+
+补充：
+
+《DeFormer: Decomposing Pre-trained Transformers for Faster Question Answering》，ACL2020，加速问答模型
 
 192.《Dense Passage Retrieval for Open-Domain Question Answering》，ACL2020
 
