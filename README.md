@@ -1,3 +1,7 @@
+194.《Maximizing Subset Accuracy with Recurrent Neural Networks in Multi-label Classification》
+
+和SGM的思想类似，但是SGM没有引用这篇文章。用seq2seq做multi-label的问题。
+
 193.《PoWER-BERT: Accelerating BERT inference for Classification Tasks》
 
 **The method works by eliminating
