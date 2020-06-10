@@ -1,3 +1,8 @@
+195.最近两篇关于将BERT信息压缩到一个卷积网络的工作：
+
+第一：将BERT的压缩到TextCNN，文章忘了。
+
+第二：《Accelerating Natural Language Understanding in Task-Oriented Dialog》（ACL 2020 Workshop on NLP for Conversational AI），将DistillBERT压缩到一个CNN网络，用于Dialogue场景。
 
 194.《Maximizing Subset Accuracy with Recurrent Neural Networks in Multi-label Classification》
 
