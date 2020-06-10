@@ -1046,6 +1046,8 @@ encoder端和decoder端的embedding层共享，pre-softmax linear层共享。这
 
 相关文章：《Language Models as Knowledge Bases?》
 
+类似题目：《Language Models as Fact Checkers?》ACL2020
+
 54.《Probing sentence embeddings for linguistic properties》，ACL2018
 
 属于Probing类工作，讨论句子embedding和语言学属性之间的关系。设计的三个层面的probing任务值得关注一下（但是个人并不认为这些能够完整体现语言学属性。另一方面，此类任务的设计似乎并不是一个简单的任务）：
