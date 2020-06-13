@@ -1,3 +1,7 @@
+196.《POSITIONAL MASKING FOR LANGUAGE MODELS》
+
+核心思想:不仅mask token，position也可以mask。
+
 195.最近两篇关于将BERT信息压缩到一个卷积网络的工作：
 
 第一：将BERT的压缩到TextCNN，文章忘了。
