@@ -387,6 +387,8 @@ Chatbot：《Recent Advances and Challenges in Task-oriented Dialog System》
 
 面向切面的情感分析：《A Comprehensive Survey on Aspect Based Sentiment Analysis》
 
+Low-Resource Setting: 《Low-resource Languages:A Review of Past Work and Future Challenges》
+
 131.《Deep Learning Based Text Classification: A Comprehensive Review》,42页，最新综述，我看不动了...
 
 130.《Poly-Encoders: Architectures And Pre-training Strategies For Fast and Accurate Multi-Sentence Scores》,ICLR2020
