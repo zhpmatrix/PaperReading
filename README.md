@@ -1,3 +1,9 @@
+197.《Cross-domain Aspect Category Transfer and Detection via Traceable Heterogeneous Graph Representation Learning》，CIKM2019
+
+核心思想：利用电商场景下的用户行为，构造一个Graph（包含商品，用户，卖家等信息和行为），学习Graph的表示，用于评论切面检测任务。
+
+个人想法：一个Graph的好的表示可以将多个研究对象纳入一个统一的表示空间（Pattern的量化），理论上可以用于很多下游任务。这篇文章选择了一个切面检测任务，不过看整体评测指标不算高，个人觉得有学术价值。除此之外，该工作与Few-Shot Learning也有关系，一定程度上有助于cold start问题的解决。
+
 196.《POSITIONAL MASKING FOR LANGUAGE MODELS》
 
 核心思想:不仅mask token，position也可以mask。
