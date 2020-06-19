@@ -1,3 +1,7 @@
+199.《Towards Uniﬁed Dialogue System Evaluation: A Comprehensive Analysis of Current Evaluation Protocols》
+
+闲聊对话系统的评估维度总结。
+
 198.《Data Augmentation for Training Dialog Models Robust to Speech Recognition Errors》
 
 ASR的错误一定要纠正之后，才能用于下游模型吗？关键看如何理解这些错误。
