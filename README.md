@@ -1,3 +1,15 @@
+200.《Dialog Policy Learning for Joint Clariﬁcation and Active Learning Queries》
+
+Joint建模方式的几个观察：
+
+（1）两个任务建模。比如这篇，比如联合意图识别和实体抽取
+
+（2）多个任务建模。
+
+（3）非常多任务建模。比如用seq2seq，mrc的思路统一建模。
+
+本质上，希望一个模型能够做更多的事情，具体操作上有所不同。
+
 199.《Towards Uniﬁed Dialogue System Evaluation: A Comprehensive Analysis of Current Evaluation Protocols》
 
 闲聊对话系统的评估维度总结。
