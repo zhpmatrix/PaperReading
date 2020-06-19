@@ -1,3 +1,7 @@
+198.《Data Augmentation for Training Dialog Models Robust to Speech Recognition Errors》
+
+ASR的错误一定要纠正之后，才能用于下游模型吗？关键看如何理解这些错误。
+
 197.《Cross-domain Aspect Category Transfer and Detection via Traceable Heterogeneous Graph Representation Learning》，CIKM2019
 
 核心思想：利用电商场景下的用户行为，构造一个Graph（包含商品，用户，卖家等信息和行为），学习Graph的表示，用于评论切面检测任务。
