@@ -1,3 +1,9 @@
+202.《PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization》，ICML2020
+
+重点考虑为了更好地满足生成式摘要设计的自监督任务。
+
+![img202](https://wx4.sinaimg.cn/mw690/aba7d18bly1gg4xseqqnvj20gk0d6q51.jpg)
+
 201.《Recipes for building an open-domain chatbot》，ParlAI的工作
 
 讨论对比了开放域对话的检索式，生成式，以及检索式+生成式三种方案。
