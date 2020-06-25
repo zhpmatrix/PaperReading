@@ -1,3 +1,7 @@
+201.《Recipes for building an open-domain chatbot》，ParlAI的工作
+
+讨论对比了开放域对话的检索式，生成式，以及检索式+生成式三种方案。
+
 200.《Dialog Policy Learning for Joint Clariﬁcation and Active Learning Queries》
 
 Joint建模方式的几个观察：
