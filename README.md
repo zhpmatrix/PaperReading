@@ -1,3 +1,15 @@
+204.《Reinforcement Learning for User Intent Prediction in Customer Service Bots》，SIGIR2019
+
+这篇文章是蚂蚁智能客服中“猜你想问”的一种实现方式，该问题是一个经典的Top-N推荐问题，这里转化为N步序列决策过程，本质上是学习多模型融合时的weight该如何分配的问题（这里主要是一些ranking模型），这种范式在互联网的很多场景下都是可以的，不过这里是用在了智能客服中的意图识别相关任务中。
+
+其他应用包括：
+
+（1）基于强化学习的交互式文本推荐
+
+（2）基于强化学习的交互式澄清
+
+（3）基于强化学习的客户路由
+
 203.两篇关于NLP模型robustness的文章：
 
 《Is BERT Really Robust? A Strong Baseline for Natural Language Attack on Text Classification and Entailment》
