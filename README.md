@@ -2,7 +2,7 @@
 
 A纸：《Induction Networks for Few-Shot Text Classiﬁcation》，B纸：《Dynamic Memory Induction Networks for Few-Shot Text Classiﬁcation》，同一拨人的工作。上图是A的结果，中图是B的结果，下图解释了为啥baseline会高两个百分点，自己和自己的工作比，这样就很好，又不费事。证明了BERT还是强，不搞Trick，稳稳两个百分点的提升，不过这样就显得没啥insight了，不过工业界喜欢。但是另外的问题来了，A和B都有两个数据集，一个是公司内部的不能share无可厚非，但是为啥A用了一个，B用了另外一个呢？效果不好还是不能使用？（没说明，我还没想。。）。另外一个问题，搞FSL的都是C-kay-K-shot，实验都是C和K定了再给结论的吗？（好像对于挑出来的C和K，FSL的工作都不刻意说明。。超参吧？！），不过同一个topic，看同一拨人做，前后对比起来看，还是有启发的。
 
-![205_1](https://wx2.sinaimg.cn/square/aba7d18bly1gg65az6x2ij20q507qac5.jpg)
+![205_1](https://wx2.sinaimg.cn/mw690/aba7d18bly1gg65az6x2ij20q507qac5.jpg)
 
 ![205_2](https://wx3.sinaimg.cn/mw690/aba7d18bly1gg65b1kqc3j20fw09ddha.jpg)
 
