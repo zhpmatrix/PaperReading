@@ -1,3 +1,11 @@
+203.两篇关于NLP模型robustness的文章：
+
+《Is BERT Really Robust? A Strong Baseline for Natural Language Attack on Text Classification and Entailment》
+
+《Combating Adversarial Misspellings with Robust Word Recognition》
+
+robustness一般讨论攻和防两端，此外，与数据增强也有一定的联系，不过最终的目的总是：更好的泛化能力。
+
 202.《PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization》，ICML2020
 
 重点考虑为了更好地满足生成式摘要设计的自监督任务。
