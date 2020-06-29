@@ -4,7 +4,7 @@
 
 《When Low Resource NLP Meets Unsupervised Language Model: Meta-pretraining Then Meta-learning for Few-shot Text Classiﬁcation》
 
-两篇文章同一拨人，感觉是一个工作写了两次。主要思想和205谈到的思路不同，和传统认识中的meta-learning比较类似，整体上看方案显得比较simple，同时提升比较明显。
+两篇文章同一拨人，感觉是一个工作写了两次。主要思想和205谈到的思路不同，和传统认识中的meta-learning比较类似，整体上看方案显得比较simple，但是提升比较明显。
 
 
 206.《AutoML: A Survey of the State-of-the-Art》
