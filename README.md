@@ -1,3 +1,12 @@
+207.FSL的两篇文章：
+
+《Improving Few-shot Text Classiﬁcation via Pretrained Language Representations》
+
+《When Low Resource NLP Meets Unsupervised Language Model: Meta-pretraining Then Meta-learning for Few-shot Text Classiﬁcation》
+
+两篇文章同一拨人，感觉是一个工作写了两次。主要思想和205谈到的思路不同，和传统认识中的meta-learning比较类似，整体上看方案显得比较simple，同时提升比较明显。
+
+
 206.《AutoML: A Survey of the State-of-the-Art》
 
 AutoML的特色在NAS，同时存在一些自学习平台，比如达摩院的，和Google的，注意二者之间的区别。
