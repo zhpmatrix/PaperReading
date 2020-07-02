@@ -1,3 +1,7 @@
+208.《Simple and Effective Text Matching with Richer Alignment Features》，ACL2019
+
+简单快速的文本匹配模型，实测快，效果稳。亮点是：对文本匹配的关键组件进行了思考。对比bert，两个模型会关注不同的aspect，理论上配合使用较好。
+
 207.FSL的两篇文章：
 
 《Improving Few-shot Text Classiﬁcation via Pretrained Language Representations》
