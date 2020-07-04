@@ -1,3 +1,11 @@
+209.《Leveraging Passage Retrieval with Generative Models for Open Domain Question Answering》
+
+基于生成模型做开放式领域问答（本质上知识是存储在模型参数中的），分为两步：
+
+第一步：给定问题，检索出相关文本片段
+
+第二步：给定问题和相关文本片段，直接生成答案
+
 208.《Simple and Effective Text Matching with Richer Alignment Features》，ACL2019
 
 简单快速的文本匹配模型，实测快，效果稳。亮点是：对文本匹配的关键组件进行了思考。对比bert，两个模型会关注不同的aspect，理论上配合使用较好。
