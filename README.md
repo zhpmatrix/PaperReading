@@ -1,6 +1,6 @@
 210.《SpanMlt-A Span-based Multi-Task Learning Framework for Pair-wise Aspect and Opinion Terms Extraction》，阿里ACL2020的工作
 
-在去年的”之江杯“电商评论观点挖掘比赛中，定边界+组合pair做01关系分类已经有较多工作了，自己看到过pipeline的方式，这篇感觉使用了multi-task的方式。**总体上，感觉没啥亮点，**不过可以作为一个做切面情感分析的Trick来使用。
+在去年的”之江杯“电商评论观点挖掘比赛中，定边界+组合pair做01关系分类已经有较多工作了，自己看到过pipeline的方式，这篇感觉使用了multi-task的方式。总体上，感觉没啥亮点，不过可以作为一个做切面情感分析的Trick来使用。
 
 ![img_210](https://wx1.sinaimg.cn/mw690/aba7d18bly1ggjdexdrofj20wo0e0teb.jpg)
 
