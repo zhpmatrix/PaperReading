@@ -1,3 +1,7 @@
+213.《Response Generation by Context-aware Prototype Editing》
+
+响应生成一类经典的方法：结合检索+生成的方式。
+
 212.《Language-agnostic BERT Sentence Embedding》
 
 基于平行翻译语料，使用additive margin softmax训练的表征模型。可以用于从大规模语料中挖掘平行语料对，用于翻译模型训练。
