@@ -1,3 +1,11 @@
+215.《AILA: A Question Answering System in the Legal Domain》，IJCAI2020
+
+一个法律问答系统。
+
+214.《A Unified Model for Financial Event Classification, Detection and Summarization》，IJCAI2020
+
+multi-task的方式，一个模型（bert）解决多个问题，问题域：金融。
+
 213.《Response Generation by Context-aware Prototype Editing》
 
 响应生成一类经典的方法：结合检索+生成的方式。
