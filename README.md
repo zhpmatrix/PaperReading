@@ -1,3 +1,15 @@
+218.《Predictive Multiplicity in Classiﬁcation》，ICML2020
+
+为模型评估增加一个新的评估维度，在去年讨论较多的是模型的碳排放量，属于指标体系完善的一类工作。
+
+217.《SoftSort: A Continuous Relaxation for the argsort Operator》，ICML2020
+
+argsort的可微分实现，类似工作之前也有，但是这里是更加简单，更加高效的实现；在很久之前，有一些工作是针对metric做可微分优化的，但是实际上，似乎没有成为一种成熟的技术被推广开来。
+
+216.《Deep Streaming Label Learning》，ICML2020
+
+连续学习相关工作。
+
 215.《AILA: A Question Answering System in the Legal Domain》，IJCAI2020
 
 一个法律问答系统。
