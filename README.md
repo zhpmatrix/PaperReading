@@ -1,3 +1,9 @@
+219.《Generating Natural Answers by Incorporating Copying and Retrieving Mechanisms in Sequence-to-Sequence Learning》
+
+现在看到这种工作，第一个想的是：如何兜底？出现Badcase如何修？不考虑这些问题，技术上确实是fancy的，但是实际应用的时候，如果没有兜底方案，那就很糟糕了。另外，不是所有问题都有很好的兜底方案。
+
+![img_219](https://github.com/zhpmatrix/zhpmatrix.github.io/blob/master/images/COREQA.png?raw=true)
+
 218.《Predictive Multiplicity in Classiﬁcation》，ICML2020
 
 为模型评估增加一个新的评估维度，在去年讨论较多的是模型的碳排放量，属于指标体系完善的一类工作。
