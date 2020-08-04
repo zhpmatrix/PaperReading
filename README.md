@@ -1,3 +1,13 @@
+220.《Asking Clarifying Questions in Open-Domain Information-Seeking Conversations》，SIGIR2019
+
+问题澄清，从IR的角度来解，构建了一个基于IR的数据集。其中，比较了传统的L2R的方式，同时给出了相关与IR相关的评估指标：MAP/MRR/NDCG。
+
+关于问题澄清的业务思考：
+
+（1）当人询问机器的时候，如果得不到想要的答案，会换种说法问问题，是人适应机器的过程；
+
+（2）本质上对话是一个交互的过程，在人机对话的过程中，机器也要猜想人的意图，这点正是需要深入思考的。
+
 219.《Generating Natural Answers by Incorporating Copying and Retrieving Mechanisms in Sequence-to-Sequence Learning》
 
 现在看到这种工作，第一个想的是：如何兜底？出现Badcase如何修？不考虑这些问题，技术上确实是fancy的，但是实际应用的时候，如果没有兜底方案，那就很糟糕了。另外，不是所有问题都有很好的兜底方案。
