@@ -1,3 +1,7 @@
+221.《Embedding-based Retrieval in Facebook Search》
+
+siamese network+triplet loss+negative/positive sampling(显著提升点)+feature engineering+cascade methods+ANN
+
 220.《Asking Clarifying Questions in Open-Domain Information-Seeking Conversations》，SIGIR2019
 
 问题澄清，从IR的角度来解，构建了一个基于IR的数据集。其中，比较了传统的L2R的方式，同时给出了相关与IR相关的评估指标：MAP/MRR/NDCG。
