@@ -2,6 +2,8 @@
 
 siamese network+triplet loss+negative/positive sampling(显著提升点)+feature engineering+cascade methods+ANN
 
+[网友笔记](https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247495579&idx=1&sn=1308770beb440e76e2004d94b22347ce&chksm=970fc74da0784e5b74a58436416d6cf71ad170e284a2c678b7b4ca373262ce2481a395246f3c&mpshare=1&scene=23&srcid=0804Spa7PkMvRAYpIFN3EepC&sharer_sharetime=1596551325870&sharer_shareid=0e8353dcb5f53b85da8e0afe73a0021b%23rd)
+
 220.《Asking Clarifying Questions in Open-Domain Information-Seeking Conversations》，SIGIR2019
 
 问题澄清，从IR的角度来解，构建了一个基于IR的数据集。其中，比较了传统的L2R的方式，同时给出了相关与IR相关的评估指标：MAP/MRR/NDCG。
