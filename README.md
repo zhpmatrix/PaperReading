@@ -1,3 +1,7 @@
+223.《Reinforcement Learning to Rank in E-Commerce Search Engine: Formalization, Analysis, and Application》
+
+RL在电商搜索场景中的应用，显著提升了GMV。（南大俞扬老师参与，大概在2017年阿里出了一份报告：强化学习在电商领域的落地应用，俞老师也在某些场合聊过RL可以落地，印象中包括和滴滴的合作。）
+
 222.《Long-Tail Learning via Logit Adjustment》
 
 基于损失函数变种解决长尾学习问题。
