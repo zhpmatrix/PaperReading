@@ -1,3 +1,8 @@
+224.《Cognitive Representation Learning of Self-Media Online
+Article Quality》
+
+微信自媒体文章质量评估。在早期，有不少工作是做网页质量评估，透出应用是给搜索提供一个很强的feature。
+
 223.《Reinforcement Learning to Rank in E-Commerce Search Engine: Formalization, Analysis, and Application》
 
 RL在电商搜索场景中的应用，显著提升了GMV。（南大俞扬老师参与，大概在2017年阿里出了一份报告：强化学习在电商领域的落地应用，俞老师也在某些场合聊过RL可以落地，印象中包括和滴滴的合作。）
