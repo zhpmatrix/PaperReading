@@ -1,3 +1,7 @@
+222.《Long-Tail Learning via Logit Adjustment》
+
+基于损失函数变种解决长尾学习问题。
+
 221.《Embedding-based Retrieval in Facebook Search》
 
 siamese network+triplet loss+negative/positive sampling(显著提升点)+feature engineering+cascade methods+ANN
