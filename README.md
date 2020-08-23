@@ -1,3 +1,13 @@
+225.《Progress in Neural NLP: Modeling, Learning, and Reasoning》
+
+最近MSRA的周明，段楠写的一篇NLP的综述文章。围绕modeling，learning和reasoning三部分讨论。
+
+第一部分主要讨论NLP的主要模型结构。如何设计一个好的模型结构呢？（RNN/CNN/Self-Attention）
+
+第二部分主要讨论学习策略。比如transfer learning/multi-task learning等
+
+第三部分主要讨论啥是NLP中的推理（**个人觉得这部分比较值得看**）。涉及图谱/常识，经典方法（整数线性规划，马尔科夫逻辑网，基于记忆的网络等），同时结合具体case，讨论了方法的原理。
+
 224.《Cognitive Representation Learning of Self-Media Online
 Article Quality》
 
