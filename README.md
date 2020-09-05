@@ -1,3 +1,23 @@
+226.《AMBERT: A PRE-TRAINED LANGUAGE MODEL WITH MULTI-GRAINED TOKENIZATION》，李航
+
+思想：整合多个句子的分词粒度，能够在中文任务（CLUE）上带来显著提升。有些词词频很高，导致Attention在一定程度上会关注词频比较高的组合，但是在给定context的时候，也许并不希望这样。
+
+文章尝试了三种方式：
+
+（1）给定一个句子，直接合并两种分词方式下的结果，作为模型输入。（共享Encoder端）
+
+（2）两种分词方式分别用两个不共享的Encoder编码
+
+（3）两种分词方式共享Encoder，带来了最大的提升。损失函数的设计除了传统的Mask Loss，还要考虑两种分词方式得到表征的交互（两项，其中一项是关于对[CLS]的正则）
+
+想法：
+
+（1）观点不算新。
+
+（2）文本匹配的经典思路在BERT上的一种体现。第一种是cross encoder的经典范式；第二种是siamese的思想体现；第三种是shared encoder；
+
+（3）中文理解任务可以考虑用AMBERT替换Roberta了
+
 225.《Progress in Neural NLP: Modeling, Learning, and Reasoning》
 
 最近MSRA的周明，段楠写的一篇NLP的综述文章。围绕modeling，learning和reasoning三部分讨论。
