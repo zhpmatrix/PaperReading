@@ -1,3 +1,15 @@
+227.《Rethinking the objectives of extractive question answering》
+
+核心思想：由对start和end的单独建模，改为联合建模。
+
+相关Trick：
+
+（1）Distant Semi-Supervision
+
+（2）Top-K surface form ﬁltering
+
+（3）length ﬁltering
+
 226.《AMBERT: A PRE-TRAINED LANGUAGE MODEL WITH MULTI-GRAINED TOKENIZATION》，李航
 
 思想：整合多个句子的分词粒度，能够在中文任务（CLUE）上带来显著提升。有些词词频很高，导致Attention在一定程度上会关注词频比较高的组合，但是在给定context的时候，也许并不希望这样。
