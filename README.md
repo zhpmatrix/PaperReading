@@ -1,3 +1,7 @@
+229.《It’s better to say “I can’t answer” than answering incorrectly: Towards Safety critical NLP systems》
+
+概率校准。
+
 228.《Knowledge Eﬃcient Deep Learning for Natural Language Processing》
 
 还没细致读，Ph.D论文，解决的问题：如何引入外部知识，减少标注数据量，从而提升模型效果。个人非常感兴趣的方向。
