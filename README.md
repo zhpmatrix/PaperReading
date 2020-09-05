@@ -1,3 +1,17 @@
+228.《Knowledge Eﬃcient Deep Learning for Natural Language Processing》
+
+还没细致读，Ph.D论文，解决的问题：**如何引入外部知识，减少标注数据量，从而提升模型效果。**，个人非常感兴趣的方向。
+
+提出一个概念：知识高效学习，具体包括技术：
+
+（1）多任务学习
+
+（2）迁移学习
+
+（3）弱监督学习
+
+（4）无监督学习
+
 227.《Rethinking the objectives of extractive question answering》
 
 核心思想：由对start和end的单独建模，改为联合建模。
