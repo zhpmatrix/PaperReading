@@ -1,3 +1,11 @@
+231.《DC-BERT: Decoupling Question and Document for Efficient Contextual Encoding》，SIGIR2020
+
+解耦quesiton和passage的编码，加速。（SIGIR的文章，总体感觉质量一般）
+
+230.《MarkedBERT: Integrating Traditional IR Cues in Pre-trained Language Models for Passage Retrieva》，SIGIR2020
+
+找到question和passage的共有实体，加marker。
+
 229.《It’s better to say “I can’t answer” than answering incorrectly: Towards Safety critical NLP systems》
 
 概率校准。
