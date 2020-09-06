@@ -1,3 +1,13 @@
+232.《Match 2 : A Matching over Matching Model for Similar Question Identification》,SIGIR2020
+
+核心思想：在计算QQ相似性的时候，用A做bridge。
+
+想法：该思想可以体现在很多地方，比如triplet loss（anchor），比如rank loss，比如特征交叉（融合）等。
+
+三种范式如下(文章主要讨论的是第三种)：
+
+![img_232](https://wx3.sinaimg.cn/mw690/aba7d18bly1gigvfk7d72j21da0cttbp.jpg)
+
 231.《DC-BERT: Decoupling Question and Document for Efficient Contextual Encoding》，SIGIR2020
 
 解耦quesiton和passage的编码，加速。（SIGIR的文章，总体感觉质量一般）
