@@ -1,3 +1,11 @@
+233.《Dynamic Updating of the Knowledge Base for a Large-Scale Question Answering System》
+
+主要内容：自动化问答库构建
+
+作者：晓多科技（智能客服赛道的大玩家），江岭
+
+亮点：有真实线上数据反馈
+
 232.《Match 2 : A Matching over Matching Model for Similar Question Identification》,SIGIR2020
 
 核心思想：在计算QQ相似性的时候，用A做bridge。
