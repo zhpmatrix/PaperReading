@@ -1,3 +1,15 @@
+234.《Adapting BERT to E-commerce with Adaptive Hybrid Masking and Neighbor Product Reconstruction》
+
+电商领域的BERT。
+
+核心思想：融入知识到BERT中去，不同领域有不同的知识，电商就是一个垂直领域。
+
+知识：常识，图谱，词典等。
+
+结论：在理解任务上提升明显。
+
+门槛：知识沉淀。
+
 233.《Dynamic Updating of the Knowledge Base for a Large-Scale Question Answering System》
 
 主要内容：自动化问答库构建
