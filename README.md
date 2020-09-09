@@ -1,7 +1,6 @@
 235.《FLAT: Chinese NER Using Flat-Lattice Transformer》,ACL2020
 
 中文NER目前的SOTA，利用分词信息增强BERT，个人比较喜欢的工作，比较干净。黄老师组应该一直在做lexicion-based的NER工作，之前做过PU Learning用于NER的相关工作。
-
 ![img_235](https://wx1.sinaimg.cn/mw690/aba7d18bly1gikrga7al8j20hq0jdgoj.jpg)
 
 234.《Adapting BERT to E-commerce with Adaptive Hybrid Masking and Neighbor Product Reconstruction》
