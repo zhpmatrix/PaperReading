@@ -1,3 +1,7 @@
+236.《The Renaissance of Templates for Data2Text: A Template Based Data2Text System Powered by Text Stitch Model》，EMNLP2020
+
+这篇想读，但是文章还没有share。
+
 235.《FLAT: Chinese NER Using Flat-Lattice Transformer》,ACL2020
 
 中文NER目前的SOTA，利用分词信息增强BERT，个人比较喜欢的工作，比较干净。黄老师组应该一直在做lexicion-based的NER工作，之前做过PU Learning用于NER的相关工作。[相关参考](https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247497102&idx=1&sn=cedddfa134b0a2e0ca30b3f033560eb2&chksm=970fdd58a078544e75a84939682ca36a3dc412c93853f5377d3a17dcc3c5c399567994a34ea1&scene=178#rd)，位置信息的利用采用position-encoding，但是和《Attention is all you need》中的工作不同。
