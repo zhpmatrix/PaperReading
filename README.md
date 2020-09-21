@@ -1,3 +1,7 @@
+238.《What if we had no Wikipedia? Domain-independent Term Extraction from a Large News Corpus》
+
+domain内的自动术语抽取。文章中提到一个有趣的场景：wikipedia的词条哪些是需要编辑的？（人类知识是动态可进化的）
+
 237.《Don’t Stop Pretraining: Adapt Language Models to Domains and Tasks》
 
 讨论BERT系用于domain任务的时候，是否需要进一步pre-training，具体怎么做？在早期，UniLM的工作中讨论过类似做法，去年的一些工作中也有尝试，但是整体结论是：提升是不可预期的，因此个人在后期的一些任务中，多采用直接finetune，没有做进一步的pre-training。
