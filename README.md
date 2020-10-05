@@ -62,6 +62,8 @@ domain内的自动术语抽取。文章中提到一个有趣的场景：wikipedi
 
 概率校准。
 
+KDD2020的一个tutorial：https://github.com/nplan-io/kdd2020-calibration
+
 228.《Knowledge Eﬃcient Deep Learning for Natural Language Processing》
 
 还没细致读，Ph.D论文，解决的问题：如何引入外部知识，减少标注数据量，从而提升模型效果。个人非常感兴趣的方向。
