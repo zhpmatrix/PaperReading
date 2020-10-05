@@ -1,3 +1,7 @@
+239.《Tuning Word2vec for Large Scale Recommendation Systems》，Twitter
+
+Word2vec用于推荐系统（基于用户行为序列的表征）
+
 238.《What if we had no Wikipedia? Domain-independent Term Extraction from a Large News Corpus》
 
 domain内的自动术语抽取。文章中提到一个有趣的场景：wikipedia的词条哪些是需要编辑的？（人类知识是动态可进化的）
