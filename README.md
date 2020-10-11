@@ -1,3 +1,15 @@
+241.《Simplify the Usage of Lexicon in Chinese NER》
+
+KeyPoints：如何在做NER的时候，利用lexicon的信息？（Xuanjing Huang老师组的一直在做的Topic）
+
+工作延续：是对Lattice-LSTM的进一步优化，相关工作还有一些，主要解决：在保证metric不变的前提下，提升inference speed。
+
+做法：利用分词（BMEO）+词频（作为权重）
+
+Motivation:分词信息能够完整表征用词典去match句子时得到的匹配信息；Attention是一种dynamic weighting技术，词频是一种静态weighting技术（预计算），类似想法在ZEN的工作中也有体现。
+
+直观感受：一种NER任务的Trick实现。围绕Lattice-LSTM的工作，最近也有一个工作是基于Transformer来做的。
+
 240.《Unsupervised Text Style Transfer with Padded Masked Language Models》
 
 239.《Tuning Word2vec for Large Scale Recommendation Systems》，Twitter
