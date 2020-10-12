@@ -1,3 +1,9 @@
+242.《MetaPAD: Meta Paern Discovery from Massive Text Corpora》
+
+从大规模语料中挖掘类似于下图左侧的meta pattern。
+
+![img_242](https://wx2.sinaimg.cn/mw690/aba7d18bly1gjmynkys55j20np0gadka.jpg)
+
 241.《Simplify the Usage of Lexicon in Chinese NER》
 
 KeyPoints：如何在做NER的时候，利用lexicon的信息？（Xuanjing Huang老师组的一直在做的Topic）
