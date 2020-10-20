@@ -1,3 +1,7 @@
+246.《Iterative Strategy for Named Entity Recognition with Imperfect Annotations》，NLPCC2020的AutoIE赛道的题目
+
+245.《Pretrained Transformers for Text Ranking: BERT and Beyond》，综述文章
+
 244.《Multimodal Attribute Extraction》
 
 现在NLP的多数属性抽取任务是通过直接分析文本的基础上做的，这篇文章在做属性抽取的时候，融合图片的信息。（对多模态不是很了解，很好奇图片的信息真的能够帮助提效吗？）
