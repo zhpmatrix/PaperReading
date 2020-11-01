@@ -1,3 +1,9 @@
+247.《Billion-scale Commodity Embedding for E-commerce Recommendation in Alibaba》
+
+基于Graph的结构，通过Graph Learning的方式获取商品Embedding。这里的Graph是基于历史订单共现数据搭建的（我们自己的搭建方式是基于商品共有属性），整体的思路是类似于Word2Vec。
+
+![img247](https://wx4.sinaimg.cn/mw690/aba7d18bly1gk9s6fxsdhj211a0d679c.jpg)
+
 246.《Iterative Strategy for Named Entity Recognition with Imperfect Annotations》，NLPCC2020的AutoIE赛道的题目
 
 245.《Pretrained Transformers for Text Ranking: BERT and Beyond》，综述文章
