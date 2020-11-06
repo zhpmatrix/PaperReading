@@ -1,3 +1,8 @@
+248.《A Frustratingly Easy Approach for Joint Entity and Relation Extraction》
+
+![img248](https://ftp.bmp.ovh/imgs/2020/11/34e4c031463fcc48.jpg)
+
+
 247.《Billion-scale Commodity Embedding for E-commerce Recommendation in Alibaba》
 
 基于Graph的结构，通过Graph Learning的方式获取商品Embedding。这里的Graph是基于历史订单共现数据搭建的（我们自己的搭建方式是基于商品共有属性），整体的思路是类似于Word2Vec。
