@@ -1,3 +1,5 @@
+249.《CharBERT: Character-aware Pre-trained Language Model》
+
 248.《A Frustratingly Easy Approach for Joint Entity and Relation Extraction》
 
 ![img248](https://ftp.bmp.ovh/imgs/2020/11/34e4c031463fcc48.jpg)
