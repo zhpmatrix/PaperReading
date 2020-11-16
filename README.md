@@ -1,3 +1,8 @@
+250.《Diverse, Controllable, and Keyphrase-Aware:
+A Corpus and Method for News Multi-Headline Generation》
+
+新闻标题生成
+
 249.《CharBERT: Character-aware Pre-trained Language Model》
 
 248.《A Frustratingly Easy Approach for Joint Entity and Relation Extraction》
