@@ -1,3 +1,7 @@
+251.《Enriching Pre-trained Language Model with Entity Information for Relation Classiﬁcation》
+
+![img_251](https://ftp.bmp.ovh/imgs/2020/11/fd20de4ee9f75cfc.png)
+
 250.《Diverse, Controllable, and Keyphrase-Aware:
 A Corpus and Method for News Multi-Headline Generation》
 
