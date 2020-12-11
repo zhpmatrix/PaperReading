@@ -1,3 +1,7 @@
+252.《Why Are Deep Learning Models Not Consistently Winning Recommender Systems Competitions Yet?》，RecSys2020
+
+非常棒的文章，多年以前自己就很好奇了。
+
 251.《Enriching Pre-trained Language Model with Entity Information for Relation Classiﬁcation》
 
 ![img_251](https://ftp.bmp.ovh/imgs/2020/11/fd20de4ee9f75cfc.png)
