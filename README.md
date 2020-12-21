@@ -1,3 +1,5 @@
+254.《Graph Neural Networks：Taxonomy, Advances and Trends》，最新的GNN相关的综述文章
+
 253.《Understanding Image Retrieval Re-Ranking：A Graph Neural Network Persperctive》
 
 有意思的工作，作者提到：
