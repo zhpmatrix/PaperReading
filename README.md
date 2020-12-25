@@ -1,3 +1,15 @@
+255.《Spam Review Detection with Graph Convolutional Networks》
+
+重新翻开这篇文章，方法如下：
+
+![img_255](https://tva3.sinaimg.cn/mw690/aba7d18bly1gm02l3dsuxj20gt0cp766.jpg)
+
+文章要解决的问题是垃圾评论检测，构建了两个图。第一个图：用户-评论-商品图，是异构图；第二个图：评论-评论图，是同构图。分别用异构GCN和GCN学到各自的表征，做节点分类工作。
+
+整体上，文章的思路和这篇《Abusive Language Detection with Graph Convolutional Networks》非常相似，但是二者都没有互相引用。这篇文章做的是Tweet分类（三分类），分别构建两个图。第一个图：用户-用户的同构图；第二个图：用户-Tweet的异构图。针对同构图，用node2vec去学到表征（node2vec不是仅仅适用于同构图，不过效果需要考察）；针对异构图，用gcn去学到表征。表征组合（embedding+n-gram）+分类器做节点分类。
+
+对比二者，整体上的技术思路相似，不过显然后者在图构建上更加的自然。
+
 254.《Graph Neural Networks：Taxonomy, Advances and Trends》，最新的GNN相关的综述文章
 
 253.《Understanding Image Retrieval Re-Ranking：A Graph Neural Network Persperctive》
