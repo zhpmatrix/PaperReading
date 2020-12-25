@@ -2,7 +2,7 @@
 
 重新翻开这篇文章，方法如下：
 
-![img_255](https://tva3.sinaimg.cn/mw690/aba7d18bly1gm02l3dsuxj20gt0cp766.jpg)
+![img_255](https://ftp.bmp.ovh/imgs/2020/12/42595b8c0cace4ad.png)
 
 文章要解决的问题是垃圾评论检测，构建了两个图。第一个图：用户-评论-商品图，是异构图；第二个图：评论-评论图，是同构图。分别用异构GCN和GCN学到各自的表征，做节点分类工作。
 
