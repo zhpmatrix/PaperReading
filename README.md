@@ -1,4 +1,4 @@
-255.《Spam Review Detection with Graph Convolutional Networks》
+255.《Spam Review Detection with Graph Convolutional Networks》,CIKM2018 Best Paper
 
 重新翻开这篇文章，方法如下：
 
