@@ -1,3 +1,7 @@
+256.《POG：Personalized Outfit Generation for Fashion Recommendation ai Alibaba iFashion》，KDD2019
+
+阿里dida平台建设，compatibility+personality都要考察。
+
 255.《Spam Review Detection with Graph Convolutional Networks》,CIKM2018 Best Paper
 
 重新翻开这篇文章，方法如下：
