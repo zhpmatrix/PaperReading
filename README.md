@@ -1,3 +1,7 @@
+257.《Heterogeneous Graph Attention Network》，WWW2019
+
+异构图+gat，文章写作思路很赞。目前，我们正尝试将该工作用于销量预测与归因分析。
+
 256.《POG：Personalized Outfit Generation for Fashion Recommendation ai Alibaba iFashion》，KDD2019
 
 阿里dida平台建设，compatibility+personality都要考察。
