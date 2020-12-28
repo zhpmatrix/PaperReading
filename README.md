@@ -2,6 +2,8 @@
 
 阿里dida平台建设，compatibility+personality都要考察。
 
+相关PR稿：https://hackernoon.com/finding-the-perfect-outfit-with-alibabas-dida-ai-assistant-71ba7c9e8cfa（dida也是从luban演化而来）
+
 255.《Spam Review Detection with Graph Convolutional Networks》,CIKM2018 Best Paper
 
 重新翻开这篇文章，方法如下：
