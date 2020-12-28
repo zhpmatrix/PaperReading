@@ -1,3 +1,7 @@
+258.《Metapath-guided Heterogeneous Graph Neural Network for Intent Recommendation》，KDD2019
+
+基于user-item-query构建的图，三种类型的边：search,click, guide，用于淘宝意图检测。
+
 257.《Heterogeneous Graph Attention Network》，WWW2019
 
 异构图+gat，文章写作思路很赞。目前，我们正尝试将该工作用于销量预测与归因分析。
