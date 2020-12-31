@@ -1,3 +1,7 @@
+259.《AutoRegressive Entity Retrieval》，ICLR2021
+
+用生成的方式（seq2seq）做el，entity disambiguation， page retrieval任务。将传统分类任务转化为一个生成任务是问题解决范式的转变，很有意思的工作。在自己的博客，[MRC is all you need?](https://zhpmatrix.github.io/2020/05/07/mrc-is-all-you-need/)中讨论了将很多经典NLP任务用MRC的方式来做。
+
 258.《Metapath-guided Heterogeneous Graph Neural Network for Intent Recommendation》，KDD2019
 
 基于user-item-query构建的图，三种类型的边：search,click, guide，用于淘宝意图检测。
