@@ -1,3 +1,7 @@
+261.《Open Domain Event Extraction Using Neural Latent Variable Models》
+
+开放域的事件抽取。（个人对隐变量模型不是很了解）
+
 260.《Billion-scale Commodity Embedding for E-commerce Recommendation in Alibaba》，KDD2018
 
 ![260_1_img](https://ftp.bmp.ovh/imgs/2021/01/db47ef98a5f065f4.png)
