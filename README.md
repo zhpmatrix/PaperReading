@@ -1,3 +1,10 @@
+262.《CRSLab：An Open-Source Toolkit for Building Conversational Recommender System》
+
+CRS系统的设定：
+
+![img_262](https://ftp.bmp.ovh/imgs/2021/01/d3be7c25a4f1419c.png)
+
+
 261.《Open Domain Event Extraction Using Neural Latent Variable Models》
 
 开放域的事件抽取。（个人对隐变量模型不是很了解）
