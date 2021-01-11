@@ -1,3 +1,7 @@
+263.《Read, Retrospect, Select: An MRC Framework to Short Text Entity Linking》
+
+和《AutoRegressive Entity Retrieval》，ICLR2021一块儿读。
+
 262.《CRSLab：An Open-Source Toolkit for Building Conversational Recommender System》
 
 CRS系统的设定：
