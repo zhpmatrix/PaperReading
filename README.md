@@ -1,3 +1,7 @@
+266.《Building Watson：An Overview of the DeepQA Project》，2011年，IBM Watson的DeepQA项目，具体实现细节
+
+讨论了架构和工程实现的问题，其中的特色在于对**证据**的重视。
+
 265.《Strategies For Pre-training Graph Neural Networks》，ICLR2020
 
 主要内容：预训练图的工作
