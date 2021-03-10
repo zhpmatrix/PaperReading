@@ -1,3 +1,9 @@
+267.《BioBERT：a pre-trained biomedical language representation model for biomedical text mining》
+
+预训练任务没有做任何改进，但是在下游的三个理解任务上均取得了提升，比较适合工业界操作的工作。
+
+![img267](https://ftp.bmp.ovh/imgs/2021/03/20a8a5f451f89ef3.png)
+
 266.《Building Watson：An Overview of the DeepQA Project》，2011年，IBM Watson的DeepQA项目，具体实现细节
 
 讨论了架构和工程实现的问题，其中的特色在于对**证据**的重视。
