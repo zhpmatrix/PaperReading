@@ -1,6 +1,6 @@
 268.《MedDG: A Large-scale Medical Consultation Dataset for Building Medical Dialogue System》，**Xiaodan Liang**等
 
-构建了一个医学对话数据集，特点是：标注了每个对话可能涉及的实体。
+构建了一个中文医学对话数据集，特点是：标注了每个对话可能涉及的实体。
 
 基于该数据集，定义了两个任务：
 
@@ -12,6 +12,7 @@
 
 想法：其实是对生成领域强化对实体信息的利用。传统做生成的同学有一些对应的方式强化对实体信息的利用。不过，文章中的建模方式更偏intent识别。
 
+《MedDialog: Large-scale Medical Dialogue Datasets》，EMNLP2020，这篇工作也是构建了一个中文医疗对话数据集，不过没有实体信息。
 
 267.《BioBERT：a pre-trained biomedical language representation model for biomedical text mining》
 
