@@ -1,3 +1,18 @@
+268.《MedDG: A Large-scale Medical Consultation Dataset for Building Medical Dialogue System》，**Xiaodan Liang**等
+
+构建了一个医学对话数据集，特点是：标注了每个对话可能涉及的实体。
+
+基于该数据集，定义了两个任务：
+
+（1）next entity prediction。文章中用multi-label classification的方式实现
+
+（2）doctor response generation。标准的文本生成类任务+融合任务（1）中的实体信息（最简单的方式：直接concat实体）
+
+其他：ICLR2021要基于该数据集举办一个比赛，可以关注。
+
+想法：其实是对生成领域强化对实体信息的利用。传统做生成的同学有一些对应的方式强化对实体信息的利用。不过，文章中的建模方式更偏intent识别。
+
+
 267.《BioBERT：a pre-trained biomedical language representation model for biomedical text mining》
 
 预训练任务没有做任何改进，但是在下游的三个理解任务上均取得了提升，比较适合工业界操作的工作。
