@@ -1,3 +1,7 @@
+270.《Enquire One’s Parent and Child Before Decision_ Fully Exploit Hierarchical Structure for Self-Supervised Taxonomy Expansion》，腾讯，刘邦
+
+**分类树扩展**的工作，用于腾讯的疫情问答场景。刘邦的博士论文可以一读。
+
 269.Federated Learning
 
 《Privacy-Preserving Technology to Help Millioins of People_Federated Prediction Model for Stroke Prevention》
