@@ -44,11 +44,13 @@ FL使用TextCNN的经验性工作
 
 预训练任务没有做任何改进，但是在下游的三个理解任务上均取得了提升，比较适合工业界操作的工作。
 
+![img267](https://ftp.bmp.ovh/imgs/2021/03/20a8a5f451f89ef3.png)
+
 补充：《Conceptualized Representation Learning for Chinese Biomedical Text Mining》，阿里巴巴，张宁豫
 
-![img267](https://ftp.bmp.ovh/imgs/2021/03/5d1227f4839fe5de.png)
+![img267+](https://ftp.bmp.ovh/imgs/2021/03/5d1227f4839fe5de.png)
 
-![img267](https://ftp.bmp.ovh/imgs/2021/03/20a8a5f451f89ef3.png)
+
 
 266.《Building Watson：An Overview of the DeepQA Project》，2011年，IBM Watson的DeepQA项目，具体实现细节
 
