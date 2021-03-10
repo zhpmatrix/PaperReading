@@ -1,3 +1,25 @@
+269.Federated Learning
+
+《Privacy-Preserving Technology to Help Millioins of People_Federated Prediction Model for Stroke Prevention》
+
+FL使用传统模型，也是目前主要做的工作
+
+《Empirical Studies of Institutional Federated Learning For Natural Language Processing》
+
+FL使用TextCNN的经验性工作
+
+《FedED: Federated Learning via Ensemble Distillation for Medical Relation Extraction》
+
+内容：FL应用于医疗关系抽取
+
+结果：实现了隐私保护，但是指标下降
+
+核心：在通信，不在计算
+
+科普：[《Introduction to FL》](https://www.youtube.com/watch?v=STxtRucv_zo)，本质上还是分布式学习的一种。
+
+结论：**除非必要，否则目前在工业界推进的ROI应该不算高。不单纯是一个算法问题，还是一个架构问题。但是在医疗行业目前现状下（数据孤岛现象），仍有必要关注**
+
 268.《MedDG: A Large-scale Medical Consultation Dataset for Building Medical Dialogue System》，**Xiaodan Liang**等
 
 构建了一个中文医学对话数据集，特点是：标注了每个对话可能涉及的实体。
