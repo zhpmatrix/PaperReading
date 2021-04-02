@@ -1,3 +1,11 @@
+271.《Summarizing Medical Conversations via Identifying Important Utterances》，COLING2020
+
+主要内容：从医疗问答中抽取摘要。
+
+数据：从春雨医生爬取
+
+方法：抽取式摘要
+
 270.《Enquire One’s Parent and Child Before Decision_ Fully Exploit Hierarchical Structure for Self-Supervised Taxonomy Expansion》，腾讯，刘邦
 
 **分类树扩展**的工作，用于腾讯的疫情问答场景。刘邦的博士论文可以一读。
