@@ -1,3 +1,14 @@
+272.《Few-Shot Named Entity Recognition: A Comprehensive Study》，Jiawei Han组的工作
+
+NER中的少样本问题，三种解决方案：
+
+（1）基于proto的few-shot learning方法（此前在研究文本分类的few-shot问题时，该方向上的工作也一直比较受欢迎）
+
+（2）带噪音，有监督预训练
+
+（3）伪标签，自训练
+
+
 271.《Summarizing Medical Conversations via Identifying Important Utterances》，COLING2020
 
 主要内容：从医疗问答中抽取摘要。
