@@ -1,3 +1,7 @@
+274.《A Survey of Data Augmentation Approaches for NLP》
+
+比较新的NLP数据增强文章，按照任务类型划分增强的方式。
+
 273.《HyperCore: Hyperbolic and Co-graph Representation for Automatic ICD Coding》， ACL2021
 
 ICD编码映射，医疗NLP的特色任务。
