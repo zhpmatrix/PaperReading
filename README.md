@@ -1,3 +1,16 @@
+273.《HyperCore: Hyperbolic and Co-graph Representation for Automatic ICD Coding》， ACL2021
+
+ICD编码映射，医疗NLP的特色任务。
+
+ICD的特点：
+
+（1）层次
+
+（2）共现(因果)
+
+主要方法：GCN的应用
+
+
 272.《Few-Shot Named Entity Recognition: A Comprehensive Study》，Jiawei Han组的工作
 
 NER中的少样本问题，三种解决方案：
