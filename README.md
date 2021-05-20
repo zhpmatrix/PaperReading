@@ -1,3 +1,7 @@
+275.《MIE: A Medical Information Extractor towards Medical Dialogues》
+
+annotate online medical consultation dialogues in a window-sliding style.
+
 274.《A Survey of Data Augmentation Approaches for NLP》
 
 比较新的NLP数据增强文章，按照任务类型划分增强的方式。
