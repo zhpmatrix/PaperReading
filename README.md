@@ -1,3 +1,7 @@
+277.《Lifelong Learning based Disease Diagnosis on Clinical Notes》，腾讯天衍实验室的工作，TODO
+
+276.《PRGC: Potential Relation and Global Correspondence Based Joint Relational Triple Extraction》，腾讯天衍实验室的工作，TODO
+
 275.《MIE: A Medical Information Extractor towards Medical Dialogues》
 
 annotate online medical consultation dialogues in a window-sliding style.
