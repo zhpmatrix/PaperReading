@@ -1,3 +1,8 @@
+282.《Modeling Joint Entity and Relation Extraction with Table Representation》,EMNLP2014
+
+![截屏2021-06-0716 16 39](https://user-images.githubusercontent.com/4077026/120983106-f6ddd400-c7ab-11eb-8021-eb6e2a9bf4cb.png)
+
+
 四篇information extraction相关的工作：
 
 281.《Read, Retrospect, Select: An MRC Framework to Short Text Entity Linking》
