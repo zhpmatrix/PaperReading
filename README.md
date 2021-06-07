@@ -1,3 +1,9 @@
+两篇information extraction相关的工作：
+
+279.《A novel cascade binary tagging framework for relational triple extraction》
+
+278.《Entity-Relation Extraction as Multi-Turn Question Answering》
+
 277.《Lifelong Learning based Disease Diagnosis on Clinical Notes》，腾讯天衍实验室的工作，TODO
 
 276.《PRGC: Potential Relation and Global Correspondence Based Joint Relational Triple Extraction》，腾讯天衍实验室的工作，TODO
