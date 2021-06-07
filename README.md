@@ -1,4 +1,6 @@
-两篇information extraction相关的工作：
+三篇information extraction相关的工作：
+
+280.《Integrating Graph Contextualized Knowledge into Pre-trained Language Models》，小样本信息抽取相关的工作
 
 279.《A novel cascade binary tagging framework for relational triple extraction》
 
