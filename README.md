@@ -1,4 +1,6 @@
-三篇information extraction相关的工作：
+四篇information extraction相关的工作：
+
+281.《Read, Retrospect, Select: An MRC Framework to Short Text Entity Linking》
 
 280.《Integrating Graph Contextualized Knowledge into Pre-trained Language Models》，小样本信息抽取相关的工作
 
