@@ -1,6 +1,10 @@
 282.《Modeling Joint Entity and Relation Extraction with Table Representation》,EMNLP2014
 
+人傻就要多读书，比如，在2014年的工作中，已经用table的方式解决joint问题了，如下：
+
 ![截屏2021-06-0716 16 39](https://user-images.githubusercontent.com/4077026/120983106-f6ddd400-c7ab-11eb-8021-eb6e2a9bf4cb.png)
+
+
 
 
 四篇information extraction相关的工作：
