@@ -1,3 +1,7 @@
+283.《SMedBERT: A Knowledge-Enhanced Pre-trained Language Model with Structured Semantics for Medical Text Mining》,丁香园的预训练语言模型
+
+[参考文章](https://mp.weixin.qq.com/s/F51Behy6pz1F9LgO3ESkjA)
+
 282.《Modeling Joint Entity and Relation Extraction with Table Representation》,EMNLP2014
 
 人傻就要多读书，比如，在2014年的工作中，已经用table的方式解决joint问题了，如下：
