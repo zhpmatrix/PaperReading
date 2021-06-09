@@ -1,3 +1,19 @@
+284.《A Uniﬁed Generative Framework for Various NER Subtasks》，邱锡鹏老师组的工作
+
+主要内容：用seq2seq(bart)解决三种常见ner的case（flat ner + nested ner + discontinuous ner）
+
+想法：
+
+（1）在之前的工作中，围绕这三种情况，有很多的paper。但是这篇文章采用seq2seq来解决，思路上之前也已经有相关工作了，但是这篇文章主要采用bart作为plm。毕竟seq2seq是万能的，哈哈。
+
+（2）围绕bert做的中文nlp比较多，为啥？原因之一是因为bert有中文版，但是想用一下bart，就需要自己训练一个中文的bart了。每当这个时候，就不禁想到英文世界的话语权是怎么来的，到底意味着啥？
+
+（3）技术创新个人认为谈不上：seq2seq(plm:bart)+ner(是一个体力活儿，不过还是要做很多工作的)
+
+![Uploading 截屏2021-06-0918.35.01.png…]()
+
+
+
 283.《SMedBERT: A Knowledge-Enhanced Pre-trained Language Model with Structured Semantics for Medical Text Mining》,丁香园的预训练语言模型
 
 [参考文章](https://mp.weixin.qq.com/s/F51Behy6pz1F9LgO3ESkjA)
