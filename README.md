@@ -18,6 +18,8 @@
 
 [参考文章](https://mp.weixin.qq.com/s/F51Behy6pz1F9LgO3ESkjA)
 
+知识增强预训练语言模型。研究了丁香园，联合阿里和东南大学做的工作，丁香园利用5G的医疗领域中文文本+内部的知识图谱，通过巧妙的模型设计，得到的模型能够显著提升NER/NRE等上游任务的指标。我们可以利用开源爬取的数据(目前量<5G)，同时结合OMAHA，做类似的工作以支持上游模型。
+
 282.《Modeling Joint Entity and Relation Extraction with Table Representation》,EMNLP2014
 
 人傻就要多读书，比如，在2014年的工作中，已经用table的方式解决joint问题了，如下：
