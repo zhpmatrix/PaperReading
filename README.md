@@ -1,3 +1,18 @@
+285.病历相似性（基于电子病历数据）
+
+目前看到的主流思路是：梳理出EMR的各个维度，然后按照维度计算每个维度的相似性，每个维度都有自己的相似度计算方式，之后按照加权的方式求解。
+
+个人想法：
+
+（1）纯文本的方式。计算tf-idf（ES based solution）
+
+（2）计算表征。但是由于EMR文本较多，医学文本对于精确性要求比较高，因此需要hierarchical representation fusion的思想。（不管怎样，首先需要一个好的encoder）
+
+《Measurement and application of patient similarity in personalized predictive modeling based on electronic medical records》
+
+![截屏2021-06-1111 17 00](https://user-images.githubusercontent.com/4077026/121626512-25a7c300-caa8-11eb-936f-cc2ebc1f2f71.png)
+
+
 284.《A Uniﬁed Generative Framework for Various NER Subtasks》，邱锡鹏老师组的工作
 
 主要内容：用seq2seq(bart)解决三种常见ner的case（flat ner + nested ner + discontinuous ner）
