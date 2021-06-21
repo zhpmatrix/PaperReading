@@ -1,3 +1,9 @@
+286.《A Survey on Complex Knowledge Base Question Answering》
+
+主要综述两种KBQA的解决方案：分别是semantic-parsing based methods和information-retrieval based methods。
+
+future中提到的一个有意思的观点是：要做Evolutionary KBQA，简而言之，要将用户的feedback带入到系统的优化中。
+
 285.病历相似性（基于电子病历数据）
 
 目前看到的主流思路是：梳理出EMR的各个维度，然后按照维度计算每个维度的相似性，每个维度都有自己的相似度计算方式，之后按照加权的方式求解。
