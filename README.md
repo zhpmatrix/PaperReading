@@ -1,3 +1,10 @@
+288.《A Neural Multi-Task Learning Framework to Jointly Model Medical Named Entity Recognition and Normalization》
+
+同样的思想，基于multi-task的方式建模ner和norm两个任务。
+
+![截屏2021-06-2311 43 41](https://user-images.githubusercontent.com/4077026/123032353-6264aa00-d418-11eb-95b0-8802a2fa5beb.png)
+
+
 287.《A transition-based joint model for disease named entity recognition and normalization》
 
 老文章了。讨论的想法是医疗领域针对疾病，做实体识别和norm的联合建模。作为医疗NLP领域的三大基础任务：ner/nre/norm，采用jointly的方式，one model to rule all of them，也许是一个想法。
