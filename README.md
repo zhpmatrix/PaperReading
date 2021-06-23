@@ -1,3 +1,7 @@
+287.《A transition-based joint model for disease named entity recognition and normalization》
+
+老文章了。讨论的想法是医疗领域针对疾病，做实体识别和norm的联合建模。作为医疗NLP领域的三大基础任务：ner/nre/norm，采用jointly的方式，one model to rule all of them，也许是一个想法。
+
 286.《A Survey on Complex Knowledge Base Question Answering》
 
 主要综述两种KBQA的解决方案：分别是semantic-parsing based methods和information-retrieval based methods。
