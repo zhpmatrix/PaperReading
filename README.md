@@ -1,3 +1,7 @@
+290.《Large-Scale Network Embedding in Apache Spark》，KDD2021，在腾讯的两款游戏中有上线哦
+
+289.《AliCoCo_Alibaba E-commerce Cognitive Concept Net》，短文本相关的技术
+
 288.《A Neural Multi-Task Learning Framework to Jointly Model Medical Named Entity Recognition and Normalization》
 
 同样的思想，基于multi-task的方式建模ner和norm两个任务。
