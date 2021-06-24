@@ -1,3 +1,5 @@
+291.《COVID-19 Imaging Data Privacy By Federated Learning Design: A Threoretical Framework》, 联邦学习在cv领域的一个工作
+
 290.《Large-Scale Network Embedding in Apache Spark》，KDD2021，在腾讯的两款游戏中有上线哦
 
 289.《AliCoCo_Alibaba E-commerce Cognitive Concept Net》，短文本相关的技术
