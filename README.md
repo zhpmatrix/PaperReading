@@ -1,3 +1,11 @@
+292.《ABCD：A Graph Framework to Convert Complex Sentences to a Covering Set of Simple Sentences》
+
+解决问题：将一个复杂的句子拆分成多个简单的句子。
+
+方法：传统的方法是将问题建模为一个seq2seq的问题，但是在该工作中，借助graph的方式，取得不错的效果。
+
+评价：problem setting有意思。
+
 291.《COVID-19 Imaging Data Privacy By Federated Learning Design: A Threoretical Framework》, 联邦学习在cv领域的一个工作
 
 290.《Large-Scale Network Embedding in Apache Spark》，KDD2021，在腾讯的两款游戏中有上线哦
