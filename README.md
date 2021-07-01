@@ -1,3 +1,15 @@
+293.《AliCG: Fine-grained and Evolvable Conceptual Graph Construction for Semantic Search at Alibaba》
+
+阿里概念图谱的工作，利用search log构建一个concept graph（基于UC Browser的log），可以用在多个应用场景中，如：
+
+（1）text rewriting
+
+（2）concept embedding
+
+（3）conceptualized pretraining
+
+在之前，阿里图谱相关的工作包括但不限于：AliCoCo（认知图谱）, AliMe等。
+
 292.《ABCD：A Graph Framework to Convert Complex Sentences to a Covering Set of Simple Sentences》
 
 解决问题：将一个复杂的句子拆分成多个简单的句子。
