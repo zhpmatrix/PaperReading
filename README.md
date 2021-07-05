@@ -1,3 +1,6 @@
+294.《CLINE：Contrastive Learning with Semantic Negative Examples for Natural Language Understanding》
+
+利用对抗样本和对比样本提升PLM的鲁棒性。基于MLM，构建额外两个损失函数，预训练一个语言模型。整体上，个人收获不是很大的一个工作。
 
 293.《AliCG: Fine-grained and Evolvable Conceptual Graph Construction for Semantic Search at Alibaba》
 
