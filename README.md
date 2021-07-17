@@ -1,3 +1,7 @@
+296.《Wordcraft: a Human-AI Collaborative Editor for Story Writing》，Google Research
+
+人机协作的Editor，一个完整的事情。
+
 295.《A Data-driven Approach for Noise Reduction in Distantly Supervised Biomedical Relation Extraction》
 
 multi-instance learning to noise reduction.
