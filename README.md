@@ -1,3 +1,8 @@
+297.《Pre-trained Language Model for Web-scale Retrieval in Baidu Search》，预训练模型在百度搜索的应用，印象中Google Blog也有一篇工作是讲述BERT在Google Search中的应用。
+
+向量压缩和量化是工程实践中很关键的技术点。
+
+
 296.《Wordcraft: a Human-AI Collaborative Editor for Story Writing》，Google Research
 
 人机协作的Editor，一个完整的事情。
