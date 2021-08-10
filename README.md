@@ -4,7 +4,7 @@
 
 （1）糖尿病知识图谱schema的设计：实体和关系
 
-（2）标准流程设计。
+（2）标注流程设计。
 
 297.《Pre-trained Language Model for Web-scale Retrieval in Baidu Search》，预训练模型在百度搜索的应用，印象中Google Blog也有一篇工作是讲述BERT在Google Search中的应用。
 
