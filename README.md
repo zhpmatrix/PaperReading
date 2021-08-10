@@ -1,3 +1,11 @@
+298.《DiaKG: an Annotated Diabetes Dataset for Medical Knowledge Graph Construction》，CCKS2021
+
+糖尿病知识图谱的构建。这篇文章的主要亮点：
+
+（1）糖尿病知识图谱schema的设计：实体和关系
+
+（2）标准流程设计。
+
 297.《Pre-trained Language Model for Web-scale Retrieval in Baidu Search》，预训练模型在百度搜索的应用，印象中Google Blog也有一篇工作是讲述BERT在Google Search中的应用。
 
 向量压缩和量化是工程实践中很关键的技术点。
