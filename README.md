@@ -1,3 +1,21 @@
+299.对比学习在NLP中的应用:
+
+相关参考：
+
+1.[对比学习的浅显总结及其在NLP下的应用](https://zhuanlan.zhihu.com/p/351623511)
+
+2.[利用Contrastive Learning对抗数据噪声：对比学习在微博场景的实践](https://zhuanlan.zhihu.com/p/370782081)
+
+3.[对比学习（Contrastive Learning）:研究进展精要](https://zhuanlan.zhihu.com/p/367290573)
+
+4.[Bert向量表示不能直接用于相似度问题的分析](https://mp.weixin.qq.com/s?__biz=MzIzNjc0MTMwMA==&mid=2247543303&idx=1&sn=6cbc5e7d221d4119a51849634c262711&chksm=e8d15ddcdfa6d4cad0316a133d61c0b86833a6e26ac718d88488c7777351b94b3c787e45bab2&mpshare=1&scene=23&srcid=0612ydh8ziJ90Qmot6EhY0ZG&sharer_sharetime=1628694746557&sharer_shareid=0e8353dcb5f53b85da8e0afe73a0021b%23rd)
+
+5.[对比学习横扫文本聚类任务](https://mp.weixin.qq.com/s?__biz=MjM5ODkzMzMwMQ==&mid=2650423321&idx=2&sn=c10064b701687cf05872d59020679d85&chksm=becdc64389ba4f553a3e474435fb3fa750f783eb04cf54a572735134521d85af10ff1a3abbeb&mpshare=1&scene=23&srcid=0612m8HHQCNlZpggrwu1coMX&sharer_sharetime=1628694839842&sharer_shareid=0e8353dcb5f53b85da8e0afe73a0021b%23rd)
+
+6.[美团提出基于对比学习的文本表示模型，效果提升8%](https://mp.weixin.qq.com/s?__biz=MjM5NjQ5MTI5OA==&mid=2651762683&idx=3&sn=067ddc748d8803e2ad966e38c1ce1099&chksm=bd1276b68a65ffa04062fd4dcc46cc53b20c7e6de2522e2e36fb848d5010b0f90b176f73fa6f&mpshare=1&scene=23&srcid=0603igkF2yebJvglK7RcA5vp&sharer_sharetime=1628694902039&sharer_shareid=0e8353dcb5f53b85da8e0afe73a0021b%23rd)
+
+7.[聊一聊大火的对比学习](https://mp.weixin.qq.com/s?__biz=MzIxMzkwNjM2NQ==&mid=2247504157&idx=1&sn=0b7b01c8f0a9b77cf1a0796519c19bb3&chksm=97ad37cfa0dabed9c2d81b5e782a9c8964d67ebd686d37b185c68db98ecf8e57a1e45b784ab0&mpshare=1&scene=23&srcid=08122mvfkYccNrG7WkSFE8En&sharer_sharetime=1628740159124&sharer_shareid=0e8353dcb5f53b85da8e0afe73a0021b%23rd)
+
 298.《DiaKG: an Annotated Diabetes Dataset for Medical Knowledge Graph Construction》，CCKS2021
 
 糖尿病知识图谱的构建。这篇文章的主要亮点：
