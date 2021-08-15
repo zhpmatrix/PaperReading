@@ -1,3 +1,5 @@
+300.《RadGraph: Extracting Clinical Entities and Relations from Radiology Reports》， 放射报告的结构化能力抽取
+
 299.对比学习在NLP中的应用:
 
 相关参考：
