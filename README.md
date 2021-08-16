@@ -1,3 +1,7 @@
+302.《Lattice-BERT: Leveraging Multi-Granularity Representations in Chinese Pre-trained Language Models》
+
+![截屏2021-08-1615 37 22](https://user-images.githubusercontent.com/4077026/129528021-c19d8cd2-2c31-4c43-b095-33cde1b961a5.png)
+
 301.ML中的数据验证想法：https://github.com/zhpmatrix/PaperReading/edit/master/README.md
 
 300.《RadGraph: Extracting Clinical Entities and Relations from Radiology Reports》， 放射报告的结构化能力抽取
@@ -131,9 +135,6 @@ future中提到的一个有意思的观点是：要做Evolutionary KBQA，简而
 
 ![截屏2021-06-0716 16 39](https://user-images.githubusercontent.com/4077026/120983106-f6ddd400-c7ab-11eb-8021-eb6e2a9bf4cb.png)
 
-
-
-
 四篇information extraction相关的工作：
 
 281.《Read, Retrospect, Select: An MRC Framework to Short Text Entity Linking》
@@ -239,8 +240,6 @@ FL使用TextCNN的经验性工作
 补充：《Conceptualized Representation Learning for Chinese Biomedical Text Mining》，阿里巴巴，张宁豫
 
 ![img267+](https://ftp.bmp.ovh/imgs/2021/03/5d1227f4839fe5de.png)
-
-
 
 266.《Building Watson：An Overview of the DeepQA Project》，2011年，IBM Watson的DeepQA项目，具体实现细节
 
