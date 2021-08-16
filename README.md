@@ -1,3 +1,5 @@
+301.ML中的数据验证想法：https://github.com/zhpmatrix/PaperReading/edit/master/README.md
+
 300.《RadGraph: Extracting Clinical Entities and Relations from Radiology Reports》， 放射报告的结构化能力抽取
 
 299.对比学习在NLP中的应用:
