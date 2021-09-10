@@ -1,3 +1,9 @@
+303.《Learning Rule Embeddings over Knowledge Graphs: A Case Study from E-Commerce Entity Alignment》， WWW2020
+
+相关工作：AMIE
+
+自动化Rule Learning。
+
 302.《Lattice-BERT: Leveraging Multi-Granularity Representations in Chinese Pre-trained Language Models》
 
 ![截屏2021-08-1615 37 22](https://user-images.githubusercontent.com/4077026/129528021-c19d8cd2-2c31-4c43-b095-33cde1b961a5.png)
