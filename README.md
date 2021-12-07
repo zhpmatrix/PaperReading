@@ -1,3 +1,10 @@
+304.《Few-Shot Named Entity Recognition_A Comprehensive Study》
+文章总结了三种做few-shot ner的方式，并提出了第四种self-training的方式。
+![截屏2021-12-0717 25 02](https://user-images.githubusercontent.com/4077026/145002433-2df27eaf-7905-4886-beee-c5187930cbda.png)
+具体self-training的思路如下：
+![截屏2021-12-0717 25 12](https://user-images.githubusercontent.com/4077026/145002461-418defb5-dd5f-4885-a346-6653bc225c99.png)
+
+
 303.《Learning Rule Embeddings over Knowledge Graphs: A Case Study from E-Commerce Entity Alignment》， WWW2020
 
 相关工作：AMIE
