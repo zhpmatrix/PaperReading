@@ -1,3 +1,11 @@
+306.《Med-BERT: pretrained contextualized embeddings on large- scale structured electronic health records for disease prediction》
+
+相比其他医学预训练模型，该模型的特色是对ICD编码进行表征。
+
+305.《Named Entity Recognition for Entity Linking》，EMNLP2021
+
+打通NER和EL的关系，核心想法是：如何利用NER得到的Type信息？
+
 304.《Few-Shot Named Entity Recognition_A Comprehensive Study》
 
 文章总结了三种做few-shot ner的方式，并提出了第四种self-training的方式。
