@@ -1,3 +1,12 @@
+307.《Document-level Relation Extraction as Semantic Segmentation》，陈华钧老师组的工作
+
+引用前一段时间的个人微信：
+
+大家都在聊《Pix2seq: A Language Modeling Framework for Object Detection》，发一篇多年前第一次做NER时的一个想法，刚查了下，今年1月的文章，《Named Entity Recognition in the Style of Object Detection》。
+
+在解决问题的范式上，CV和NLP是相通的。
+
+
 306.《Med-BERT: pretrained contextualized embeddings on large- scale structured electronic health records for disease prediction》
 
 相比其他医学预训练模型，该模型的特色是对ICD编码进行表征。
