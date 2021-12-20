@@ -1,3 +1,28 @@
+309.《Towards Unsupervised Dense Information Retrieval With Contrastive Learning》
+
+结论：具体对比学习方法在NLP具体任务上实践，没有显著创新贡献。
+
+数据增强方法：
+
+(1)inverse cloze task
+
+(2)independent cropping
+
+(3)additional data augmentation
+
+负例构建方法：
+
+（1）negative pairs within a batch
+
+（2）negative pairs across batches
+
+308.《Improving language models by retrieving from trillions of tokens》，DeepMind
+
+基于特殊设计的交互组件，通过检索式的方法强化PLM的训练。
+
+![截屏2021-12-1920 26 12](https://user-images.githubusercontent.com/4077026/146757971-a0afdd34-3c0e-4864-ae91-79e004e75c6e.png)
+
+
 307.《Document-level Relation Extraction as Semantic Segmentation》，陈华钧老师组的工作
 
 引用前一段时间的个人微信：
