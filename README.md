@@ -1,3 +1,9 @@
+310.《Corpora Generation for Grammatical Error Correction》
+
+（1）通过找到维基百科的编辑历史来解决
+
+（2）通过back translation的方式来解决
+
 309.《Towards Unsupervised Dense Information Retrieval With Contrastive Learning》
 
 结论：具体对比学习方法在NLP具体任务上实践，没有显著创新贡献。
