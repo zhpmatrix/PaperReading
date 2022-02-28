@@ -1,3 +1,16 @@
+311.《PLOME: Pre-training with Misspelled Knowledge for Chinese Spelling Correction》
+
+![截屏2022-02-28 上午11 20 57](https://user-images.githubusercontent.com/4077026/155918643-cee4f097-2145-4625-a87b-fdeecff3ce25.png)
+
+主要的亮点有三处：
+
+（1）预训练拼写纠错语言模型
+
+（2）多特征融合：character（字形）+position（位置）+phonic（拼音，**也许可以进一步考虑发音特征**）+shape（笔画）
+
+（3）预训练任务设计：不同于传统的mlm，只预测单个字；该工作中同时预测单字+拼音
+
+
 310.《Corpora Generation for Grammatical Error Correction》
 
 （1）通过找到维基百科的编辑历史来解决
