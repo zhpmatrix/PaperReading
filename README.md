@@ -1,3 +1,7 @@
+313.《Clinical Prompt Learning with Frozen Language Models》
+
+Prompt Learning 在医疗文本分类中的应用。
+
 312.《Context Enhanced Short Text Matching using Clickthrough Data》，利用点击数据做短文本匹配的上下文增强。
 
 311.《PLOME: Pre-training with Misspelled Knowledge for Chinese Spelling Correction》
