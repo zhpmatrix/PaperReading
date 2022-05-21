@@ -1,3 +1,8 @@
+314.《Unified Structure Generation for Universal Information Extraction》
+
+整体上采用了encoder-decoder架构，基于transformer模型，实际中预训练模型采用了ernie3.0。用一个统一的架构实现了实体识别，关系抽取，属性抽取，观点提取，事件抽取等各个理解任务。
+生成的范式具有极大的灵活性，类似的思想也有很多工作。比如《A Uniﬁed Generative Framework for Various NER Subtasks》，该工作用一个生成模型解决NER的各个子任务，在此之前需要单独建模。在中文纠错方向上，由于错误类型较多，比如包含拼写纠错，语法错误等，理论上，一个生成模型可以解决各种设定下的具体任务，而不需要多个模型设计。大概两年前，复现Magi的时候，同组同学基于预训练模型，采用生成的思路做SPO抽取，取得了比理解范式下的模型更好的结果。
+
 313.《Clinical Prompt Learning with Frozen Language Models》
 
 Prompt Learning 在医疗文本分类中的应用。
