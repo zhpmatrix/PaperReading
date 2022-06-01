@@ -1,3 +1,12 @@
+315.federated learning的两篇文章：
+
+《When Federated Learning Meets Blockchain：A New Distributed Learning Paradigm》，用区块链技术解决联邦学习的中心化结构问题。中心挂了，系统就会挂。
+
+《Swarm Learning for decentralized and confidential clinical machine learning》，发表在nature上的文章。
+
+![截屏2022-05-31 下午8 22 23](https://user-images.githubusercontent.com/4077026/171318492-f15d443a-8bb2-49cb-8edf-6aa53ce1b173.png)
+
+
 314.《Unified Structure Generation for Universal Information Extraction》
 
 整体上采用了encoder-decoder架构，基于transformer模型，实际中预训练模型采用了ernie3.0。用一个统一的架构实现了实体识别，关系抽取，属性抽取，观点提取，事件抽取等各个理解任务。
