@@ -4,6 +4,9 @@
 
 （1）自底向上：：先检测单元格，然后确定表格线
 
+![截屏2023-01-10 11 04 59](https://user-images.githubusercontent.com/4077026/211452679-841e5a59-ec86-4cd2-8135-dcdb6092916b.png)
+
+
 （2）自顶向下：先检测表格线，然后确定单元格之间的关系
 
 ![截屏2023-01-10 11 03 47](https://user-images.githubusercontent.com/4077026/211452519-e1954bc0-f8ee-41d6-a7d1-841a6bf52952.png)
