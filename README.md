@@ -1,3 +1,6 @@
+316.《表格识别技术研究进展》，2022.06
+
+
 315.federated learning的两篇文章：
 
 《When Federated Learning Meets Blockchain：A New Distributed Learning Paradigm》，用区块链技术解决联邦学习的中心化结构问题。中心挂了，系统就会挂。
