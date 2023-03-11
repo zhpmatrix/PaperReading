@@ -1,3 +1,22 @@
+317.《Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models》，MS的工作
+
+并不是训练了一个模型，而是多个foundation model的整合，构建了一个系统。这个系统能干啥？
+
+（1）发送和接收文本+图片
+（2）能够通过多个ai基础模型的多个步骤完成复杂的视觉问答和图片编辑指令
+（3）providing feedback and asking for corrected results
+
+这套系统尚存在的问题：
+（1）依赖ChatGPT和VFM
+（2）比较依赖prompt工程
+（3）实时性差
+（4）输入token限制（关于这点，印象中有一个相关工作能够一定程度上缓解）
+（5）安全和隐私
+
+![截屏2023-03-11 11 31 11](https://user-images.githubusercontent.com/4077026/224462703-88512bb8-520f-4737-8c2c-6ced1bb39600.png)
+
+
+
 316.《表格识别技术研究进展》，2022.06
 
 三种主流技术方向：
