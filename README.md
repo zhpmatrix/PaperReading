@@ -1,3 +1,10 @@
+318.《ChatAug: Leveraging ChatGPT for Text Data Augmentation》，使用ChatGPT进行数据增强。
+
+相关文章：
+（1）https://mp.weixin.qq.com/s/AdcdIOEDniu-g3OigmnQ6g
+（2）《ChatGPT科普和应用初探》：https://redian.news/wxnews/289575，58AILab在一些具体的业务上的量化评测
+
+
 317.《Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models》，MS的工作
 
 并不是训练了一个模型，而是多个foundation model的整合，构建了一个系统。这个系统能干啥？
