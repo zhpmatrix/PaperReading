@@ -1,3 +1,10 @@
+319.《Zero-Shot Information Extraction via Chatting with ChatGPT》，DAMO
+
+基于ChatGPT做Zero-Shot的信息抽取的工作（拼手速，预计近期类似的工作还会有很多）
+
+相关工作：https://mp.weixin.qq.com/s/PM_xgHPLitBhh6Gd5DhU7w
+
+
 318.《ChatAug: Leveraging ChatGPT for Text Data Augmentation》，使用ChatGPT进行数据增强。
 
 相关文章：
