@@ -1,3 +1,6 @@
+320.《BioGPT: Generative Pre-trained Transformer for Biomedical Text Generation and Mining》,MS的工作
+![截屏2023-03-13 13 45 25](https://user-images.githubusercontent.com/4077026/224617744-10bdbf23-2ae5-4c94-b6a2-665c3a0736c6.png)
+
 319.《Zero-Shot Information Extraction via Chatting with ChatGPT》，DAMO
 
 基于ChatGPT做Zero-Shot的信息抽取的工作（拼手速，预计近期类似的工作还会有很多）
