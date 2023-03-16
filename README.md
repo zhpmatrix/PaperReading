@@ -1,3 +1,7 @@
+321.《Evaluation of ChatGPT as a Question Answering System for Answering Complex Questions》,漆桂林组的工作
+
+系统评估ChatGPT在复杂QA中的应用效果。
+
 320.《BioGPT: Generative Pre-trained Transformer for Biomedical Text Generation and Mining》,MS的工作
 ![截屏2023-03-13 13 45 25](https://user-images.githubusercontent.com/4077026/224617744-10bdbf23-2ae5-4c94-b6a2-665c3a0736c6.png)
 
