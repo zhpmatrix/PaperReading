@@ -1,3 +1,7 @@
+322.《MD-VQA: Multi-Dimensional Quality Assessment for UGC Live Videos》，CVPR2023
+
+淘宝视频质量评价工作，针对淘系UGC的质量评价。很多年前做搜索的时候，做网页质量评价；近期看到一个很有意思的事情，是用CV的方法做前端页面的测试。在之前的工作中，接触到手术质量评价的工作。
+
 321.《Evaluation of ChatGPT as a Question Answering System for Answering Complex Questions》,漆桂林组的工作
 
 系统评估ChatGPT在复杂QA中的应用效果。
