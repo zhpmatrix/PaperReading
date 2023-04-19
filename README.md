@@ -1,3 +1,9 @@
+325.《Rething with Retrieval：Faithful Large Language Model Inference》
+
+利用知识库，在cot阶段提升模型的推理能力。
+![截屏2023-04-19 23 31 17](https://user-images.githubusercontent.com/4077026/233125837-372ce27e-cd14-479c-aabc-e226cde2d73b.png)
+
+
 324.《Large Language Models Are Reasoning Teachers》
 
 fine-tuning CoT:本质上是面向大模型的蒸馏。
