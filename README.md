@@ -1,3 +1,10 @@
+324.《Large Language Models Are Reasoning Teachers》
+
+fine-tuning CoT:本质上是面向大模型的蒸馏。
+
+![image](https://user-images.githubusercontent.com/4077026/233124869-232816a6-6a1d-4965-a1c3-4a6acf04a63d.png)
+
+
 323.《GLM: General Language Model Pretraining with Autoregressive Blank Inﬁlling》,chatglm的工作
 
 ![截屏2023-03-28 22 36 18](https://user-images.githubusercontent.com/4077026/228273787-107e5c1a-3569-4a50-a397-0d9666792f73.png)
