@@ -1,3 +1,15 @@
+326.《DoReMi: Optimizing Data Mixtures Speeds Up Language Model Pretraining》
+
+围绕大模型的训练，在数据侧关心的三大问题：
+（1）数量。质量比数量重要，甚至不需要很多。
+（2）质量
+（3）多样性。针对“多”，如何学习到一个有效的weight呢？等weight未必是一个最佳解决方案。
+
+![截屏2023-05-25 19 55 42](https://github.com/zhpmatrix/PaperReading/assets/4077026/0ec3a734-8001-4184-a1d7-db4b755771db)
+
+
+
+
 325.《Rething with Retrieval：Faithful Large Language Model Inference》
 
 利用知识库，在cot阶段提升模型的推理能力。
