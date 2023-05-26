@@ -1,3 +1,10 @@
+327.《InstructIE: A Chinese Instruction-based Information Extraction Dataset》
+
+类似的工作已经有几篇了，这里可以重点看下prompt的构建方式
+![截屏2023-05-26 10 30 55](https://github.com/zhpmatrix/PaperReading/assets/4077026/33a74b28-94b7-4e3f-99f2-835e9c778dd8)
+
+
+
 326.《DoReMi: Optimizing Data Mixtures Speeds Up Language Model Pretraining》
 
 围绕大模型的训练，在数据侧关心的三大问题：
