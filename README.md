@@ -1,3 +1,16 @@
+328.《Lawyer LLaMA Technical Report》
+
+行业垂直大模型的工作：法律领域。这个工作特别谈到了领域知识融入的问题。同时针对中文词典扩充的问题，这里也有一个观点和实验结论：
+
+![截屏2023-05-27 10 46 27](https://github.com/zhpmatrix/PaperReading/assets/4077026/f4cf6f2e-ff47-47de-8ec7-30d1a7bc3024)
+
+截止目前比较有代表性的行业大模型工作：
+
++ 金融领域大模型：bloomberge
++ 法律领域大模型：lawyer LaMA
++ 医疗领域大模型：我们在做的...
+
+
 327.《InstructIE: A Chinese Instruction-based Information Extraction Dataset》
 
 类似的工作已经有几篇了，这里可以重点看下prompt的构建方式
