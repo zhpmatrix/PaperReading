@@ -1,3 +1,8 @@
+329.《Is GPT-4 a Good Data Analyst?》
+![截屏2023-05-28 18 07 59](https://github.com/zhpmatrix/PaperReading/assets/4077026/07c21828-b25e-41b8-8373-c21b49769fed)
+
+
+
 328.《Lawyer LLaMA Technical Report》
 
 行业垂直大模型的工作：法律领域。这个工作特别谈到了领域知识融入的问题。同时针对中文词典扩充的问题，这里也有一个观点和实验结论：
