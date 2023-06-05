@@ -1,3 +1,8 @@
+331.《Beyond One-Model-Fits-All: A Survey of Domain Specialization for Large Language Models》
+
+![截屏2023-06-05 19 08 24](https://github.com/zhpmatrix/PaperReading/assets/4077026/980dd535-6ad9-4cbf-84e5-c81e6b7644ff)
+
+
 330.《Small Language Models Improve Giants by Rewriting Their Outputs》
 
 ![截屏2023-05-30 09 57 46](https://github.com/zhpmatrix/PaperReading/assets/4077026/e9557438-c505-439b-9e7f-a28620b7988f)
