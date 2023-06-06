@@ -1,3 +1,7 @@
+332.《LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day》
+
+医学多模态大模型
+
 331.《Beyond One-Model-Fits-All: A Survey of Domain Specialization for Large Language Models》
 
 ![截屏2023-06-05 19 08 24](https://github.com/zhpmatrix/PaperReading/assets/4077026/980dd535-6ad9-4cbf-84e5-c81e6b7644ff)
