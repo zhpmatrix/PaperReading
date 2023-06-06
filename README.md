@@ -1,3 +1,11 @@
+333.《XuanYuan 2.0: A Large Chinese Financial Chat Model with Hundreds of Billions Parameters》
+
+主要思路：基于BLOOM-175B，打散pre-train和instruction tuning两个阶段的数据。不仅能够一定程度上防止灾难性遗忘问题，同时能够实现模型的domain-specific.
+
+![截屏2023-06-06 22 09 28](https://github.com/zhpmatrix/PaperReading/assets/4077026/a891ec55-b28e-4f3b-80d3-8778174728a5)
+
+
+
 332.《LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day》
 
 医学多模态大模型
