@@ -1,3 +1,16 @@
+335.《Inference with Reference_Lossless Acceleration of Large Language Models》
+
+这篇文章的方法有具体的适用场景，比如：
+![截屏2023-06-08 14 12 26](https://github.com/zhpmatrix/PaperReading/assets/4077026/c3fc24dc-d0b9-4efb-ab3f-09254a8a24c2)
+
+方法上虽然是lossless的，但是需要reference text的参与，还是存在很多挺tricky的方法。
+
+
+334.《Contrastive Search Is What You Need For Neural Text Generation》
+
+logit的艺术。
+
+
 333.《XuanYuan 2.0: A Large Chinese Financial Chat Model with Hundreds of Billions Parameters》
 
 主要思路：基于BLOOM-175B，打散pre-train和instruction tuning两个阶段的数据。不仅能够一定程度上防止灾难性遗忘问题，同时能够实现模型的domain-specific.
