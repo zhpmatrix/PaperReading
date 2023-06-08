@@ -1,3 +1,9 @@
+336.《Outrageously Large Neural Networks_The Sparsily-Gated Mixture-of-Experts Layer》, ICLR 2017
+
+![截屏2023-06-08 14 34 41](https://github.com/zhpmatrix/PaperReading/assets/4077026/858a70d3-4c28-4af2-8543-62c3ff57e856)
+
+
+
 335.《Inference with Reference_Lossless Acceleration of Large Language Models》
 
 这篇文章的方法有具体的适用场景，比如：
