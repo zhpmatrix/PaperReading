@@ -1,3 +1,5 @@
+337.[llm在推荐系统中的应用总结](https://mp.weixin.qq.com/s/1fPsSK9dlXsGGA3BdawYJA)
+
 336.《Outrageously Large Neural Networks_The Sparsily-Gated Mixture-of-Experts Layer》, ICLR 2017
 
 ![截屏2023-06-08 14 34 41](https://github.com/zhpmatrix/PaperReading/assets/4077026/858a70d3-4c28-4af2-8543-62c3ff57e856)
