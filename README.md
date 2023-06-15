@@ -1,3 +1,13 @@
+338.《SELF-QA: Unsupervised Knowledge Guided Language Model Alignment》
+![image](https://github.com/zhpmatrix/PaperReading/assets/4077026/558fe729-9b92-422b-9b37-c640c0c0d83f)
+
+
+![image](https://github.com/zhpmatrix/PaperReading/assets/4077026/808fb097-3758-4dc0-96ef-4c1a5cb77779)
+
+![image](https://github.com/zhpmatrix/PaperReading/assets/4077026/9ba35c34-fcac-44ae-b391-b92f7ba62935)
+![image](https://github.com/zhpmatrix/PaperReading/assets/4077026/dfc14d6d-eef4-418c-827a-762b639f5b8f)
+
+
 337.[llm在推荐系统中的应用总结](https://mp.weixin.qq.com/s/1fPsSK9dlXsGGA3BdawYJA)
 
 336.《Outrageously Large Neural Networks_The Sparsily-Gated Mixture-of-Experts Layer》, ICLR 2017
