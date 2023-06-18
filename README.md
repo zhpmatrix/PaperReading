@@ -1,3 +1,7 @@
+339.《LIMA: Less Is More for Alignment》
+
+**almost all knowledge in large language models is learned during pretraining, and only limited instruction tuning data is necessary to teach models to produce high quality output.**
+
 338.《SELF-QA: Unsupervised Knowledge Guided Language Model Alignment》
 ![image](https://github.com/zhpmatrix/PaperReading/assets/4077026/558fe729-9b92-422b-9b37-c640c0c0d83f)
 
