@@ -1,3 +1,15 @@
+340.《Multitask Pre-training of Modular Prompt for Chinese Few-Shot Learning》
+
+主要思想：将任务统一建模为mrc，在38个中文任务上完成得到。
+相关工作：
++ 《Crosslingual Generalization through Multitask Finetuning》
++ 《Muppet: Massive Multi-task Representations with Pre-Finetuning》
+
+![截屏2023-06-19 13 57 32](https://github.com/zhpmatrix/PaperReading/assets/4077026/36fde55f-72eb-499f-913e-28dc7a8c2203)
+
+![截屏2023-06-19 13 57 57](https://github.com/zhpmatrix/PaperReading/assets/4077026/a3701556-66bf-47c2-a278-71afc62864b6)
+
+
 339.《LIMA: Less Is More for Alignment》
 
 **almost all knowledge in large language models is learned during pretraining, and only limited instruction tuning data is necessary to teach models to produce high quality output.**
