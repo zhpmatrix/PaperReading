@@ -1,3 +1,8 @@
+350.《Data Selection for Language Models via Importance Resampling》
+![截屏2023-06-20 15 38 46](https://github.com/zhpmatrix/PaperReading/assets/4077026/3a886d42-742b-4598-bc7a-80b16adfbda9)
+
+
+
 340.《Multitask Pre-training of Modular Prompt for Chinese Few-Shot Learning》
 
 主要思想：将任务统一建模为mrc，在38个中文任务上完成得到。
