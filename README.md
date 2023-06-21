@@ -1,3 +1,8 @@
+351.《ClinicalGPT：Large Language Models Finetuned with Diverse Medical Data and Comprehensive Evaluation》
+
+![截屏2023-06-21 12 00 57](https://github.com/zhpmatrix/PaperReading/assets/4077026/85c946ab-a076-4eae-a436-b6206b951ac3)
+
+
 350.《Data Selection for Language Models via Importance Resampling》
 ![截屏2023-06-20 15 38 46](https://github.com/zhpmatrix/PaperReading/assets/4077026/3a886d42-742b-4598-bc7a-80b16adfbda9)
 
