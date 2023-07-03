@@ -1,3 +1,9 @@
+353.《MidMed: Towards Mixed-Type Dialogues for Medical Consultation》
+
+在一个医疗咨询场景中，大多数的对话系统都假定患者具有清晰的目标，包括药品咨询和手术咨询等。但是在真实场景中，由于医疗知识的缺乏，患者对于清晰的描述自己的目标（带有相关的slot）是困难的。
+产出一个数据集MidMed和一个任务InsMed.
+
+
 352.《ChatLaw: Open-Source Legal Large Language Model with Integrated External Knowledge Bases》
 
 在该工作中，通过引入检索的机制实现模型幻觉现象的减少；同时，建立一个controller机制实现多specific model的路由。
