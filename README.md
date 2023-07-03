@@ -1,3 +1,7 @@
+354.《A Formal Perspective on Byte-Pair Encoding》
+bpe的一个改进算法，时间复杂度的优化。
+
+
 353.《MidMed: Towards Mixed-Type Dialogues for Medical Consultation》
 
 在一个医疗咨询场景中，大多数的对话系统都假定患者具有清晰的目标，包括药品咨询和手术咨询等。但是在真实场景中，由于医疗知识的缺乏，患者对于清晰的描述自己的目标（带有相关的slot）是困难的。
