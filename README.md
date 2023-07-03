@@ -1,3 +1,13 @@
+352.《ChatLaw: Open-Source Legal Large Language Model with Integrated External Knowledge Bases》
+
+在该工作中，通过引入检索的机制实现模型幻觉现象的减少；同时，建立一个controller机制实现多specific model的路由。
+
+**Furthermore, we observed that a single general-purpose legal LLM may not perform optimally across all tasks in this domain. Therefore, we trained different models for various scenarios, such as multiple-choice questions, keyword extraction, and question-answering. To handle the selection and deployment of these models, we employed a big LLM as a controller using the methodology provided by HuggingGPT [6]. This controller model dynamically determines which specific model to invoke based on each user’s request, ensuring the most suitable model is utilized for the given task.**
+
+![截屏2023-07-03 15 06 15](https://github.com/zhpmatrix/PaperReading/assets/4077026/7709bde7-3f9b-497e-8a04-0bf17cb447c4)
+
+
+
 351.《ClinicalGPT：Large Language Models Finetuned with Diverse Medical Data and Comprehensive Evaluation》
 
 
