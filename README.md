@@ -1,3 +1,8 @@
+355.《Scaling Instruction-Finetuned Language Models》
+
+非常棒的文章，做了大量细节和问题的分析与讨论，需要多读几遍。
+
+
 354.《A Formal Perspective on Byte-Pair Encoding》
 bpe的一个改进算法，时间复杂度的优化。
 
