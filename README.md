@@ -1,3 +1,10 @@
+356.《ChatPLUG：Open-Domain Generaative Dialogue System with Internet-Augmented Instruction Tuning for Digital Human》
+
+达摩院的工作，围绕数字人的场景，主要讲对话系统怎么做。整体的思路在大模型之前也有类似的工作，比如LIC的，给定intent做对话中的自动意图转换等。
+
+![截屏2023-07-14 14 39 43](https://github.com/zhpmatrix/PaperReading/assets/4077026/62edbf3d-8937-4ffb-9217-04f840caa512)
+
+
 355.《Scaling Instruction-Finetuned Language Models》
 
 非常棒的文章，做了大量细节和问题的分析与讨论，需要多读几遍。
