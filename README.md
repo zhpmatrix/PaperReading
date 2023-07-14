@@ -1,3 +1,18 @@
+357.《SimCLS: A Simple Framework for Contrastive Learning of Abstractive Summarization》,ACL2021
+
+文章中提出了一个简单的框架，用于seq2seq模型框架的评估，主要的思路是：generate&evaluation。
+
+（1）generate模型。普通的seq2seq模型，产生多个candidates
+
+（2）evaluator模型。采用contrastive learning的方式，基于（1）中的candidates得到evaluator模型
+
+这个思路可以用于文本生成类的比赛中，作为模型ensemble的一种方式。
+
+![截屏2023-07-14 15 11 50](https://github.com/zhpmatrix/PaperReading/assets/4077026/494fdfc1-b8d7-4921-ac96-219d8518d56e)
+
+
+
+
 356.《ChatPLUG：Open-Domain Generaative Dialogue System with Internet-Augmented Instruction Tuning for Digital Human》
 
 达摩院的工作，围绕数字人的场景，主要讲对话系统怎么做。整体的思路在大模型之前也有类似的工作，比如LIC的，给定intent做对话中的自动意图转换等。
