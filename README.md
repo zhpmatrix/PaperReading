@@ -1,3 +1,7 @@
+358.《Self-consistency for open-ended generations》
+
+**Selfconsistency has emerged as an effective approach for prompts with fixed answers, selecting the answer with the highest number of votes. **
+
 357.《SimCLS: A Simple Framework for Contrastive Learning of Abstractive Summarization》,ACL2021
 
 文章中提出了一个简单的框架，用于seq2seq模型框架的评估，主要的思路是：generate&evaluation。
