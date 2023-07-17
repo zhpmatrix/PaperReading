@@ -1,3 +1,9 @@
+360.《C3: Zero-shot Text-to-SQL with ChatGPT》
+
+![截屏2023-07-17 16 04 12](https://github.com/zhpmatrix/PaperReading/assets/4077026/20d43200-880c-499e-b4fb-bae32b32fa40)
+
+
+
 359.《Instruction Mining: High-Quality Instruction Data Selection for Large Language Models》
 
 在微调阶段，如果选择高质量的指令数据，是一个关键问题。这篇文章的做法类似于做特征工程，具体的特征工程体系如下（相关文章[如何自动化地挑选出大模型所需的高质量指令微调数据](https://mp.weixin.qq.com/s/IpKcKFHQWQQ6h0guVoCKVQ)）：
