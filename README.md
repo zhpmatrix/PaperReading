@@ -1,6 +1,13 @@
+359.《Instruction Mining: High-Quality Instruction Data Selection for Large Language Models》
+
+在微调阶段，如果选择高质量的指令数据，是一个关键问题。这篇文章的做法类似于做特征工程，具体的特征工程体系如下（相关文章[如何自动化地挑选出大模型所需的高质量指令微调数据](https://mp.weixin.qq.com/s/IpKcKFHQWQQ6h0guVoCKVQ)）：
+
+
+![截屏2023-07-17 11 07 17](https://github.com/zhpmatrix/PaperReading/assets/4077026/5ec07ac3-46e2-4ac3-a0e9-602bddd842b0)
+
 358.《Self-consistency for open-ended generations》
 
-**Selfconsistency has emerged as an effective approach for prompts with fixed answers, selecting the answer with the highest number of votes. **
+** Selfconsistency has emerged as an effective approach for prompts with fixed answers, selecting the answer with the highest number of votes. **
 
 357.《SimCLS: A Simple Framework for Contrastive Learning of Abstractive Summarization》,ACL2021
 
