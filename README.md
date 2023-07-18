@@ -1,3 +1,8 @@
+361.《AlpaGasus: Training A Better Alpaca With Fewer Data》
+
+这篇文章主要证明一个问题：sft阶段instrucion的质量远比数量重要。通过将chatgpt作为一个打分器，给原来的alpaca的52k的instruction的数据打分（三元组），筛选后的数据量 52k->9k,微调时间从80mins->14mins，且效果得到显著提升。再一次证明data-centric ai的伟大，笔者自己最近做的一个工作，也基本集中在data侧，效果杠杠的。
+
+
 360.《C3: Zero-shot Text-to-SQL with ChatGPT》
 
 ![截屏2023-07-17 16 04 12](https://github.com/zhpmatrix/PaperReading/assets/4077026/20d43200-880c-499e-b4fb-bae32b32fa40)
