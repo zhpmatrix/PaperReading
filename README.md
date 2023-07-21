@@ -1,3 +1,9 @@
+363.《Challenges and Applications of Large Language Models》
+
+这篇文章的讨论的challenges，基本就是目前llm遇到的问题，文章围绕这个部分，讨论了对应的解决方案。
+![截屏2023-07-21 17 49 48](https://github.com/zhpmatrix/PaperReading/assets/4077026/d2c0550d-6534-466e-bb17-b2e79c3b467c)
+
+
 362.《A Survey on Evaluation of Large Language Models》
 
 what to evaluate + where to evaluate + how to evaluate
