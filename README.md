@@ -1,3 +1,10 @@
+365.《Uniﬁed Language Model Pre-training for Natural Language Understanding and Generation》
+
+seq2seq lm->prefix lm(glm的arch设计)，这里主要的想法是通过attention mask实现任务范式的统一，是一个有意思的角度。比如大模型如何有效利用多轮对话的数据完成充分且高效的训练。但是进入大模型的范式，只利用seq2seq就实现了nlu和nlg任务设计上的统一，大道至简。
+
+![截屏2023-07-25 11 11 15](https://github.com/zhpmatrix/PaperReading/assets/4077026/689a2485-0530-40b5-bde6-f47d8556aaa9)
+
+
 364.《Atlas: Few-shot Learning with Retrieval Augmented Language Models》
 
 提供了知识增强/知识融入的一种方式。在pretrain阶段，通过mlm的方式注入，finetune阶段通过few-shot的方式注入，在每个阶段均利用检索，实现上下文的丰富完善。
