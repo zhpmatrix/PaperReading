@@ -1,3 +1,11 @@
+364.《Atlas: Few-shot Learning with Retrieval Augmented Language Models》
+
+提供了知识增强/知识融入的一种方式。在pretrain阶段，通过mlm的方式注入，finetune阶段通过few-shot的方式注入，在每个阶段均利用检索，实现上下文的丰富完善。
+
+![截屏2023-07-25 10 40 04](https://github.com/zhpmatrix/PaperReading/assets/4077026/d828396b-8773-46b2-b9ee-f8784774d538)
+
+
+
 363.《Challenges and Applications of Large Language Models》
 
 这篇文章的讨论的challenges，基本就是目前llm遇到的问题，文章围绕这个部分，讨论了对应的解决方案。
