@@ -1,3 +1,7 @@
+366.《ArcGPT: A Large Language Model Tailored for Real-world Archival Applications》
+
+中国电子档案大模型。
+
 365.《Uniﬁed Language Model Pre-training for Natural Language Understanding and Generation》
 
 seq2seq lm->prefix lm(glm的arch设计)，这里主要的想法是通过attention mask实现任务范式的统一，是一个有意思的角度。比如大模型如何有效利用多轮对话的数据完成充分且高效的训练。但是进入大模型的范式，只利用seq2seq就实现了nlu和nlg任务设计上的统一，大道至简。
