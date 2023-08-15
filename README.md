@@ -1,3 +1,13 @@
+369.《Self-Alignment with Instruction Backtranstion》,meta AI
+
+主要分为两个阶段，分别是：
+
+（1）self-augmentation(generating instructions),基于llama和少量的seed data来完成
+
+（2）self-curation(selecting high-quality examples)，通过iterative self-curation的方式实现对数据的层层过滤
+
+
+
 368.《Zhongjing: Enhancing the Chinese Medical Capabilities of Large Language Model through Expert Feedback and Real-world Multi-turn Dialogue》
 
 侧重于对话系统的能力，走完了大模型训练的全流程，包括pretrain，sft，rm和rlhf四大核心模块。
