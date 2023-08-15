@@ -1,3 +1,5 @@
+368.
+
 367.《Skeleton-of-Thought:Large Language Models Can Do Parallel Decoding》
 
 ![截屏2023-08-01 13 26 56](https://github.com/zhpmatrix/PaperReading/assets/4077026/bb34da06-0033-4121-a592-5cb745300bfd)
