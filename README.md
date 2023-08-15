@@ -1,4 +1,9 @@
-368.
+368.《Zhongjing: Enhancing the Chinese Medical Capabilities of Large Language Model through Expert Feedback and Real-world Multi-turn Dialogue》
+
+侧重于对话系统的能力，走完了大模型训练的全流程，包括pretrain，sft，rm和rlhf四大核心模块。
+
+![截屏2023-08-15 10 11 39](https://github.com/zhpmatrix/PaperReading/assets/4077026/f4e5d1d6-7194-40c4-88df-fe3448cc7c34)
+
 
 367.《Skeleton-of-Thought:Large Language Models Can Do Parallel Decoding》
 
