@@ -1,3 +1,14 @@
+371.《Resolving Interference When Merging Models》
+
+提出了一种多模型merge的方法。相关工作：
+
++ https://github.com/StarRing2022/ChatGPTX-Uni
++ moe的思路
+
+跳出上文所述，从系统的角度来看是：foundation model+peft module是多对多的关系。一个foundation model可以有多个head（lora,etc.）,一个head被多个foundation share（这个方向还么有尝试过）。除了1对多和多对1的场景，还有多对多的场景，在该场景下，如何做routing，是个有意思的问题。
+
+
+
 370.《Nougat: Neural Optical Understanding for Academic Documents》
 
 langchain中采用了nougat的竞品grobid。有针对这个工作的实际测试，尚存在效果上的问题。但是这个工作还有一个核心价值是：提供了非常多的pdf处理的工具和方法。
