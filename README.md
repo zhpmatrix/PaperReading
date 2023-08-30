@@ -1,3 +1,8 @@
+370.《Nougat: Neural Optical Understanding for Academic Documents》
+
+langchain中采用了nougat的竞品grobid。有针对这个工作的实际测试，尚存在效果上的问题。但是这个工作还有一个核心价值是：提供了非常多的pdf处理的工具和方法。
+
+
 369.《Self-Alignment with Instruction Backtranstion》,meta AI
 
 主要分为两个阶段，分别是：
