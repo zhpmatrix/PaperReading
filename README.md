@@ -1,3 +1,13 @@
+373.《EcomGPT:instruction-tuning large language models with chain-of-task tasks for e-commerce》
+
+flanv1/v2在电商领域的一个实践，追求cross-task的generalization能力。主要结论如下：
+
++ scaling impact on model generalization
+  + more diverse domain training tasks benefit generalization capacity(追求任务的多样性，前提是如何定义这个任务的多样性？)
+  + excessive training instances for each task do not enhance generalization capability(每一个任务上增加更多的数据是没有用的。)
+  + scaling up task number takes priority over model parameter size(7b的模型在这个工作中的setting已经是够了的，scale任务数比scale模型参数的优先级更高，我们需要构建更多的数据)
+
+
 372.《Making Metadata More FAIR Using Large Language Models》
 
 利用openai的embedding的技术，实现term的cluster，用于metadata之间的alignment。
