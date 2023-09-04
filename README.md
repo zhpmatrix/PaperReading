@@ -1,3 +1,10 @@
+372.《Making Metadata More FAIR Using Large Language Models》
+
+利用openai的embedding的技术，实现term的cluster，用于metadata之间的alignment。
+
+<img width="724" alt="截屏2023-09-04 上午11 01 28" src="https://github.com/zhpmatrix/PaperReading/assets/4077026/222ea4c1-63ad-4d5c-bd76-3819bcf3eaed">
+
+
 371.《Resolving Interference When Merging Models》
 
 提出了一种多模型merge的方法。相关工作：
