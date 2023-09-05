@@ -1,3 +1,11 @@
+374.《Context Aware Query Rewriting for Text Rankers using LLM》
+
+大模型用于query改写。主要的思路是：用llm基于query+doc生成data pair，再去finetuned一个小的模型做ranking->小的模型做线上的infer（这是妥妥的将大模型作为数据打标的工具了啊。）
+
+<img width="997" alt="截屏2023-09-05 下午2 18 26" src="https://github.com/zhpmatrix/PaperReading/assets/4077026/be7a5266-e58d-4b57-9ae3-3c3df921a4e3">
+
+
+
 373.《EcomGPT:instruction-tuning large language models with chain-of-task tasks for e-commerce》
 
 flanv1/v2在电商领域的一个实践，追求cross-task的generalization能力。主要结论如下：
