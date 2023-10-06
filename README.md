@@ -1,3 +1,7 @@
+375.《effective long-context scaling of foundation models》
+
+**our ablation experiments suggest that having abundant long texts in the pretrain dataset is not the key to achieving strong performance, and we empirically verify that long context continual pretraining is more efficient and similarly effective compared to pretraining from scratch with long sequences.**
+
 374.《Context Aware Query Rewriting for Text Rankers using LLM》
 
 大模型用于query改写。主要的思路是：用llm基于query+doc生成data pair，再去finetuned一个小的模型做ranking->小的模型做线上的infer（这是妥妥的将大模型作为数据打标的工具了啊。）
