@@ -1,3 +1,9 @@
+376.《self-verification improves few-shot clinical information extraction》
+方法：相同llm，四个prompt实现信息抽取。
+prompt：original extraction->omission(in-context leanring, 哪些是少抽取的？)->evidence（in-context learning, 抽取依据是什么？找到原文本中的span）->prune(in-context learning,哪些是多抽取的？)
+缺点：多次call llm+noise传递
+优点：chain的方式，实现任务的逐级优化
+
 375.《effective long-context scaling of foundation models》
 
 **our ablation experiments suggest that having abundant long texts in the pretrain dataset is not the key to achieving strong performance, and we empirically verify that long context continual pretraining is more efficient and similarly effective compared to pretraining from scratch with long sequences.**
