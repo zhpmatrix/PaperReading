@@ -1,7 +1,20 @@
+377.《StructGPT- A General Framework for Large Language Model to Reason over Structured Data》
+
+相关分析：https://zhuanlan.zhihu.com/p/660286882
+
+总结：怎样基于结构化数据做推理，在工业界是一个很solid的问题，这里有很多的具体问题要去解决。比如，_给定一个数据库中的表（百级别），平均每个表的字段个数（百级别），能否通过llm记忆这些结构并实现推理？_
+
+类似的工作：llm->sql/llm->pandas function/**llm function calling**，这篇文章自定义了一些针对特定结构化数据的func（知识图谱，table，databse）
+
+_
 376.《self-verification improves few-shot clinical information extraction》
+
 方法：相同llm，四个prompt实现信息抽取。
+
 prompt：original extraction->omission(in-context leanring, 哪些是少抽取的？)->evidence（in-context learning, 抽取依据是什么？找到原文本中的span）->prune(in-context learning,哪些是多抽取的？)
+
 缺点：多次call llm+noise传递
+
 优点：chain的方式，实现任务的逐级优化
 
 375.《effective long-context scaling of foundation models》
