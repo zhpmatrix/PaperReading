@@ -1,3 +1,11 @@
+378.《large search model: refefining search stack in the era of llms》
+
+按照传统的search链路，基于相同的llm，每个阶段采用不同的prompt，能否实现一个poc？
+
+<img width="1018" alt="截屏2023-10-27 下午9 07 02" src="https://github.com/zhpmatrix/PaperReading/assets/4077026/72262c47-9f01-437a-aa44-4ac3657568cc">
+
+
+
 377.《StructGPT- A General Framework for Large Language Model to Reason over Structured Data》
 
 相关分析：https://zhuanlan.zhihu.com/p/660286882
