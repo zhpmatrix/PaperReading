@@ -1,3 +1,8 @@
+379.《Qilin-Med- Multi-stage Knowledge Injection Advanced Medical Large Language Model》
+
+多阶段知识注入的中文医疗大模型。
+
+
 378.《large search model: refefining search stack in the era of llms》
 
 按照传统的search链路，基于相同的llm，每个阶段采用不同的prompt，能否实现一个poc？
