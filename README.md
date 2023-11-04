@@ -1,9 +1,17 @@
+381.《Generative Input: Towards Next-Generation Input Methods Paradigm》
+
+科大讯飞的团队，基于文本生成的思路应用于输入法，基于prompt能够整合更多的user info,同时基于输入法的天然场景，能够获取很多的feedback（对于
+其他应用场景，需要单独建设feedback的模块）
+
 380.《JINA EMBEDDINGS 2: 8192-Token General-Purpose Text Embeddings for Long Documents》
 
 要点：
 （1）MTEB的sota（comparable with text-embedding-ada-002 from openai）,0.27g
 
 (2)masked language model +alibi的训练范式
+
+（3）在decoder端考虑long-context的同时，如何对long-context进行modeling也是一个有意义的问题。将condition推到
+一个极端也是一个挖问题的好方式
 
 
 379.《Qilin-Med- Multi-stage Knowledge Injection Advanced Medical Large Language Model》
