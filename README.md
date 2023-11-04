@@ -1,3 +1,11 @@
+380.《JINA EMBEDDINGS 2: 8192-Token General-Purpose Text Embeddings for Long Documents》
+
+要点：
+（1）MTEB的sota（comparable with text-embedding-ada-002 from openai）,0.27g
+
+(2)masked language model +alibi的训练范式
+
+
 379.《Qilin-Med- Multi-stage Knowledge Injection Advanced Medical Large Language Model》
 
 多阶段知识注入的中文医疗大模型。
