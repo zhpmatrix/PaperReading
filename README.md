@@ -1,3 +1,5 @@
+382.《InstructExcel: A Benchmark for Natural Language Instruction in Excel》
+
 381.《Generative Input: Towards Next-Generation Input Methods Paradigm》
 
 科大讯飞的团队，基于文本生成的思路应用于输入法，基于prompt能够整合更多的user info,同时基于输入法的天然场景，能够获取很多的feedback（对于
