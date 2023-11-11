@@ -1,3 +1,31 @@
+383.《s-lora: serving thoughts of concurrent lora adapaters》
+
+解决的核心问题：一个base model+几千个lora，怎么serving？
+
+核心架构如下：
+<img width="531" alt="截屏2023-11-11 下午10 50 44" src="https://github.com/zhpmatrix/PaperReading/assets/4077026/a92e2f90-fd9f-4223-bbe4-8b199b02d1f7">
+
+主要贡献：
+（1）unified paging，在gpu中管理lora和kv cache与variable seq len的关系，减少gpu的碎片问题，提升吞吐。依赖unified memory pool的设计
+
+（2）tensor parallelism策略（但凡一个系统工作，不做这个，就觉得少点啥？）
+
+（3）optimized cuda kernel（感觉同上）
+
+题外话：
+
+（1）slora是支持多gpu的
+（2）不仅仅适用于lora，其他的adapter也是支持的
+（3）vllm也支持lora serving，不过slora支持更多的lora，吞吐能做到前者的4倍（slora是在lightllm上做的，狗头。。）
+（4）下一步工作：
+      （4.1）继续添加更多的adapter
+      （4.2）强化fused kernel
+      （4.3）multiple cuda stream的使用，提升base model+lora的计算并行度
+
+
+
+
+
 382.《InstructExcel: A Benchmark for Natural Language Instruction in Excel》
 
 381.《Generative Input: Towards Next-Generation Input Methods Paradigm》
