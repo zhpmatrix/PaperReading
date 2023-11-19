@@ -1,3 +1,7 @@
+384.《sira: sparse mixture of low rank adaptation》
+![Uploading 截屏2023-11-19 下午4.48.48.png…]()
+
+
 383.《s-lora: serving thoughts of concurrent lora adapaters》
 
 解决的核心问题：一个base model+几千个lora，怎么serving？
