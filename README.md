@@ -1,5 +1,7 @@
 384.《sira: sparse mixture of low rank adaptation》
-![Uploading 截屏2023-11-19 下午4.48.48.png…]()
+
+<img width="528" alt="截屏2023-11-19 下午4 48 48" src="https://github.com/zhpmatrix/PaperReading/assets/4077026/50931fa2-e3e2-4bf8-bcbb-a8fd34a41915">
+
 
 
 383.《s-lora: serving thoughts of concurrent lora adapaters》
