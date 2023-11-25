@@ -1,3 +1,14 @@
+385.《Direct Preference Optimization- Your Language Model is Secretly a Reward Model》
+
+RLHF这个阶段的工作值得持续关注，比之前两个阶段，因为尚没有形成稳定的方法流程。比如引用tulu2的描述：
+
+Early systems for RLHF were built primarily upon the proximal policy optimization (PPO) algorithm, but recent advances have seen exploration of offline RL [Snell et al., 2022], reward model data filtering called rejection sampling (RS) [Touvron et al., 2023a] or reinforced self-training (ReST) [Gulcehre et al., 2023] and direct integration of preference data [Rafailov et al., 2023].
+
+这篇文章主要讲dpo的方式来做这个阶段的工作，实现简单，而tulu2是第一次在70b的scale上用dpo取得成功的一次实践。
+
+![截屏2023-11-25 下午10 28 52](https://github.com/zhpmatrix/PaperReading/assets/4077026/d53c9202-66a6-40ff-a9f0-8551e21a67d3)
+
+
 384.《sira: sparse mixture of low rank adaptation》
 
 <img width="528" alt="截屏2023-11-19 下午4 48 48" src="https://github.com/zhpmatrix/PaperReading/assets/4077026/50931fa2-e3e2-4bf8-bcbb-a8fd34a41915">
