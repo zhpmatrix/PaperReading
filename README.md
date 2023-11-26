@@ -1,3 +1,7 @@
+386.《taiyi_ A Bilingual Fine-Tuned Large Language Model for Diverse Biomedical Tasks》
+
+
+
 385.《Direct Preference Optimization- Your Language Model is Secretly a Reward Model》
 
 RLHF这个阶段的工作值得持续关注，比之前两个阶段，因为尚没有形成稳定的方法流程。比如引用tulu2的描述：
