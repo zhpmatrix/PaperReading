@@ -1,5 +1,12 @@
 386.《taiyi_ A Bilingual Fine-Tuned Large Language Model for Diverse Biomedical Tasks》
 
+主要亮点：
+（1）bilingual（中+英语），其中中来自cblue（相关工作promptcblue），英来自bigbio.->schema
+（2）two-stage sft:第一阶段没有qa和dialogue的数据；第二阶段在原来dataset的基础上添加qa和dialogue的数据
+（3）验证了zero-shot的能力，此处类似flan系列（实测效果优于chatgpt）
+
+整体工作和我们在早期做中文医疗大模型的思路比较接近，其实是flan系列的延伸和扩展。
+
 
 
 385.《Direct Preference Optimization- Your Language Model is Secretly a Reward Model》
