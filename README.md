@@ -1,3 +1,16 @@
+387.《can generalist foundation models outcompete special-purpose tuning?case study in medicine》
+
+三种prompt策略：
+
+（1）prompt的时候，选择一些相似的样本做few-shot
+
+（2）引导模型自己生成chain of thought
+
+（3）ensemble（适用于multi-choice类问题的融合策略）
+
+个人观点：虽然通过prompt能够提升模型的效果，不过fine-tuning也很有用。
+
+
 386.《taiyi_ A Bilingual Fine-Tuned Large Language Model for Diverse Biomedical Tasks》
 
 主要亮点：
