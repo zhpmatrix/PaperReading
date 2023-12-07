@@ -1,3 +1,9 @@
+388.《gemini: a family of highly capable multimodal models》
+
+一大早被google的gemini刷屏了，作为一个tech report，其实也没有透漏很多的细节。整体的流程和目前已知的llm的流程类似，一个很大的区别在于multi modal的场景设定。送上一张很早画的图：
+
+
+
 387.《can generalist foundation models outcompete special-purpose tuning?case study in medicine》
 
 三种prompt策略：
