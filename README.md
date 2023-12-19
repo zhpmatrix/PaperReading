@@ -1,3 +1,5 @@
+390.《retrieval-augmented generation for knowledge-intensive nlp task》,2020,rag的祖师爷～
+
 389.《NEFTUNE: Noisy Embeddings Improve Instruction Finetuning》
 
 <img width="1123" alt="截屏2023-12-17 下午10 05 11" src="https://github.com/zhpmatrix/PaperReading/assets/4077026/0a9ec91f-46b9-4b82-8c47-d0aeaa3e7554">
