@@ -1,3 +1,7 @@
+392.《Wikiformer: Pre-training with Structured Information of Wikipedia for Ad-hoc Retrieval》
+
+<img width="573" alt="截屏2024-01-02 下午3 47 07" src="https://github.com/zhpmatrix/PaperReading/assets/4077026/98050997-bbea-4864-95c8-4793895ebeb3">
+
 391.《Automated clinical coding using off-the-shelf large language models》
 
 
