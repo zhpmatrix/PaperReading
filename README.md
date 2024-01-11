@@ -1,3 +1,10 @@
+394.《Uniﬁed Demonstration Retriever for In-Context Learning》
+
+<img width="533" alt="截屏2024-01-11 上午11 58 48" src="https://github.com/zhpmatrix/PaperReading/assets/4077026/258f6b13-e26a-4300-b17c-6fd0ee3874ec">
+
+
+
+
 393.《large language model for generative information extraction_a survey》
 
 392.《Wikiformer: Pre-training with Structured Information of Wikipedia for Ad-hoc Retrieval》
