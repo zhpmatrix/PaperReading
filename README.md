@@ -2,7 +2,9 @@
 
 <img width="533" alt="截屏2024-01-11 上午11 58 48" src="https://github.com/zhpmatrix/PaperReading/assets/4077026/258f6b13-e26a-4300-b17c-6fd0ee3874ec">
 
+扫了一眼《Uniﬁed Demonstration Retriever for In-Context Learning》的工作，针对单一任务，比如实体识别，可以类比在llm之前，基于检索的方案。不过在llm范式中，第一个是icl场景中，筛选相关的few-shot；第二个是利用llm的推理能力输出最终结果。
 
+从另一个角度，想到gpt_cache和model_cache这类工作，利用semantic cache实现请求加速。
 
 
 393.《large language model for generative information extraction_a survey》
