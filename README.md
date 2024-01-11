@@ -1,3 +1,26 @@
+395.《KwaiAgents: Generalized Information-seeking Agent System with Large Language Models》
+
+几个印象中的点：
+
+（1）整理了open_source中的几个数据工作，理论上是支持multi-lingual的
+
+（2）有一个自动创建&筛选数据模版的方式（没仔细看）
+
+（3）增强了qwen/baichuan的function calling的能力
+
+问题：
+
+（1）tools是一个closed-set的集合（update的问题；scale的问题等），当set很大的时候，能否用retrieval的方式来做？
+
+（2）memory的问题
+
+（3）依赖模型的理解&推理能力（能够推理多少个step？）
+
+个人理解：agent是一个技术架构，给定目标，可以用于任务流的自动编排和实现。在此之前，low-code的方向做了一些工作，low-code解决的其实是翻译问题（业务需求->业务代码），本质上还是hard-code。基于agent，业务需求被instruction实现。从这个角度，能够自编程，其实还是有想象空间的。
+
+相关工作包括：《ModelScope-Agent: Building Your Customizable Agent System with Open-source Large Language Models》等。
+
+
 394.《Uniﬁed Demonstration Retriever for In-Context Learning》
 
 <img width="533" alt="截屏2024-01-11 上午11 58 48" src="https://github.com/zhpmatrix/PaperReading/assets/4077026/258f6b13-e26a-4300-b17c-6fd0ee3874ec">
