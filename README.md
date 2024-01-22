@@ -1,8 +1,6 @@
 396.《what makes good data for alignment? a comprehensive study of automatic data selection in instruction tuning》
 
-![Uploading 截屏2024-01-22 下午4.01.35.png…]()
-
-
+![截屏2024-01-22 下午4 01 35](https://github.com/zhpmatrix/PaperReading/assets/4077026/ce3d6221-f1c1-4c39-936d-a5f92d82223a)
 
 
 395.《KwaiAgents: Generalized Information-seeking Agent System with Large Language Models》
