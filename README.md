@@ -1,3 +1,16 @@
+397.《Unlocking Context Constraints of LLMs: Enhancing Context Efficiency of
+LLMs with Self-Information-Based Content Filtering》
+
+prompt压缩的方式
+
+- autocompressor
+    - 学习一个learnable的prompt实现对prompt的摘要
+- selective context
+    - 按照token的不确定性来选择具体丢弃哪些token（同样依赖一个causal model来给token打分）
+- longllmlingual
+    - 对于prompt中的实体信息可能会丢失
+
+
 396.《what makes good data for alignment? a comprehensive study of automatic data selection in instruction tuning》
 
 ![截屏2024-01-22 下午4 01 35](https://github.com/zhpmatrix/PaperReading/assets/4077026/ce3d6221-f1c1-4c39-936d-a5f92d82223a)
