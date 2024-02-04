@@ -4,7 +4,7 @@
 
 （1）masked language modeling pretraining. 利用bookscorpus和wikipedia，基于改造的bert架构重新训练一个支持2048长度的bert。
 
-（2）unsupervised contrastive pretraining.基于29个数据集的，470billion的pairs，经过一致性筛选之后，得到235m的pair。
+（2）unsupervised contrastive pretraining.基于29个数据集的，470billion的pairs，经过一致性筛选之后，得到235m的pair。(个人理解：采用弱监督的方式构建训练数据集)
 
 ```
 The JSON objects can come in different formats:
