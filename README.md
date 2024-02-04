@@ -1,3 +1,23 @@
+398.《Nomic Embed: Training a Reproducible Long Context Text Embedder》
+
+模型的训练流程：
+
+（1）masked language modeling pretraining. 利用bookscorpus和wikipedia，基于改造的bert架构重新训练一个支持2048长度的bert。
+
+（2）unsupervised contrastive pretraining.基于29个数据集的，470billion的pairs，经过一致性筛选之后，得到235m的pair。
+
+```
+The JSON objects can come in different formats:
+
+Pairs: ["text1", "text2"] - This is a positive pair that should be close in vector space.
+Triplets: ["anchor", "positive", "negative"] - This is a triplet: The positive text should be close to the anchor, while the negative text should be distant to the anchor.
+Sets: {"set": ["text1", "text2", ...]} A set of texts describing the same thing, e.g. different paraphrases of the same question, different captions for the same image. Any combination of the elements is considered as a positive pair.
+Query-Pairs: {"query": "text", "pos": ["text1", "text2", ...]} A query together with a set of positive texts. Can be formed to a pair ["query", "positive"] by randomly selecting a text from pos.
+Query-Triplets: {"query": "text", "pos": ["text1", "text2", ...], "neg": ["text1", "text2", ...]} A query together with a set of positive texts and negative texts. Can be formed to a triplet ["query", "positive", "negative"] by randomly selecting a text from pos and neg.
+```
+
+（3）supervised contrastive fine-tuning.基于高质量的数据集做监督式对比微调。
+
 397.《Unlocking Context Constraints of LLMs: Enhancing Context Efficiency of
 LLMs with Self-Information-Based Content Filtering》
 
