@@ -6,6 +6,8 @@
 
 （2）unsupervised contrastive pretraining.基于29个数据集的，470billion的pairs，经过一致性筛选之后，得到235m的pair。(个人理解：采用弱监督的方式构建训练数据集)
 
+https://huggingface.co/datasets/sentence-transformers/embedding-training-data
+
 ```
 The JSON objects can come in different formats:
 
