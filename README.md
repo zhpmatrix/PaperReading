@@ -1,3 +1,7 @@
+399.《MindMap: Knowledge Graph Prompting Sparks Graph of Thoughts in Large Language Models》
+
+本质上可以看作是一个kgrag。
+
 398.《Nomic Embed: Training a Reproducible Long Context Text Embedder》
 
 模型的训练流程：
