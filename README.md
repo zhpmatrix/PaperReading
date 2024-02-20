@@ -1,3 +1,13 @@
+402.《Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine》
+
+在探讨一个问题：通用大模型直接用在垂直领域中，效果会弱于在垂直领域中train过的模型吗？（进一步的问题：**垂直模型有没有存在的必要性？**）
+
+相关工作：[graphrag](https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/)
+
+This builds upon our recent research, which points to the power of prompt augmentation when performing discovery on private datasets. Here, we define private dataset as data that the LLM is not trained on and has never seen before, such as an enterprise’s proprietary research, business documents, or communications. Baseline RAG1 was created to help solve this problem, but we observe situations where baseline RAG performs very poorly.
+
+关于rag在什么条件下更有效？整体的结论是：rag在private的数据上更有可能有效，但是并不意味着在public的数据上无效（学过但没学好；学过但忘记了。都需要给一些提示才能回答），需要量化评估。
+
 401.《Tag-LLM: Repurposing General-Purpose LLMs for Specialized Domains》
 
 ![截屏2024-02-18 下午3 55 44](https://github.com/zhpmatrix/PaperReading/assets/4077026/8318cde3-3e12-4373-b006-ad05a7fea0a0)
