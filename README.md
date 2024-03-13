@@ -1,3 +1,6 @@
+403.《大规模生成式语言模型在医疗领域的应用：机遇与挑战》
+
+
 402.《Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine》
 
 在探讨一个问题：通用大模型直接用在垂直领域中，效果会弱于在垂直领域中train过的模型吗？（进一步的问题：**垂直模型有没有存在的必要性？**）
