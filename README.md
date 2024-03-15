@@ -1,3 +1,7 @@
+404.《the pitfalls of next-token prediction》
+
+没有仔细看，大致是重新讨论了inference时采用auto-regressive和train的时候采用teacher-forcing之间存在gap的问题。
+
 403.《大规模生成式语言模型在医疗领域的应用：机遇与挑战》
 
 
