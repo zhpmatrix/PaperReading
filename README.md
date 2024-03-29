@@ -1,3 +1,8 @@
+405.《Exploring the Impact of Table-to-Text Methods on Augmenting LLM-based Question Answering with Domain Hybrid Data》
+
+关于表格数据处理的工作。
+
+
 404.《the pitfalls of next-token prediction》
 
 没有仔细看，大致是重新讨论了inference时采用auto-regressive和train的时候采用teacher-forcing之间存在gap的问题。
