@@ -1,3 +1,15 @@
+408.《LLM Evaluators Recognize and Favor Their Own Generations》
+
+这篇文章讨论的问题和我们自己工作中得到的结论一致：使用llm打分的时候，llm更倾向于给自己的输出打更高的分。
+
+这种现象被定义为self-perference，而self-perference的核心是self-recognition。本质上是llm能否很好的识别自己的output。文章给出的结论是：二者是线性的。
+
+想一想各种自动化benchmarking，rewarding，constitutional ai等，影响面还是有的。
+
+一个民科的想法：信息摄入的时候，人们多数情况下对于自己熟悉的东西摄入的更快，也更容易产生认同感。这既是优点，也是缺点。比如一篇文章，可以写70%大家熟悉的东西，30%才是真正想要传达的新的增量。。。
+
+怎么解决？一个基本的思路：[使用llm作为evaluator的时候，在早期效果优化阶段，更关心相对排序而不是绝对得分，在效果优化的后期，关注点会回到绝对得分，拉近与天花板的距离](https://mp.weixin.qq.com/s?__biz=MzU2MTY2ODEzNA==&mid=2247484869&idx=1&sn=4bf5c85a58fa2e5ee477442752d2a832&chksm=fc740c8ccb03859afd52c4294626eb7b9014533cb4615343f4102708a46128db8fe70afa8407&token=2001761677&lang=zh_CN#rd)。
+
 407.《How faithful are RAG models?Quantifying the tug-of-war between RAG and LLM's internal prior?》
 
 尝试讨论了自己很早就在思考的问题，rag体系下，retrieval和generation对最终respnonse的contribution到底是咋样的？
