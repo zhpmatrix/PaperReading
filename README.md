@@ -1,3 +1,10 @@
+406.《Reducing Hallucination in structured outputs via Retrieval-Agumented Generation》
+
+![截屏2024-04-21 下午3 02 47](https://github.com/zhpmatrix/PaperReading/assets/4077026/b488a5d1-bc72-4d68-a916-f1eb59e87a19)
+
+![截屏2024-04-21 下午3 02 57](https://github.com/zhpmatrix/PaperReading/assets/4077026/6b44e446-eeeb-4275-88d4-aa210754e0b4)
+
+
 405.《Exploring the Impact of Table-to-Text Methods on Augmenting LLM-based Question Answering with Domain Hybrid Data》
 
 关于表格数据处理的工作。
