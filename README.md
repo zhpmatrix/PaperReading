@@ -1,3 +1,20 @@
+407.《How faithful are RAG models?Quantifying the tug-of-war between RAG and LLM's internal prior?》
+
+尝试讨论了自己很早就在思考的问题，rag体系下，retrieval和generation对最终respnonse的contribution到底是咋样的？
+
+<img width="722" alt="截屏2024-04-21 下午10 53 22" src="https://github.com/zhpmatrix/PaperReading/assets/4077026/38d3bf56-2b06-4499-9f67-a98524d6b788">
+
+比较有意思的是，llm-wrong+retrieval-right和llm-right+retrieval-wrong的时候，怎么办？
+
+作者给出了两个影响因素：
+
+（1）prompt。区别了对于retrieval信息的不同依赖程度
+（2）llm的prior有多强？该工作测了gpt3.5,gpt4和mistral-7B，整体结论是：prior越强，retrieval阶段的贡献度越低。如果只是一般的prior，结果就很扑朔迷离了。。
+
+所以，要回答这个问题，本质上还是要回答你用的llm到底是怎样的？prompt只是一个附加的外部条件且并不是很强。为了量化prior这个东西，可能的一个方式其实还是要建立domain下的测试集，对llm做系统的评估。
+
+
+
 406.《Reducing Hallucination in structured outputs via Retrieval-Agumented Generation》
 
 ![截屏2024-04-21 下午3 02 47](https://github.com/zhpmatrix/PaperReading/assets/4077026/b488a5d1-bc72-4d68-a916-f1eb59e87a19)
