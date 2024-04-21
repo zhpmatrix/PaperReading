@@ -13,6 +13,8 @@
 
 所以，要回答这个问题，本质上还是要回答你用的llm到底是怎样的？prompt只是一个附加的外部条件且并不是很强。为了量化prior这个东西，可能的一个方式其实还是要建立domain下的测试集，对llm做系统的评估。
 
+从我们做的医疗-发热方向的rag系统来看，gpt3.5/4/文心一言4的prior其实已经足够强，rag的增益其实并不大。
+
 
 
 406.《Reducing Hallucination in structured outputs via Retrieval-Agumented Generation》
