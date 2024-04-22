@@ -1,3 +1,11 @@
+410.《Enhancing Legal Document Retrieval: A Multi-Phrase Approach with Large Language Models》
+
+法律文本的检索。技术思路如下：
+
+![截屏2024-04-22 下午8 17 54](https://github.com/zhpmatrix/PaperReading/assets/4077026/acd8094d-4292-4f50-9da8-44e4d288ca9b)
+
+
+
 409.《Fine-Tuning or Retrieval? Comparing Knowledge Injection in LLMs》
 
 围绕llm的知识注入方式讨论。rag v.s. icl v.s. full parameters fine-tuning v.s. pre-trained
