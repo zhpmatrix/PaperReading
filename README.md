@@ -1,3 +1,7 @@
+409.《Fine-Tuning or Retrieval? Comparing Knowledge Injection in LLMs》
+
+围绕llm的知识注入方式讨论。rag v.s. icl v.s. full parameters fine-tuning v.s. pre-trained
+
 408.《LLM Evaluators Recognize and Favor Their Own Generations》
 
 这篇文章讨论的问题和我们自己工作中得到的结论一致：使用llm打分的时候，llm更倾向于给自己的输出打更高的分。
