@@ -1,3 +1,14 @@
+411.《RAGCache- Efficient Knowledge Caching for Retrieval-Augmented Generation》
+
+<img width="462" alt="截屏2024-04-24 下午4 00 58" src="https://github.com/zhpmatrix/PaperReading/assets/4077026/433994bf-9967-45a3-8a4f-40e46f79fdbf">
+
+相关工作：
+
++ [Towards Long Context RAG](https://www.llamaindex.ai/blog/towards-long-context-rag)
++ LLM Semantic Cache的两个工作：
++ [GPTCache](https://github.com/zilliztech/GPTCache)
++ [CodeFuse-ModelCache](https://github.com/codefuse-ai/CodeFuse-ModelCache/blob/main/README_CN.md)
+
 410.《Enhancing Legal Document Retrieval: A Multi-Phrase Approach with Large Language Models》
 
 法律文本的检索。技术思路如下：
