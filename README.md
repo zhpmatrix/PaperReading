@@ -9,6 +9,10 @@
 + [GPTCache](https://github.com/zilliztech/GPTCache)
 + [CodeFuse-ModelCache](https://github.com/codefuse-ai/CodeFuse-ModelCache/blob/main/README_CN.md)
 
+算法和系统系统设计的工作：
+
++ 《PipeRAG: Fast Retrieval-Augmented Generation via Algorithm-System Co-design》
+
 410.《Enhancing Legal Document Retrieval: A Multi-Phrase Approach with Large Language Models》
 
 法律文本的检索。技术思路如下：
