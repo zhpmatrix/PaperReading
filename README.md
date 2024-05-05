@@ -33,6 +33,26 @@
 
 怎么解决？一个基本的思路：[使用llm作为evaluator的时候，在早期效果优化阶段，更关心相对排序而不是绝对得分，在效果优化的后期，关注点会回到绝对得分，拉近与天花板的距离](https://mp.weixin.qq.com/s?__biz=MzU2MTY2ODEzNA==&mid=2247484869&idx=1&sn=4bf5c85a58fa2e5ee477442752d2a832&chksm=fc740c8ccb03859afd52c4294626eb7b9014533cb4615343f4102708a46128db8fe70afa8407&token=2001761677&lang=zh_CN#rd)。
 
+补充相关工作：
+
+《How Easily do Irrelevant Inputs Skew the Responses of Large Language Models?》
+
+关键结论如下：
+
+1. Compared to common semantically unrelated irrelevant information, LLMs are
+more likely to be misled by irrelevant information that is highly semantically related.
+
+2. With the increment of irrelevant information quantity, LLMs are less capable of
+identifying truly relevant information and are more easily distracted.
+
+3. The robustness of LLMs to irrelevant information varies with the question format,
+with the free-form format proving to be the most robust.
+
+4. Current strategies intended to improve LLMs’ discrimination capabilities result in
+only marginal, and sometimes even detrimental, enhancements in their ability to
+accurately identify and disregard irrelevant information.
+
+
 407.《How faithful are RAG models?Quantifying the tug-of-war between RAG and LLM's internal prior?》
 
 尝试讨论了自己很早就在思考的问题，rag体系下，retrieval和generation对最终respnonse的contribution到底是咋样的？
