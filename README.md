@@ -31,6 +31,18 @@
 
 + 融合llm和kg的工作包括：mindmap等。关键要思考：如何建立query和kg之间的关系？llm在主链路中如何更好的发挥作用？
 
+补相关工作：
+
+《From RAG to QA-RAG: Integrating Generative AI for Pharmaceutical Regulatory Compliance Process》
+
+主要内容：围绕药物合规咨询相关的工作。主要思路其实和hyde类似，不过和传统方案做了融合。
+
+![截屏2024-05-05 下午12 37 15](https://github.com/zhpmatrix/PaperReading/assets/4077026/a5e714d0-87bc-481b-8662-68de0feac297)
+
+补相关工作：
+
+《NoteLLM: A Retrievable Large Language Model for Note Recommendation》，图画的很乱。。。大概意思是微调了一个llm用于小红书的note的hashtag&category生成，类似场景在weibo中也有挺多，不过小红书更加依赖这个场景。
+
 
 
 
