@@ -15,6 +15,23 @@
 
 ![截屏2024-04-22 下午8 17 54](https://github.com/zhpmatrix/PaperReading/assets/4077026/acd8094d-4292-4f50-9da8-44e4d288ca9b)
 
+补相关工作：
+
+《Retrieval-Augmented Generation with Knowledge Graphs for Customer Service Question Answering》
+
+主要内容：基于jira工单系统，回复客户问题。jira工单系统的特点是：单个工单内部有结构+工单与工单之间有结构。因此，如果利用好这种带有结构的文本就是一个有意思的问题。
+
+![截屏2024-05-05 下午12 33 01](https://github.com/zhpmatrix/PaperReading/assets/4077026/38607f46-8444-4a61-97bd-1290f99a53a4)
+
+相关想法：
+
++ 财税领域政策相关的文档结构利用
+  
++ github的repo的issue区的自动问答
+
++ 融合llm和kg的工作包括：mindmap等。关键要思考：如何建立query和kg之间的关系？llm在主链路中如何更好的发挥作用？
+
+
 
 
 409.《Fine-Tuning or Retrieval? Comparing Knowledge Injection in LLMs》
