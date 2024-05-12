@@ -86,6 +86,10 @@ only marginal, and sometimes even detrimental, enhancements in their ability to
 accurately identify and disregard irrelevant information.
 
 
+补充相关工作：
+
+《Evaluating Verifiability in Generative Search Engines》
+
 407.《How faithful are RAG models?Quantifying the tug-of-war between RAG and LLM's internal prior?》
 
 尝试讨论了自己很早就在思考的问题，rag体系下，retrieval和generation对最终respnonse的contribution到底是咋样的？
