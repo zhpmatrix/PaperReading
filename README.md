@@ -1,3 +1,11 @@
+412.三篇review：
+
++ **《From Matching to Generation: A Survey on Generative Information Retrieval》，重要！！！**
+
++ 《A Survey of **Generative Search and Recommendation** in the Era of Large Language Models》
+
++ 《RAG and RAU- A Survey on Retrieval-Augmented Language Model in Natural Language Processing》
+
 411.《RAGCache- Efficient Knowledge Caching for Retrieval-Augmented Generation》
 
 <img width="462" alt="截屏2024-04-24 下午4 00 58" src="https://github.com/zhpmatrix/PaperReading/assets/4077026/433994bf-9967-45a3-8a4f-40e46f79fdbf">
