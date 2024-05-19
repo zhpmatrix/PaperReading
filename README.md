@@ -1,3 +1,9 @@
+415.《Overlapping Experiment Infrastructure: More, Better, Faster Experimentation》
+
+![image](https://github.com/zhpmatrix/PaperReading/assets/4077026/6b80224c-8fd4-46ab-8042-45057b16361e)
+
+本文是google的工作，讨论ab testing，比较久远的工作了。saas的发展，使得有机会做更多data-driven的decision making。那么如何设计一个ab实验就是一个比较有意思的问题。
+
 414.《COLD: Towards the Next Generation of Pre-Ranking System》
 
 ![image](https://github.com/zhpmatrix/PaperReading/assets/4077026/139249e5-73da-4ca3-a0db-d816eb28da39)
