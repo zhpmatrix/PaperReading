@@ -1,3 +1,11 @@
+414.《COLD: Towards the Next Generation of Pre-Ranking System》
+
+![image](https://github.com/zhpmatrix/PaperReading/assets/4077026/139249e5-73da-4ca3-a0db-d816eb28da39)
+
+广告方向中的pre-ranking，或者又称粗排。截止目前可能的主流方案仍旧是基于向量+cosine的方式，这里考虑了cross feature的问题。个人认为，本质上这个事情还是cost sensitive的，如果能够在cost的约束上放松一些，在model design上，就可以做的更重一些。
+
+广告方向的同学把该工作称为“三塔模型”，每个塔分别是user features, ad features和cross features。
+
 413.《Evaluation of Retrieval-Augmented Generation: A Survey》
 
 关于rag的评估体系的review
