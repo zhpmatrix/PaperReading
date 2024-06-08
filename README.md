@@ -1,3 +1,8 @@
+419.《FlashRAG: A Modular Toolkit for Efficient Retrieval-Augmented Generation Research》
+
+一个新的rag框架。对比了和其他rag框架的区别。
+
+
 418.《Item-Language Model for Conversational Recommendation》
 
 
