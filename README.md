@@ -1,3 +1,10 @@
+416.《Crafting Interpretable Embeddings by Asking LLMs Questions》
+
+提出了一种利用LLM产生embedding的方式，比较native，问题也比较多。但是也算是有一种方式。
+
+![image](https://github.com/zhpmatrix/PaperReading/assets/4077026/fecec48e-8332-4dd4-aa80-906cef6ac88d)
+
+
 415.《Overlapping Experiment Infrastructure: More, Better, Faster Experimentation》
 
 ![image](https://github.com/zhpmatrix/PaperReading/assets/4077026/6b80224c-8fd4-46ab-8042-45057b16361e)
