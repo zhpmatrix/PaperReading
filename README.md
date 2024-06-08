@@ -1,3 +1,6 @@
+418.《Item-Language Model for Conversational Recommendation》
+
+
 417.《MUVERA:Multi-Vector Retrieval via Fixed Dimensional Encodings》
 
 从colbert开始，multi-vector model变的流行，但是multi-vector的计算cost很高。这篇文章通过将multi-vector转化为single-vector，从而实现在提升recall的同时，显著降低latency。
