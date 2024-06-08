@@ -117,6 +117,10 @@ accurately identify and disregard irrelevant information.
 
 《Evaluating Verifiability in Generative Search Engines》
 
+补充相关工作:
+
+[《The Power of Noise Redefining Retrieval for RAG Systems》](https://mp.weixin.qq.com/s/KPRNclbD3UB46Ck_se-xgw)
+
 407.《How faithful are RAG models?Quantifying the tug-of-war between RAG and LLM's internal prior?》
 
 尝试讨论了自己很早就在思考的问题，rag体系下，retrieval和generation对最终respnonse的contribution到底是咋样的？
