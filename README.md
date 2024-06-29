@@ -1,3 +1,9 @@
+421.压缩retrieval context的方法：
+
+《Compressing Context to Enhance Inference Efficiency of Large Language Models》
+
+《Dense X Retrieval: What Retrieval Granularity Should We Use?》
+
 420.《When to Retrieve: Teaching LLMs to Utilize Information Retrieval Effectively》
 
 解决的方法是：通过微调一个llm来输出一个特殊标记符<RET>，来表示是否需要模型利用context来得到最终的answer，类似的做法在更早的self-rag中有体现。
