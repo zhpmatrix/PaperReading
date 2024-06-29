@@ -1,3 +1,8 @@
+420.《When to Retrieve: Teaching LLMs to Utilize Information Retrieval Effectively》
+
+解决的方法是：通过微调一个llm来输出一个特殊标记符<RET>，来表示是否需要模型利用context来得到最终的answer，类似的做法在更早的self-rag中有体现。
+
+
 419.《FlashRAG: A Modular Toolkit for Efficient Retrieval-Augmented Generation Research》
 
 一个新的rag框架。对比了和其他rag框架的区别。
