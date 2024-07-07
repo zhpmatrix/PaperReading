@@ -1,3 +1,7 @@
+422.《Methods, Applications, and Directions of Learning-to-Rank in NLP Research》
+
+2024年的一篇关于ltr的review，强调了generative model的应用+统计显著性的问题（ml领域的老问题了，大家都不怎么做严谨的test）
+
 421.压缩retrieval context的方法：
 
 《Compressing Context to Enhance Inference Efficiency of Large Language Models》
