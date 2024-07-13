@@ -1,3 +1,9 @@
+423.《Leveraging Passage Embeddings for Efficient Listwise Reranking with Large Language Models》
+
+PE-RANK的主要思路是：之前的各种利用LLM进行重排的方法，受限于context的长度问题。那么一种直接的思路是，能不能不要这么长？具体的做法是：比如能否给context中的每个item一个有意义的标记。将标记作为prompt的一部分？
+
+如果沿着这个思路，和传统的方法存在一定的mismatch。标记和自然语言的差异性问题。
+
 422.《Methods, Applications, and Directions of Learning-to-Rank in NLP Research》
 
 2024年的一篇关于ltr的review，强调了generative model的应用+统计显著性的问题（ml领域的老问题了，大家都不怎么做严谨的test）
