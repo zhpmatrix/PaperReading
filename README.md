@@ -1,3 +1,8 @@
+424.《RankRAG: Unifying Context Ranking with Retrieval-Augmented Generation in LLMs》
+
+核心思想：能否通过LLM把排序和生成一起做了？部分思想其实来的都很朴素，可以回头翻最早提rag的paper。
+
+
 423.《Leveraging Passage Embeddings for Efficient Listwise Reranking with Large Language Models》
 
 PE-RANK的主要思路是：之前的各种利用LLM进行重排的方法，受限于context的长度问题。那么一种直接的思路是，能不能不要这么长？具体的做法是：比如能否给context中的每个item一个有意义的标记。将标记作为prompt的一部分？
