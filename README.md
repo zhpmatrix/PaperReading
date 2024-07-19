@@ -1,3 +1,12 @@
+425.《Scaling Laws For Dense Retrieval》，2024 SIGIR, Best Paper
+
+scaling law的简单含义是，bigger more！，个人理解这篇工作是把scaling law在dense retrieval的任务上重新做了一遍，结论是：hi，你看，也符合的哦。
+
+强调了对于optimize training processes是重要的（training dynamic）。
+
+收获不是很多。。。
+
+
 424.《RankRAG: Unifying Context Ranking with Retrieval-Augmented Generation in LLMs》
 
 核心思想：能否通过LLM把排序和生成一起做了？部分思想其实来的都很朴素，可以回头翻最早提rag的paper。
