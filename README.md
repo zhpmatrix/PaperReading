@@ -1,3 +1,15 @@
+426.《Knowledge Conflicts for LLMs: A Survey》
+
+这篇文章讨论了llm中的知识冲突问题。其实整体的脉络也可以独立推演出来，以rag为例，answer有两个来源对象，分别是llm和context，因此conficts至少包含三个方面：
+
+（1）llm内部的知识冲突。比如，“a是b的爸爸，b是a的？”，未必是“儿子”。。
+
+（2）context之间的冲突。典型的，retrieval阶段有不同的知识来源等。在过去的23年，和华山医院张文宏团队合作的项目中，这个问题被挑战了很多次。。
+
+（3）llm和context之间的冲突。本质上llm内置参数化的知识，而context则是显式的知识，二者会在客观上存在冲突，以及存在冲突的时候应该怎么搞？
+
+这篇文章不仅讨论了上述问题的原因，同时给出了可能的解决方案，具有一定的启发性。
+
 425.《Scaling Laws For Dense Retrieval》，2024 SIGIR, Best Paper
 
 scaling law的简单含义是，bigger more！，个人理解这篇工作是把scaling law在dense retrieval的任务上重新做了一遍，结论是：hi，你看，也符合的哦。
