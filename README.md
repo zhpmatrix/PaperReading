@@ -1,3 +1,7 @@
+427.《Context Embeddings for Efficient Answer Generation in RAG》
+
+新增一篇在rag场景下的context压缩的工作。
+
 426.《Knowledge Conflicts for LLMs: A Survey》
 
 这篇文章讨论了llm中的知识冲突问题。其实整体的脉络也可以独立推演出来，以rag为例，answer有两个来源对象，分别是llm和context，因此conficts至少包含三个方面：
