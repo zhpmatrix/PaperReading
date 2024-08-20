@@ -1,3 +1,7 @@
+428.《Exploring Query Understanding for Amazon Product Search》
+
+主要包含三个工作：**QU Ranking Features+Query Segment Evaluation+QU based Training**
+
 427.《Context Embeddings for Efficient Answer Generation in RAG》
 
 新增一篇在rag场景下的context压缩的工作。
