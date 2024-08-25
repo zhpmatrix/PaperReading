@@ -1,3 +1,22 @@
+429.《A Surprisingly Simple yet Eﬀective Multi-Query Rewriting Method for Conversational Passage Retrieval》，SIGIR2024的文章
+
+主要亮点：对话式文本检索场景下，用一种非常简单但是高效的方式做query扩展的方法，除此之外，没有额外的cost。
+
+主要做法：
+
+（1）通过微调一个generative的模型来做query rewrite，通过beam search得到multi query。
+
+（2）怎么利用这些query呢？
+
+对于sparse retrieval：对于多个query，拿到bow，每个term在beam score做sum&norm（一个term可能会出现在多个query中），这样就可以得到term weight了。
+
+对于dense retrieval：对每个query进行embedding之后，做sum&norm即可。
+
+上述的关键操做是sum&norm，与文章的核心卖点：no additional cost直接相关。
+
+这篇文章的做法非常符合自己近期做搜索优化的思路。（1）通过数据分析，证明需要一个query扩展（2）怎么做query扩展？（3）怎么用扩展出的query？（搜索主链熵增的同时，尽量不要增加推理cost，文章中基本只有并行的资源cost）
+
+
 428.《Exploring Query Understanding for Amazon Product Search》
 
 主要包含三个工作：**QU Ranking Features+Query Segment Evaluation+QU based Training**
