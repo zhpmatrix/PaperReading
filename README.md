@@ -1,3 +1,25 @@
+430.《Meta Knowledge for Retrieval Augmented Large Language Models》,AWS挂出来的一篇文章
+
+主要思想：通过对非结构化文章做结构化来增强检索（通过arXiv的paper来验证想法）。
+
+主要做法：
+
+（1）通过llm给一篇文章打标签（获取metadata），根据文章和标签，利用llm生成qa对
+
+（2）建立索引：对每一个标签，拿到数据集中所有的q，通过llm得到所有q的一个summary（concept维度），这样就建立了标签-summary的pair结构
+
+（3）在推理时，给定一个query，拿到标签，summary可以作为query的一个增强。余下的流程同标准检索逻辑。这里有个细节，要不要用summary做增强？
+
+    （3.1）不用。给query打完标签之后，直接返回标签对应的q的集合。这样比较依赖前置环节的结构化的效果
+    （3.2）用。泛化能力，保留能够检索到其他q的可能性（文章选择了这种做法）。
+
+与该做法比较相关的是，llm的self-instruct技术。进一步地，本质上是对非结构化文本建立index，将问题转化为一个标准的qa对问题。对比常用的chunking策略，从检索chunk切换为检索q。
+
+<img width="1143" alt="image" src="https://github.com/user-attachments/assets/ec5a6a02-ae5d-4113-a3fb-52a4d763bfcb">
+
+
+
+
 429.《A Surprisingly Simple yet Eﬀective Multi-Query Rewriting Method for Conversational Passage Retrieval》，SIGIR2024的文章
 
 主要亮点：对话式文本检索场景下，用一种非常简单但是高效的方式做query扩展的方法，除此之外，没有额外的cost。
