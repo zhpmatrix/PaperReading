@@ -1,3 +1,21 @@
+433.《Enhancing Asymmetric Web Search through Question-Answer Generation and Ranking》，KDD2024
+
+其实也是自己比较早的一个想法了，思路也比较直接。
+
+insight：query去和document做匹配，是一个非对称问题。那么简单点的做法是，做成对称的问题就可以。怎么搞？从document中产生question。这个事情也不麻烦，self-instruction也搞了差不多两年了吧。。。本质上其实是给document
+建立一个index结构，无非不是inverted index而已。
+
+两个阶段，分别是offline和online阶段，如下：
+
+offline：根据document建立qa对。整体上分为三个小步骤，（1）从document中筛选core段落（2）利用llm从core段落中生成question和answer（3）通过计算qa对和core段落的相关性做进一步的筛选
+
+online：ranking。通过计算query和question的相关性以及和content的相关性等，做ranking。这里作者针对如何融合各路信号，基于BERT做了一些雕花的工作。
+
+作者最后秀了一把显卡资源，酸了。
+
+<img width="603" alt="image" src="https://github.com/user-attachments/assets/8b00ee66-55ba-446e-a518-aaa0bf42ae5f">
+
+
 432.《Deep Bag-of-Words Model: An Efficient and Interpretable Relevance Architecture for Chinese E-Commerce》，KDD2024
 
 淘宝搜索的工作。通过利用word weight作为query和product的表征（该工作中称DeepBoW），实现相关性的计算。因此问题转为：如何得到一个合适的word weight？类似的工作包括bge系列中的sparse weight等。
