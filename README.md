@@ -1,3 +1,11 @@
+432.《Deep Bag-of-Words Model: An Efficient and Interpretable Relevance Architecture for Chinese E-Commerce》，KDD2024
+
+淘宝搜索的工作。通过利用word weight作为query和product的表征（该工作中称DeepBoW），实现相关性的计算。因此问题转为：如何得到一个合适的word weight？类似的工作包括bge系列中的sparse weight等。
+
+在评测数据集的构建中，谈到如下：
+
+**The first is a large-scale Human-Annotation dataset which contains queryproduct pairs sampled from the Taobao search logs. Each queryproduct pair is labeled as Good (relevant) or Bad (irrelevant) by experienced human annotators. This is a daily task running in Taobao, which has accumulated more than 8 million labeled samples.**
+
 431.《ContextCite- Attributing Model Generation to Context》
 
 通过训练一个模型实现对cite的生成能力提升。
