@@ -1,3 +1,7 @@
+431.《ContextCite- Attributing Model Generation to Context》
+
+通过训练一个模型实现对cite的生成能力提升。
+
 430.《Meta Knowledge for Retrieval Augmented Large Language Models》,AWS挂出来的一篇文章
 
 主要思想：通过对非结构化文章做结构化来增强检索（通过arXiv的paper来验证想法）。
