@@ -1,6 +1,6 @@
 433.《Enhancing Asymmetric Web Search through Question-Answer Generation and Ranking》，KDD2024
 
-其实也是自己比较早的一个想法了，思路也比较直接。
+其实也是自己比较早的一个想法了，思路也比较直接。相关文章：《Self-QA: Unsupervised Knowledge Guided Language Model Alignment》
 
 insight：query去和document做匹配，是一个非对称问题。那么简单点的做法是，做成对称的问题就可以。怎么搞？从document中产生question。这个事情也不麻烦，self-instruction也搞了差不多两年了吧。。。本质上其实是给document
 建立一个index结构，无非不是inverted index而已。
