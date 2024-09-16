@@ -1,3 +1,21 @@
+434.《Late Chunking:Contextual Chunk Embeddings Using Long-Context Embedding Models》
+
+在对于long context的文本进行切分时，在包含指代的情况下，会导致缺失被指代的对象的context信息。本质上是因为在token级做了chunk。怎么解决？那就不要在token上做chunk，而是：
+
+（1）整个文本做embedding
+
+（2）按照切分逻辑去切embedding
+
+核心的motivation比较清晰简单。如下：
+
+![截屏2024-09-16 11 57 03](https://github.com/user-attachments/assets/65d1f9ce-ff6e-4584-9a0f-775d801b6a82)
+
+
+![截屏2024-09-16 11 57 13](https://github.com/user-attachments/assets/b9def565-306c-431b-ab5d-735d7211786e)
+
+
+
+
 433.《Enhancing Asymmetric Web Search through Question-Answer Generation and Ranking》，KDD2024
 
 其实也是自己比较早的一个想法了，思路也比较直接。相关文章：《Self-QA: Unsupervised Knowledge Guided Language Model Alignment》
