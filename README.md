@@ -1,3 +1,13 @@
+436.《meta-chunking:learning efficient text segmentation via logical perception》
+
+两种chuncking方法，如下：
+
++ margin sampling chunking:classification based on model
+
++ perplexity chunking: perplexity distribution
+
+现在对这种工作不是很感兴趣。
+
 435.《A Survey of Conversational Search》
 
 一篇关于对话式搜索的综述文章，主要包含四个部分，分别如下：
