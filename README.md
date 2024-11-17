@@ -1,3 +1,15 @@
+435.《A Survey of Conversational Search》
+
+一篇关于对话式搜索的综述文章，主要包含四个部分，分别如下：
+
++ query reformulation(包含query改写，query扩展等问题)
++ search clarification（该部分是对话式搜索部分所特有的，主要是由对话系统中的两个问题带来的：指代和省略。进一步地，是对话场景中，上下文理解的一部分。ai search的产品设计中，通过prompt可以解决部分问题）
++ conversational retrieval
++ response generation
+
+整体上的思路和ai search的研发范式相似，或者是一个检索式问答系统。
+
+
 434.《Late Chunking:Contextual Chunk Embeddings Using Long-Context Embedding Models》
 
 在对于long context的文本进行切分时，在包含指代的情况下，会导致缺失被指代的对象的context信息。本质上是因为在token级做了chunk。怎么解决？那就不要在token上做chunk，而是：
