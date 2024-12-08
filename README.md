@@ -1,3 +1,8 @@
+437.好久没更新，更新一些近期的笔记。
+
+[《Exploring the Impact of Table-to-Text Methods on Augmenting LLM-based Question Answering with Domain Hybrid Data》](https://zhpmatrix.github.io/2024/12/05/paper-reading/)
+
+
 436.《meta-chunking:learning efficient text segmentation via logical perception》
 
 两种chuncking方法，如下：
