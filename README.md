@@ -2,6 +2,11 @@
 
 [《Exploring the Impact of Table-to-Text Methods on Augmenting LLM-based Question Answering with Domain Hybrid Data》](https://zhpmatrix.github.io/2024/12/05/paper-reading/)
 
+[《Enhancing Asymmetric Web Search through Question-Answer Generation and Ranking》](https://zhpmatrix.github.io/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/2024/09/24/enhancing-asymmetric-web-search-through-question-answer-generation-and-ranking/)
+
+[《A Surprisingly Simple yet Effective Multi-Query Rewriting Method for Conversational Passage Retrieval》](https://zhpmatrix.github.io/2024/08/26/query-rewrite/)
+
+[《FIRST: Faster Improved Listwise Reranking with Single Token Decoding》](https://zhpmatrix.github.io/2024/06/25/reranker-based-on-llm/)
 
 436.《meta-chunking:learning efficient text segmentation via logical perception》
 
