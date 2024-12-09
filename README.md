@@ -1,3 +1,9 @@
+438.百度搜索中的两篇关于预训练语言模型的文章
+
++ 《Pre-trained Language Model for Web-scale Retrieval in Baidu Search》
+
++ 《Pre-trained Language Model based Ranking in Baidu Search》
+
 437.好久没更新，更新一些近期的笔记。
 
 [《Exploring the Impact of Table-to-Text Methods on Augmenting LLM-based Question Answering with Domain Hybrid Data》](https://zhpmatrix.github.io/2024/12/05/paper-reading/)
