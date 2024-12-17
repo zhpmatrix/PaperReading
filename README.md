@@ -1,3 +1,5 @@
+439.《Semantic Retrieval at Walmart》
+
 438.百度搜索中的两篇关于预训练语言模型的文章
 
 + 《Pre-trained Language Model for Web-scale Retrieval in Baidu Search》
