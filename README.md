@@ -1,3 +1,8 @@
+440.《Question-Based Retrieval using Atomic Units for Enterprise RAG》
+
+![image](https://github.com/user-attachments/assets/4ffae6c1-6ced-4d73-97ed-83a18c3ab0a0)
+
+
 439.《Semantic Retrieval at Walmart》
 
 438.百度搜索中的两篇关于预训练语言模型的文章
