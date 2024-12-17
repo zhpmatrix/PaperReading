@@ -1,3 +1,13 @@
+441.COLING2025的几个工作，用LLM做传统NLP的工作
+
++ 《A Zero-Shot Open-Vocabulary Pipeline for Dialogue Understanding》
+
++ 《Large Language Models as Zero-Shot Keyphrase Extractors- A Preliminary Empirical Study》
+  
++ 《Match, Compare, or Select? An Investigation of Large Language Models for Entity Matching》
+
++ 《Retrieval Augmented Instruction Tuning for Open NER with Large Language Models》
+
 440.《Question-Based Retrieval using Atomic Units for Enterprise RAG》
 
 ![image](https://github.com/user-attachments/assets/4ffae6c1-6ced-4d73-97ed-83a18c3ab0a0)
