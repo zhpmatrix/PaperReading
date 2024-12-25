@@ -1,3 +1,18 @@
+444.《A Survey of Query Optimization in Large Language Models》
+
+腾讯机器学习平台部的一个关于query优化的survey。
+
++ query扩展。
+  + 内部扩展。
+  + 外部扩展。    
++ query分解。
++ query消歧。
++ query抽象。
+
+![image](https://github.com/user-attachments/assets/558ddd77-8191-49c4-96df-d3597b1e30c3)
+
+
+
 443.《Conversational Recommender System and Large Language Model Are Made for Each Other in E-commerce Pre-sales Dialogue》
 
 讨论了LLM和CRS之间的相互作用用于电商导购场景。
