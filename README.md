@@ -1,3 +1,7 @@
+443.《Conversational Recommender System and Large Language Model Are Made for Each Other in E-commerce Pre-sales Dialogue》
+
+讨论了LLM和CRS之间的相互作用用于电商导购场景。
+
 442.《ChatQA: Surpassing GPT-4 on Conversational QA and RAG》，投了NeurIPS 2024 
 
 文章讨论了多轮对话场景下的模型微调问题，包括如下：
