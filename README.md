@@ -1,3 +1,14 @@
+442.《ChatQA: Surpassing GPT-4 on Conversational QA and RAG》，投了NeurIPS 2024 
+
+文章讨论了多轮对话场景下的模型微调问题，包括如下：
+
+（1）多轮对话作为input，通过两阶段微调一个retriever
+
+（2）针对unanswerable的模型微调
+
+工作不复杂，但是工作量有的。数据和prompt也给的比较足。
+
+
 441.COLING2025的几个工作，用LLM做传统NLP的工作
 
 + 《A Zero-Shot Open-Vocabulary Pipeline for Dialogue Understanding》
