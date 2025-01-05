@@ -1,3 +1,8 @@
+450.《Task-Oriented Dialogue with In-Context Learning》
+
+rasa的文章，讨论怎么结合llm和tod做一个工业级的系统。持续跟进中。
+
+
 449.《Rethinking Task-Oriented Dialogue Systems- From Complex Modularity to Zero-Shot Autonomous Agent》
 
 仅仅使用单个大模型，实现tod系统。
