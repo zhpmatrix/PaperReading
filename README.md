@@ -1,3 +1,18 @@
+447.《End-to-end Task-oriented Dialogue:A Survey of Tasks, Methods, and Future Directions》
+
+目前能够找到的最早的关于ToD的survey(**->2022，LLM和ToD结合的review尚无发现**)。文章对于tod的定义分为四个阶段：
+
++ nlu： 对话理解
++ dst： 对话状态追踪
++ dpl： 对话策略学习
++ nlg： 响应生成
+
+整体上分为三个方向：
+
++ pipeline task-oriented dialogue system:上述四个模块，每个模块单独训练，没有任何联系
++ modularly end-to-end task-oriented dialogue system:共享plm进行training
++ fully end-to-end task-oriendted dialogue system:全链路端到端的实现
+
 446.《Thinking with Knowledge Graphs-Enhancing LLM Reasoning Through Structured Data》
 
 文章讨论了知识图谱用于LLM的推理增强。其中核心在于怎么表示知识图谱中的知识？(文章中作者也讨论了面向编程语言的finetuning方法)，四种方法如下：
