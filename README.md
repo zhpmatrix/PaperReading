@@ -3,6 +3,7 @@
 + 《Task-Oriented Dialogue as Dataﬂow Synthesis》，微软的工作
 + 《Task-Oriented Dialogue with In-Context Learning》,RASA
 + 《Chain of Logic: Rule-Based Reasonging with Large Language Models》
++ 《Conversational Semantic Parsing for Dialog State Tracking》，2020 EMNLP
 
 447.《End-to-end Task-oriented Dialogue:A Survey of Tasks, Methods, and Future Directions》
 
