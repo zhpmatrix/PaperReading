@@ -1,3 +1,21 @@
+446.《Thinking with Knowledge Graphs-Enhancing LLM Reasoning Through Structured Data》
+
+文章讨论了知识图谱用于LLM的推理增强。其中核心在于怎么表示知识图谱中的知识？(文章中作者也讨论了面向编程语言的finetuning方法)，四种方法如下：
+
++ 基于自然语言的静态关系表示。如 "r1 of e1 is e2, r2 of e2 is e3..."
++ 基于json的静态关系表示。如“{"{r1}":{"{e1}":"{e2}"}}”
++ 基于Python的静态关系表示。
++ 基于Python的动态关系表示。
+
+从实验结果分析来看，该工作能够：
+
++ 显著提升LLM在复杂推理场景下的效果
++ ground the reasoning process with KG
+
+目前自己遇到的一个问题是：给定一个复杂的决策树，如何基于该树，提升LLM在对话过程中的推理效果？（最好按照这颗树灵活的进行反问和推理）
+
+
+
 445.《Out-of-Domain Intent Detection Considering Multi-Turn Dialogue Contexts》
 
 444.《A Survey of Query Optimization in Large Language Models》
