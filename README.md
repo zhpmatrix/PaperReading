@@ -1,3 +1,9 @@
+449.《Rethinking Task-Oriented Dialogue Systems- From Complex Modularity to Zero-Shot Autonomous Agent》
+
+仅仅使用单个大模型，实现tod系统。
+
+
+
 448.tod和business flow结合的几个工作
 
 + 《Task-Oriented Dialogue as Dataﬂow Synthesis》，微软的工作
