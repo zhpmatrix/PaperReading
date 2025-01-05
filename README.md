@@ -1,3 +1,8 @@
+448.tod和business flow结合的几个工作
+
++ 《Task-Oriented Dialogue as Dataﬂow Synthesis》，微软的工作
++ 《Task-Oriented Dialogue with In-Context Learning》,RASA
+
 447.《End-to-end Task-oriented Dialogue:A Survey of Tasks, Methods, and Future Directions》
 
 目前能够找到的最早的关于ToD的survey(**->2022，LLM和ToD结合的review尚无发现**)。文章对于tod的定义分为四个阶段：
