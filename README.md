@@ -1,3 +1,7 @@
+453.《From Decoding to Meta-Generation:Inference-time Algorithms for Large Language Models》
+
+总结了各种推理时算法。
+
 452.《Language Agent Tree Search Unifies Reasoning, Acting, and Planning in Language Models》，**LATS**
 
 MCTS的变种。第一个融合reasoning，acting和planning用于强化llm的框架。
