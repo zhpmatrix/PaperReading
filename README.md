@@ -1,3 +1,12 @@
+452.《Language Agent Tree Search Unifies Reasoning, Acting, and Planning in Language Models》，**LATS**
+
+MCTS的变种。第一个融合reasoning，acting和planning用于强化llm的框架。
+
+451.《The Landscape of Emerging AI Agent Architectures for Reasoning, Planning, and Tool Calling- A Survey》
+
+讨论了ai agents系统的几个关键问题，文章最后的梳理和总结，写的非常的可观。
+
+
 450.《Task-Oriented Dialogue with In-Context Learning》
 
 rasa的文章，讨论怎么结合llm和tod做一个工业级的系统。持续跟进中。
