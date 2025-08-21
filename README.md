@@ -1,6 +1,7 @@
 466.关于推理的文章
 
 《ReSearch-Learning to Reason with Search for LLMs via Reinforcement Learning》，类似工作包括Search-R1
+
 	+ 源码阅读
 		+ https://github.com/Agent-RL/ReCall/tree/re-search?tab=readme-ov-file
 		+  Reward Calculation: Current F1 score-based rewards, though efficient, have limited generalization capability. Real-world scenarios often require handling complex responses like paragraphs or non-discrete answers, suggesting the need for more sophisticated reward mechanisms.
@@ -10,10 +11,16 @@
 			+ self-verification
 			+ self-correction
 
-同期工业界的工作包括如下：
+同期的工作包括如下：
 
 + [夸克的健康大模型](https://mp.weixin.qq.com/s/hN53VNzSSEe65NxKM6D2vQ?scene=1)
 + [Baichuan-M2](https://www.baichuan-ai.com/blog/baichuan-M2)
++ 《A Law Reasoning Benchmark for LLM with Tree-Organized Structures including Factum Probandum, Evidence and Experiences》，ACL2025
+	+ 主要工作
+		+ 为了提升法律审判的透明性，基于树型结构构建了法律知识体系
+			+ 事实
+			+ 经验
+			+ 证据
 
 455.《EXPLAIN-Enhancing Retrieval-Augmented Generation with Entity Summary》，ACL2025
 
@@ -32,12 +39,7 @@
 + 《Improve Rule Retrieval and Reasoning with Self-Induction and Relevance ReEstimate》，ACL2025
 	+ 提出了一种方法用于规则检索
 		+ Rule Relevance ReEstimate(R^3)
-+ 《A Law Reasoning Benchmark for LLM with Tree-Organized Structures including Factum Probandum, Evidence and Experiences》，ACL2025
-	+ 主要工作
-		+ 为了提升法律审判的透明性，基于树型结构构建了法律知识体系
-			+ 事实
-			+ 经验
-			+ 证据
+
 
 
 
