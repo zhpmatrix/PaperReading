@@ -59,7 +59,7 @@ MCTS的变种。第一个融合reasoning，acting和planning用于强化llm的�
 
 451.《The Landscape of Emerging AI Agent Architectures for Reasoning, Planning, and Tool Calling- A Survey》
 
-讨论了ai agents系统的几个关键问题，文章最后的梳理和总结，写的非常的可观。
+讨论了ai agents系统的几个关键问题，文章最后的梳理和总结，写的非常的客观。
 
 
 450.《Task-Oriented Dialogue with In-Context Learning》
