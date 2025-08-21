@@ -13,7 +13,7 @@
  
 虽然ReSearch和Search-R1都是同时期的工作，但是其中有一些相反的结论：
 
-（1）ReSearch中，32B的模型响应长度会先降低再增加，但是7B的模型会一直增加，Search-R1种7B的模型和32B的模型行为一致
+（1）ReSearch中，32B的模型响应长度会先降低再增加，但是7B的模型会一直增加，Search-R1中7B的模型和32B的模型行为一致
 
 （2）ReSearch中使用了GRPO，没有reward collapse，但是Search-R1是存在的
 
