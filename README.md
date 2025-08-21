@@ -1,3 +1,46 @@
+466.关于推理的文章
+
+《ReSearch-Learning to Reason with Search for LLMs via Reinforcement Learning》，类似工作包括Search-R1
+	+ 源码阅读
+		+ https://github.com/Agent-RL/ReCall/tree/re-search?tab=readme-ov-file
+		+  Reward Calculation: Current F1 score-based rewards, though efficient, have limited generalization capability. Real-world scenarios often require handling complex responses like paragraphs or non-discrete answers, suggesting the need for more sophisticated reward mechanisms.
+		+ Action-Based Outcomes: For tasks where success is measured by a sequence of actions rather than a final answer, developing appropriate reward strategies remains challenging. This calls for new evaluation frameworks to assess action-based task completion.
+		+ 推理能力的表现方式
+			+ reflection
+			+ self-verification
+			+ self-correction
+
+同期工业界的工作包括如下：
+
++ [夸克的健康大模型](https://mp.weixin.qq.com/s/hN53VNzSSEe65NxKM6D2vQ?scene=1)
++ [Baichuan-M2](https://www.baichuan-ai.com/blog/baichuan-M2)
+
+455.《EXPLAIN-Enhancing Retrieval-Augmented Generation with Entity Summary》，ACL2025
+
+ + 核心步骤
+		+ 从chunk中抽取实体
+		+ 基于LLM对实体进行summary
+		+ chunk和实体的summary均用于下游的召回检索
+
+454.最近扫了一遍ACL2025的文章，包括main track，findings等。个人的兴趣点其实不多，因为今年主要做的事情与符号系统有关，故对关于规则召回的一些文章相对感兴趣一些。
+
++ 《CMQCIC-Bench- A Chinese Benchmark for Evaluating Large Language Models in Medical Quality Control Indicator Calculation》，ACL2025
+	+ 大模型用于医疗质量控制指标的计算方式
++ 《Chain of Logic: Rule-Based Reasoning with Large Language Models》，ACL2024
++ 《Beyond Instruction Following: Evaluating Inferential Rule Following of Large Language Models》，ACL2024
+	+ 文章构建了一个数据集，用于评估各类模型的推理规则遵循能力，RuleBench
++ 《Improve Rule Retrieval and Reasoning with Self-Induction and Relevance ReEstimate》，ACL2025
+	+ 提出了一种方法用于规则检索
+		+ Rule Relevance ReEstimate(R^3)
++ 《A Law Reasoning Benchmark for LLM with Tree-Organized Structures including Factum Probandum, Evidence and Experiences》，ACL2025
+	+ 主要工作
+		+ 为了提升法律审判的透明性，基于树型结构构建了法律知识体系
+			+ 事实
+			+ 经验
+			+ 证据
+
+
+
 453.《From Decoding to Meta-Generation:Inference-time Algorithms for Large Language Models》
 
 总结了各种推理时算法。
