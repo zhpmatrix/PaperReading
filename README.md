@@ -10,6 +10,11 @@
 		+ reflection
 		+ self-verification
 		+ self-correction
+ 
+虽然ReSearch和Search-R1都是同时期的工作，但是其中有一些相反的结论：
+
+（1）ReSearch中，32B的模型响应长度会先降低再增加，但是7B的模型会一直增加，Search-R1种7B的模型和32B的模型行为一致
+（2）ReSearch中使用了GRPO，没有reward collapse，但是Search-R1是存在的
 
 同期的工作包括如下：
 
@@ -25,9 +30,9 @@
 455.《EXPLAIN-Enhancing Retrieval-Augmented Generation with Entity Summary》，ACL2025
 
  + 核心步骤
-		+ 从chunk中抽取实体
-		+ 基于LLM对实体进行summary
-		+ chunk和实体的summary均用于下游的召回检索
+	+ 从chunk中抽取实体
+	+ 基于LLM对实体进行summary
+	+ chunk和实体的summary均用于下游的召回检索
 
 454.最近扫了一遍ACL2025的文章，包括main track，findings等。个人的兴趣点其实不多，因为今年主要做的事情与符号系统有关，故对关于规则召回的一些文章相对感兴趣一些。
 
