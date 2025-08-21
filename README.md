@@ -2,14 +2,14 @@
 
 《ReSearch-Learning to Reason with Search for LLMs via Reinforcement Learning》，类似工作包括Search-R1
 
-	+ 源码阅读
-		+ https://github.com/Agent-RL/ReCall/tree/re-search?tab=readme-ov-file
-		+  Reward Calculation: Current F1 score-based rewards, though efficient, have limited generalization capability. Real-world scenarios often require handling complex responses like paragraphs or non-discrete answers, suggesting the need for more sophisticated reward mechanisms.
-		+ Action-Based Outcomes: For tasks where success is measured by a sequence of actions rather than a final answer, developing appropriate reward strategies remains challenging. This calls for new evaluation frameworks to assess action-based task completion.
-		+ 推理能力的表现方式
-			+ reflection
-			+ self-verification
-			+ self-correction
++ 源码阅读
+	+ https://github.com/Agent-RL/ReCall/tree/re-search?tab=readme-ov-file
+	+  Reward Calculation: Current F1 score-based rewards, though efficient, have limited generalization capability. Real-world scenarios often require handling complex responses like paragraphs or non-discrete answers, suggesting the need for more sophisticated reward mechanisms.
+	+ Action-Based Outcomes: For tasks where success is measured by a sequence of actions rather than a final answer, developing appropriate reward strategies remains challenging. This calls for new evaluation frameworks to assess action-based task completion.
+	+ 推理能力的表现方式
+		+ reflection
+		+ self-verification
+		+ self-correction
 
 同期的工作包括如下：
 
