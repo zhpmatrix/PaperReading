@@ -1,3 +1,16 @@
+467.《Too Consistent to Detect: A Study of Self-Consistent Errors in LLMs》，EMNLP2025
+
+这篇文章主要讨论的问题是：LLM中的幻觉检测问题。解决的主要思路如下：
+
+（1）给定一个input，拿到M(input)的中间表示状态H_m和响应结果R_m，通过一个基于M训练得到的探针模型P_m计算幻觉得分s_m
+
+（2）给定input和响应结果R_m，拿到V(input,R_m)的中间状态H_v，通过一个基于V训练得到的探针模型V_m计算幻觉得分v_m
+
+（3）计算幻觉得分：score = (1-lambda) x s_m + lambda x v_m
+
+其中探针模型是通过一个二分类模型训练得到，且训练数据是通过自动构造获取的。
+
+
 466.关于推理的文章
 
 《ReSearch-Learning to Reason with Search for LLMs via Reinforcement Learning》，类似工作包括Search-R1
