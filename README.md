@@ -1,3 +1,16 @@
+468.《EvoGraph-R1: Self-Evolving Multimodal Knowledge Hypergraphs for Agentic
+Retrieval》
+
+这篇文档提到了一个有意思的方法，在使用知识图谱的过程中，可以对知识图谱进行编辑。印证了一个笔者个人相对认同的观点：知识的消费现场也正是知识的生产现场。整体逻辑上基于rl的范式，提供几个候选action，包括graph_retrieval,web_search,graph_edit(insert/update/delete)和answer。图检索不满足时，启动网页搜索，基于网页搜索的内容进行图的编辑，继而提升图自身的质量，从而形成了知识的闭环。当然这里会有很多问题，比如：
+
++ 图其实是全局变量，这里需要对全局图做一个类似锁的机制。
++ 图也同时意味着context其实非常大，retrieval需要小心设计。
+
+换种角度思考，web_search可能就够了，不过web_search是runtime时的状态，graph正是固化的结果。继而，如果能够有一个提前固化的完备的graph，web_search就会弱化，退化为一个打补丁的逻辑，这里整合文章的想法类似。
+
+<img width="589" height="350" alt="image" src="https://github.com/user-attachments/assets/1280a109-202b-4b0d-a1ed-a39bc4a62b66" />
+
+
 467.《Too Consistent to Detect: A Study of Self-Consistent Errors in LLMs》，EMNLP2025
 
 这篇文章主要讨论的问题是：LLM中的幻觉检测问题。解决的主要思路如下：
